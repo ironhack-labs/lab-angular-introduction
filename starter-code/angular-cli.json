@@ -1,17 +1,16 @@
 {
-  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "project": {
-    "version": "1.0.0-beta.31",
-    "name": "lab-angular-introduction"
+    "version": "1.0.0-beta.28.3",
+    "name": "starter-code"
   },
   "apps": [
     {
       "root": "src",
       "outDir": "dist",
       "assets": [
-        "assets",
-        "favicon.ico"
-      ],
+  "assets",
+  "favicon.ico"
+],
       "index": "index.html",
       "main": "main.ts",
       "polyfills": "polyfills.ts",
@@ -21,7 +20,8 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
@@ -53,16 +53,16 @@
     "styleExt": "css",
     "prefixInterfaces": false,
     "inline": {
-      "style": false,
-      "template": false
+      "style": true,
+      "template": true
     },
     "spec": {
       "class": false,
-      "component": true,
+      "component": false,
       "directive": true,
       "module": false,
-      "pipe": true,
-      "service": true
+      "pipe": false,
+      "service": false
     }
   }
 }
