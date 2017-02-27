@@ -21,7 +21,7 @@ export class AppComponent {
    {
       name: 'elmer fudd',
       url: 'https://s-media-cache-ak0.pinimg.com/736x/e2/1d/8d/e21d8d9c4855c795cd83559c8dc392fe.jpg',
-      description: "be vewy vewy quiet. I'm hunting wabbit."
+      description: "sshhh... be vewy vewy quiet. I'm hunting wabbit."
    }
   ]
 }

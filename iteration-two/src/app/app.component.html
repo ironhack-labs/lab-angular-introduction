@@ -1,0 +1,9 @@
+<h1>
+  {{title}}
+</h1>
+<div class="article-container" *ngFor="let article of articles">
+  <h3>{{article.title}}</h3>
+  <img src="{{article.image}}" alt="">
+  <p>{{article.description}}</p>
+  <app-comments></app-comments>
+</div>
