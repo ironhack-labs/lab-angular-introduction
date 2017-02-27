@@ -1,0 +1,7 @@
+<h1>
+  {{title}}
+</h1>
+<div class="photo-container" *ngFor="let photo of album">
+  <img src="{{photo.url}}" alt="{{photo.name}}">
+  <p>{{photo.description}}</p>
+</div>
