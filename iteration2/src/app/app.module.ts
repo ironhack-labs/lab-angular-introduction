@@ -4,12 +4,13 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { AngularIntroComponent } from './angular-intro/angular-intro.component';
+
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AngularIntroComponent
+    CommentsComponent
   ],
   imports: [
     BrowserModule,

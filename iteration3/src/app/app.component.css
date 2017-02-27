@@ -1,0 +1,18 @@
+img {
+  width: 300px;
+  height: 200px;
+}
+
+div {
+  display: inline-block;
+  margin-left: auto;
+  margin: 100px;
+}
+
+ul {
+  font-size: 40px;
+}
+
+li {
+  font-size: 20px;
+}
