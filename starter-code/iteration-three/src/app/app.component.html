@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+
+<ul>
+  <li *ngFor="let championship of championships">
+    <h1>{{championship.year}}</h1>
+    <h2>{{championship.name}}</h2>
+    <img src={{championship.url}}>
+    <p>{{championship.best_players}}</p>
+  </li>
+</ul>
