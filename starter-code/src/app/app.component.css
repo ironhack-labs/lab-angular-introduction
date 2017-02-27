@@ -1,0 +1,17 @@
+img{
+height: 300px;
+
+}
+
+.content{
+  text-align: center;
+}
+
+.images{
+  float: left;
+}
+
+p{
+  font-size: 24px;
+  font-weight: bold;
+}
