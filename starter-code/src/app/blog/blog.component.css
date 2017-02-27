@@ -1,0 +1,44 @@
+article{
+  text-align: center;
+  margin: 0 20px;
+  width: 300px;
+  float: left;
+}
+
+.photo{
+  width: 220px;
+  height: 100px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/NBA_on_TNT.svg/1024px-NBA_on_TNT.svg.png");
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+h3{
+  color:#000;
+  margin: 40px;
+  display: inline-block;
+}
+
+.description{
+  display: inline-block;
+}
+
+.comments{
+  float: left;
+}
+
+h4{
+  padding: 30px;
+}
+
+.form-post{
+  padding: 30px;
+}
+
+.form-post input{
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid grey;
+}

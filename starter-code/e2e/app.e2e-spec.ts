@@ -1,10 +1,10 @@
-import { LabAngularIntroductionPage } from './app.po';
+import { StarterCodePage } from './app.po';
 
-describe('lab-angular-introduction App', function() {
-  let page: LabAngularIntroductionPage;
+describe('starter-code App', () => {
+  let page: StarterCodePage;
 
   beforeEach(() => {
-    page = new LabAngularIntroductionPage();
+    page = new StarterCodePage();
   });
 
   it('should display message saying app works', () => {

@@ -1,0 +1,37 @@
+section{
+  display: inline-block;
+}
+
+.photo{
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  float: left;
+}
+
+.photo.img1{
+  background-image: url("https://www.qapa.fr/news/wp-content/uploads/michael-jordan-citation-management-coaching.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.photo.img2{
+  background-image: url("http://healthyceleb.com/wp-content/uploads/2015/02/LeBron-James.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.photo.img3{
+  background-image: url("http://infoteleantillas.com.do/files/2015/01/kobe-bryant_416x416.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+h3{
+  color:#ffffff;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  top: 210px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
