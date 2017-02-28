@@ -1,0 +1,22 @@
+<h1>
+  {{title}}
+</h1>
+
+<div>
+            <img src= "{{picture}}">
+            <p> {{ description }} </p>
+            <app-comments>Loading</app-comments>
+            <div class="">
+                    <h2>This are the NBA Teams: </h2>
+                    <ul>
+                        <li *ngFor="let team of teams">
+                            <p>{{team.name}}</p>
+                            <p>{{team.year}}</p>
+                            <img src="{{team.championUrl}}">
+                        </li>
+                        <li *ngFor="let player of bestPlayers">
+                            <p>{{player.name}}</p>
+                        </li>
+                    </ul>
+            </div>
+</div>
