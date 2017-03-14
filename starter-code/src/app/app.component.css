@@ -1,0 +1,30 @@
+h1{
+  text-align: center;
+
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
+
+.img-container{
+  display: inline-block;
+  /*float: left;*/
+}
+
+.container{
+  width: 100%;
+  margin: 0 auto;
+  /*right: 50%;*/
+}
+
+p{
+  text-align: center;
+}
