@@ -1,0 +1,6 @@
+<div *ngFor="let image of images; let i = index">
+  <div>
+    <img src="{{ image }}" alt="{{ messages[i] }}">
+    <p>{{ messages[i] }}</p>
+  </div>
+</div>
