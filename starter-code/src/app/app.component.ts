@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Image Gallery!';
+  images: Array<Object> = [{
+    id: 1,
+    imageUrl: "https://goo.gl/FpQz2j",
+    imageDescription: "Bee"
+  },{
+    id: 2,
+      imageUrl: "https://goo.gl/2tlRwP",
+    imageDescription: "Bee on red flower"
+  },{
+    id: 3,
+    imageUrl: "https://goo.gl/bIRwd9",
+    imageDescription: "Bee on white flower"
+  }];
 }
