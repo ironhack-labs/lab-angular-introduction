@@ -1,0 +1,13 @@
+.album {
+  height: 40vh;
+}
+
+.slot {
+  padding: 1%;
+  width: 31%;
+  float: left;
+}
+
+img {
+  width: 100%;
+}
