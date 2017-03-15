@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+<div class='main'>
+  <p *ngFor='let n of images'><img  src="{{ n.img }}">
+  <figcaption>{{ n.caption }}</figcaption>
+  </p>
+  <p>{{ n.caption }}</p>
+</div>
