@@ -1,0 +1,10 @@
+section {
+  text-align: center;
+}
+hr{
+  width: 80vw;
+}
+h3, p {
+  text-align: left;
+  margin-left: 10vw;
+}
