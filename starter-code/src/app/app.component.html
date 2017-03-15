@@ -1,3 +1,29 @@
-<h1>
-  {{title}}
-</h1>
+<nav>
+  <div class="container">
+
+    <ul>
+      <li><a (click)="changeToHome()" href="#">Home</a></li>
+      <li><a (click)="changeToArticle()" href="#">Article</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container" *ngIf="currentPage === 'home'">
+
+<h1>{{title}}</h1>
+
+<div class="image-container">
+  <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/894/original/ironhack-pre-249.jpg" alt="">
+  <p>IronHack Madrid</p>
+</div>
+<div class="image-container">
+  <img src="https://www.ironhack.com/assets/images/courses/front-end-course-3.jpg" alt="">
+  <p>Ironhack Barcelona</p>
+</div>
+<div class="image-container">
+  <img src="https://www.ironhack.com/assets/images/courses/front-end-course-2.jpg" alt="">
+  <p>Ironhack Miami</p>
+</div>
+</div>
+
+<app-article *ngIf="currentPage === 'article'"></app-article>
