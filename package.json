@@ -1,0 +1,19 @@
+{
+  "name": "lab-angular-introduction",
+  "version": "1.0.0",
+  "description": "# DE | Angular Introduction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doyen06/lab-angular-introduction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doyen06/lab-angular-introduction/issues"
+  },
+  "homepage": "https://github.com/Doyen06/lab-angular-introduction#readme"
+}
