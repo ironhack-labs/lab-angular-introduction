@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  text-align: center;
+  margin-top: 10vh;
+  align-items: center;
+
+  img {
+    padding: 5vh;
+    width: 80vw;
+  }
+
+  .p-container {
+    margin: auto;
+    text-align: justify;
+    width: 80vw;
+  }
+}
