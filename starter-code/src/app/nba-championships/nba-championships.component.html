@@ -1,0 +1,41 @@
+<p>
+  nba-championships works!
+</p>
+
+<div class="row">
+  <div class="col-4">
+    <h1>2015-16</h1>
+    <h3>Clevland Caveliers</h3>
+    <img src="./assets/caveliers.png" />
+    <h3>Best Players</h3>
+    <ul>
+      <li *ngFor = "let best of caveliers">
+        {{best}}
+      </li>
+    </ul>
+  </div>
+  <div class="col-4">
+    <h1>2014-15</h1>
+    <h3>Golden State</h3>
+    <img src="./assets/warriors.png" />
+    <h3>Best Players</h3>
+    <ul>
+      <li *ngFor = "let best of warriors">
+        {{best}}
+      </li>
+    </ul>
+  </div>
+
+  <div class="col-4">
+    <h1>2013-14</h1>
+    <h3>San Antonio Spurs</h3>
+    <img src="./assets/spurs.png" />
+    <h3>Best Players</h3>
+    <ul>
+      <li *ngFor = "let best of spurs">
+        {{best}}
+      </li>
+    </ul>
+
+  </div>
+</div>
