@@ -1,0 +1,18 @@
+.comments-without-a-form {
+  padding: 10px;
+  background-color: gray;
+}
+.comment-div {
+  background-color: white;
+}
+.author {
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+.date {
+  font-size: 1vw;
+}
+.message {
+    font-size: 1.5vw;
+    font-style: italic;
+}

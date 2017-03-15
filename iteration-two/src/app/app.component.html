@@ -1,0 +1,13 @@
+<h1>Learn to Code with Ironhack</h1>
+<img src="{{ image }}" alt="">
+<p>
+  {{ description }}
+</p>
+<div class="comments-without-a-form">
+  <div class="comment-div" *ngFor="let com of comments">
+    <span class="author">{{ com.author }}</span>
+    <span class="date">{{ com.date }}</span>
+    <p class="message">{{ com.message }}</p>
+
+  </div>
+</div>
