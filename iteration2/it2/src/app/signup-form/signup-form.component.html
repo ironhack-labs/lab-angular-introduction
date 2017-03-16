@@ -1,0 +1,59 @@
+<h3>Sign Up Here</h3>
+<!-- automatically "angular's" the form which gives us many
+cool features -->
+<!-- ngForm gives us access to properties to the form
+- checks if valid or not (t/f)
+- uses the validations on the form itself (required, min length)
+- if it has been changed since last submitted
+- access to all the inputs
+
+-ngSubmit is a customized submit event
+- IMPORTANT! all input tags must have names
+
+- when responding to an event youre calling a method on the component -->
+
+<!-- - #myForm is creating a form variable that ties it to this form (object) -->
+
+<!-- add a novalidate property to remove the default browser validations so we can add
+custom angular validations -->
+
+<!-- DIFF [(ngModel)] = value of the input itself (the string itself var)
+
+"ngModel" = the object that represents the angularfied version of the input tag -->
+<h3> Sign Up </h3>
+
+ <form (ngSubmit)="submitMyForm(myForm)" #myForm="ngForm" novalidate>
+   <p> Username
+     <input #myUsername="ngModel" [(ngModel)]="username" type="text" name="username" required>
+   </p>
+
+   <div *ngIf="myUsername.errors && myUsername.dirty">
+     <p class="error" [hidden]="!myUsername.errors.required">
+       Please provide a username
+     </p>
+   </div>
+
+
+   <p> Password
+     <input #myPassword="ngModel" [(ngModel)]="password"
+       type="password" name="password"
+       required minlength="8">
+   </p>
+
+
+   <!-- The divs show up if there are any errors at all
+   the individual p tags show up depending on that individual situation -->
+   <!-- [hidden] = "!myPassword.errors.minlength"> === HIDE IF NO ERROR IS PRESENT -->
+   <div *ngIf="myPassword.errors && myPassword.dirty">
+     <p class="error" [hidden]="!myPassword.errors.required">
+       Please provide a password.
+     </p>
+
+     <!-- [hidden] = "!myPassword.errors.minlength"> === HIDE IF NO ERROR IS PRESENT -->
+     <p class="error" [hidden]="!myPassword.errors.minlength">
+       Your password needs to be at least 8 characters long.
+     </p>
+   </div>
+
+   <button> Sign Up </button>
+ </form>

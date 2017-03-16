@@ -1,0 +1,12 @@
+<h3> Animals! </h3>
+
+<section [ngClass] = "{ black: isBlackBackground, yellow: isYellowText , big: isLarge }">
+  <div *ngFor= "let oneAnimal of animals">
+    <h4>{{oneAnimal.name}} </h4>
+    <p>{{oneAnimal.category}} </p>
+    <p>{{oneAnimal.id}} </p>
+  </div>
+</section>
+<button (click) = "toggleBlack()"> Toggle Black </button>
+<button (click) = "toggleYellow()"> Toggle Yellow </button>
+<button (click) = "toggleLarge()"> Toggle Large </button>
