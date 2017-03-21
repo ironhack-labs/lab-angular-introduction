@@ -1,0 +1,14 @@
+<h1> Pipes Examples </h1>
+
+<h2> My Name is {{myName | uppercase }}. </h2>
+<h4> This is your name, in lowercase: {{myName | lowercase}}. </h4>
+<h3> Today's ugly asf date is  {{myDate}}</h3>
+<h3> Todays pretty date is {{myDate | date: 'dd/MM/yy'}} </h3>
+<h2> Today's date in "english" is {{myDate | date: 'EE, MMMM d, yyyy'}} </h2>
+<button (click) = "increment()"> +1 Date </button>
+
+
+
+<h4> Whats your name? </h4>
+<input ([ngModel]) = "yourName" type = "text" placeholder="sponge">
+<p> Hello, {{yourName | capitalize}}! </p>

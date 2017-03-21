@@ -1,0 +1,11 @@
+<h3> New Comment </h3>
+
+<!-- [()] is a special syntax for two way binding  -->
+<input [(ngModel)] = "yourName" type = "text" placeholder="SHOW-ME-WHAT-U-GOT">
+<textarea [(ngModel)] = "commentText" placeholder = "get Schwfittyyy"> </textarea>
+
+<h4> Preview </h4>
+<div>
+  <h5> {{ yourName }} said: </h5>
+  <p> {{commentText}} </p>
+</div>
