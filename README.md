@@ -2,7 +2,7 @@
 
 # DE | Angular Introduction
 
-![](images/angular.png)
+![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_f40ce9b78e2468e7a5aae3b9f6dcc3d5.png)
 
 ## Learning Goals
 
@@ -54,7 +54,7 @@ We will build this album over the `AppComponent` component. The album will have 
 
 Easy, right? Add some styles to the page to see the different photos as better as you can show them :)
 
-![](images/photos.png)
+![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_846567994930e52ae46f8468b3800719.png)
 
 ## Iteration #2: Article with comments
 
@@ -67,7 +67,7 @@ At the bottom of the comments, we will add a comment form to add some reality to
 
 The first thing you will have to do is to generate the project with `Angular CLI`.
 
-![](images/article.png)
+![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_5849a042e121c77042ba32ab45471843.png)
 
 ## Iteration #3: NBA Champions
 
@@ -80,7 +80,7 @@ Last, but not least, we are going to create a Dashboard with the last NBA Champi
 
 You can find the full list of [NBA Champions](https://en.wikipedia.org/wiki/List_of_NBA_champions) in wikipedia. In our application we have to show, at least, three of them. The result could be something like that:
 
-![](images/nba.png)
+![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_4a103a5eba7001d7be790eec5353a44e.png)
 
 <!-- :::info -->
 **Note** that we are iterating over two different arrays to show all the information: `Championships` and `best_players` of every team.
