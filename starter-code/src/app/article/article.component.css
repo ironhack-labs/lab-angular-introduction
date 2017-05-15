@@ -1,0 +1,7 @@
+.main {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-flow: column;
+
+}
