@@ -1,0 +1,10 @@
+.pic {
+  display: inline-block;
+  text-align: center;
+  margin: 40px;
+}
+
+.pic img{
+  width: 400px;
+  height: 300px;
+}

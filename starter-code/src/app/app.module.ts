@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { ArticleComponentComponent } from './article-component/article-component.component';
+import { CommentsComponent } from './comments/comments.component';
+import { NbaChampionsComponent } from './nba-champions/nba-champions.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ArticleComponentComponent,
+    CommentsComponent,
+    NbaChampionsComponent
   ],
   imports: [
     BrowserModule,
