@@ -1,0 +1,16 @@
+.list-of-teams li{
+  display: inline-block;
+  margin-left: 10vw;
+}
+
+.team{
+  margin-bottom: 5vw;
+}
+
+.list-of-players{
+  padding: 0;
+}
+.list-of-players li{
+  display: block;
+  margin: 0;
+}

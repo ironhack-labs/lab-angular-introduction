@@ -1,0 +1,12 @@
+.main-article{
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding: 5vw 10vw  0 10vw;
+}
+
+.comments{
+  display: flex;
+  align-items: center;
+  padding: 5vw 10vw  0 10vw;
+}
