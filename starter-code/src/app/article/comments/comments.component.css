@@ -1,0 +1,26 @@
+.comment-container{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.header {
+  padding: 10px;
+  text-align: left;
+  background: rgba(0,0,0,0.3);
+}
+
+
+.comment {
+  text-align: justify;
+}
+
+
+.post-comment {
+  justify-content: flex-start;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+  width: 300px;
+  background: rgba(0,0,0, 0.3);
+}

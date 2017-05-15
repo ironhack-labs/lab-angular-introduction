@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.main img {
+  width: 200px;
+  height: 200px;
+}
+
+.squad {
+  margin: auto;
+}

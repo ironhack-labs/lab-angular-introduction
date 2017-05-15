@@ -1,0 +1,28 @@
+<section class="comment-container">
+  <div class="header">
+    <h4>
+      Comments
+    </h4>
+  </div>
+  <div class="comments">
+
+      <div class="comment" *ngFor="let comment of comments">
+        <p>- {{comment.user}}</p>
+        <h6>
+          {{comment.comment}}
+        </h6>
+      </div>
+  </div>
+  <div class="post-comment">
+    <p>
+      Add your comment
+    </p>
+    <form >
+      <label for="name">Name</label><br />
+      <input type="text" name="name"/><br />
+      <label for="description">Comment</label><br />
+      <textarea type="text" name="description"></textarea><br />
+    </form>
+   <button class="btn">Submit</button>
+  </div>
+</section>
