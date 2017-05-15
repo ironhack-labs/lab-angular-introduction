@@ -1,0 +1,13 @@
+.centered{
+  font-family: sans-serif;
+  margin:  auto;
+  width: 700px;
+  text-align: center;
+}
+.container-centered{
+  width: 100%;
+}
+p{
+  display: inline-block;
+  text-align: center;
+}
