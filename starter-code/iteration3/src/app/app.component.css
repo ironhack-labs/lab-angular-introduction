@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.team {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 26px;
+  padding: 40px;
+}
+
+.imgholder {
+  height: 200px;
+}
+
+img {
+  height: 100%;
+}
+
+li {
+  text-align: left;
+  line-height: 50px;
+}
+
+ul {
+
+}

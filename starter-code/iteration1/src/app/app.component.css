@@ -1,0 +1,26 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.maincontainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.image {
+  float: left;
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 26px;
+  border: 2px solid gray;
+  border-radius: 7px;
+  margin: 2px;
+}
+
+img {
+  max-height: 300px;
+}
