@@ -4,12 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { ReviewsComponent } from './reviews/reviews.component';
+import { ChampionComponent } from './champion/champion.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ReviewsComponent
+    ChampionComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,8 @@
+.container {
+  float: left;
+  width:300px;
+}
+
+.players-list {
+  text-align: left;
+}
