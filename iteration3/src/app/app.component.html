@@ -1,0 +1,17 @@
+<h1>
+  {{title}}
+</h1>
+
+<div *ngFor='let championship of championships'>
+
+<h1>{{championship.year}}</h1>
+
+<h2>{{championship.champion}}</h2>
+
+<img src="{{championship.champion_url}}" alt="">
+
+<ul>Best Players
+<li *ngFor='let best_player of championship.best_players'>{{best_player}}</li>
+</ul>
+
+</div>
