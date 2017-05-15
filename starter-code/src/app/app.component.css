@@ -1,0 +1,20 @@
+
+.album{
+  padding: 75px;
+  font-family: sans-serif;
+
+
+}
+.image{
+  display: inline-block;
+  padding: 100px;
+  max-width: 200px;
+  max-height: 100px;
+
+}
+h1{
+  padding: 20px;
+  font-family: sans-serif;
+  text-align: center;
+
+}
