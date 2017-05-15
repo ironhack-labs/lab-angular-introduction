@@ -1,0 +1,31 @@
+div {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  width: 100%;
+}
+
+h6 {
+  text-align: left;
+}
+
+h4 {
+  background-color: #d0d0d0;
+  height: 30px;
+  border-radius: 10px;
+  text-align: left;
+  padding-top: 5px;
+  padding-left: 20px;
+}
