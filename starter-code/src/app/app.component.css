@@ -1,0 +1,8 @@
+.list li {
+  display: inline-block;
+  margin-left: 10vw;
+}
+
+.list li p{
+  text-align: center;
+}
