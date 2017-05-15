@@ -1,0 +1,9 @@
+.team{
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+}
+
+.logo{
+  width: 200px;
+}
