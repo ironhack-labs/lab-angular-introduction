@@ -1,0 +1,26 @@
+header {
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding:10px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.comments-container {
+  text-align: left;
+  margin: 20px; 
+}
+
+.comments-form {
+  background-color: lightgrey;
+  border: 1px solid grey;
+  width:400px;
+  margin:auto;
+  text-align: left;
+}
+.comments-form *{
+  margin:10px;
+}
+input, textarea  {
+  width: 300px;
+}

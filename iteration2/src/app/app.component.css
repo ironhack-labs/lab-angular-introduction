@@ -1,7 +1,9 @@
 .container {
-  float:left;
   text-align: center;
+  margin:auto;
+  width:600px;
+
 }
 .photo {
-  height:300px;
+  width: 600px;
 }
