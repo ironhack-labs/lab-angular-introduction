@@ -1,0 +1,22 @@
+.gallery {
+
+}
+
+.pic {
+  box-sizing: border-box;
+  width: 33%;
+  float: left;
+  padding: 10px;
+}
+
+.picframe {
+  height: 60%;
+}
+
+div img {
+  width: 100%;
+}
+
+p {
+  text-align: center;
+}

@@ -1,0 +1,34 @@
+h2 {
+  border-radius: 5px;
+  background-color: grey;
+  text-align: center;
+}
+
+.author {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.text{
+  padding: 10px;
+  margin-bottom: 40px;
+}
+.comments {
+  padding: 40px;
+}
+
+.form {
+  padding: 0 15%;
+  width: 70%;
+}
+form {
+  padding: 20px;
+  border: 1px solid black;
+  background-color: #cccccc;
+}
+input[type="submit"]{
+  background: grey;
+  color: white;
+  border: 1px solid black;
+}
+
+textarea {width: 80%;}

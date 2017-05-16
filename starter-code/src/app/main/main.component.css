@@ -1,0 +1,16 @@
+h2 {
+  text-align: center;
+}
+div {
+  clear: both;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+}
+img {
+  width: 100%
+}
+p {
+  padding: 10px;
+  font-style: italic;
+}
