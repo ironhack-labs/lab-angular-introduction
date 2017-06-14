@@ -10,6 +10,7 @@ import { Main } from './main.model'
 export class MainComponent implements OnInit {
   @Input() main: Main;
 
+
   constructor() {
 }
 

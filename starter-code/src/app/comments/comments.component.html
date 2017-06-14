@@ -1,3 +1,24 @@
-<p>
-  comments works!
-</p>
+<div class="comments" style="background-color: lightgrey; width: 50%; border-radius: 4px">
+  <h1 style="text-align: center">Comments</h1>
+</div>
+<div *ngFor="let comment of comments" class="comment">
+  <h2>{{ comment.name }}</h2>
+  <p>{{ comment.comment }}</p>
+</div>
+
+<form>
+  <h3>Add a Comment</h3>
+
+  <div class="field">
+    <label for="title">Name: </label>
+    <input name="title" #newname>
+  </div>
+  <div class="field">
+    <label for="link">Comment: </label>
+    <input name="link" #newcomment>
+  </div>
+
+  <button (click)="addComment(newname,newcomment)">
+    Submit Comment
+  </button>
+</form>

@@ -3,12 +3,12 @@ import { CommentsComponent } from '../comments/comments.component'
 export class Main {
   title: string;
   src: string;
-  comments: CommentsComponent;
+  description: string;
 
-  constructor(title: string, src: string, comments?: CommentsComponent) {
+  constructor(title: string, src: string, description: string) {
     this.title = title;
     this.src = src;
-    this.comments = comments;
+    this.description = description;
   }
 
 }

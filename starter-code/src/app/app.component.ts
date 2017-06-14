@@ -24,10 +24,9 @@ export class AppComponent {
   }];
 
   main: Main;
-  comments: CommentsComponent;
 
   constructor() {
-    this.main = new Main('Beautiful View', './assets/IMG_4.jpg', this.comments)
+    this.main = new Main('Beautiful View', './assets/IMG_4.jpg', 'Beautiful view of Downtown Miami from North Bay Village')
 
   }
 }

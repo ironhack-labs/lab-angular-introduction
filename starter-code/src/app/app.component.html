@@ -3,8 +3,9 @@
   <p> {{ photo.description }} </p>
 </div>
 
-<div class="main">
+<div class="main" style="float: left">
   <h1>{{ main.title }}</h1>
-  <img src="{{main.src}}" width="300px" style="float: left">
-  <p>{{ main.comments }}</p>
+  <img src="{{main.src}}" width="300px">
+  <p>{{ main.description }}</p>
+  <app-comments></app-comments>
 </div>
