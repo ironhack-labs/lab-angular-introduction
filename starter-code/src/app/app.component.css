@@ -1,0 +1,11 @@
+.pic{
+float:left;
+  margin: 10px;
+
+}
+.pic img{
+
+
+  height: 200px;
+  width: 200px;
+}
