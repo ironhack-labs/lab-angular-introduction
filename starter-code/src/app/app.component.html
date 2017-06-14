@@ -1,8 +1,29 @@
+<div class="container">
+
+  <div class="row">
+<hr>
+   <h1>Iteration 1</h1>
+    <hr>
+  </div>
+
+<div class="row" style="text-align:center;">
 
   <div *ngFor="let onepic of pic" class="pic">
 
-<h1>
-{{onepic.tittle}}</h1>
-<img  src="{{onepic.photo}}" alt="">
+
+      <h1>{{onepic.tittle}}</h1>
+      <img src="{{onepic.photo}}" alt="">
+
+  </div>
 
 </div>
+<div class="row">
+  <hr style="clear:left;">
+  <h1>Iteration 1 Finish</h1>
+  <hr>
+</div>
+</div>
+
+<hr style="border-top:2px solid black;">
+<app-main></app-main>
+<app-comments></app-comments>
