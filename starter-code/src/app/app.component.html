@@ -1,3 +1,4 @@
-<h1>
-  {{title}}
-</h1>
+<div *ngFor="let photo of photoAlbum" class="picture">
+  <img src={{photo.src}} width="300px" style="padding-left: 5px">
+  <p> {{ photo.description }} </p>
+</div>
