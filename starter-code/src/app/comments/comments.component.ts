@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CommentsComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  var comments: string[] = ['this is one comment', 'this is another comment'];
+}
 
   ngOnInit() {
   }

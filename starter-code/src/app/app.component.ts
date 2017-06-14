@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Main } from './main/main.model'
+import { CommentsComponent } from './comments/comments.component'
 
 @Component({
   selector: 'app-root',
@@ -20,4 +22,12 @@ export class AppComponent {
     src: '../assets/IMG_3.jpg',
     description: 'NBV Tree'
   }];
+
+  main: Main;
+  comments: CommentsComponent;
+
+  constructor() {
+    this.main = new Main('Beautiful View', './assets/IMG_4.jpg', this.comments)
+
+  }
 }

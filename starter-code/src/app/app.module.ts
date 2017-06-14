@@ -11,6 +11,7 @@ import { CommentsComponent } from './comments/comments.component';
   declarations: [
     AppComponent,
     MainComponent,
+    CommentsComponent,
     CommentsComponent
   ],
   imports: [
