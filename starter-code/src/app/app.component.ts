@@ -1,10 +1,32 @@
 import { Component } from '@angular/core';
+import { Main } from './main/main.model'
+import { CommentsComponent } from './comments/comments.component'
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'app works!';
+  photoAlbum: Object[] = [
+  {
+    src: '../assets/IMG_1.jpg',
+    description: 'NBV Bridge'
+  },
+  {
+    src: '../assets/IMG_2.jpg',
+    description: 'NBV Boat'
+  },
+  {
+    src: '../assets/IMG_3.jpg',
+    description: 'NBV Tree'
+  }];
+
+  main: Main;
+
+  constructor() {
+    this.main = new Main('Beautiful View', './assets/IMG_4.jpg', 'Beautiful view of Downtown Miami from North Bay Village')
+
+  }
 }

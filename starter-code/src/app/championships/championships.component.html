@@ -1,0 +1,8 @@
+<div class="teams" *ngFor="let champion of championships" style="width: 33%; float: left">
+  <h1>{{ champion.champion }}</h1>
+  <img src="{{champion.champion_url}}" width="200px">
+  <h2>Best Players</h2>
+  <p *ngFor="let best_player of champion.best_players" style="display: inline"> {{ best_player }}</p>
+  <h2>Years Won</h2>
+  <p *ngFor="let year of champion.year" style="display: inline"> {{ year }}</p>
+</div>

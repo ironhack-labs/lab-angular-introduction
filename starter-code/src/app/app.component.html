@@ -1,3 +1,15 @@
-<h1>
-  {{title}}
-</h1>
+<div *ngFor="let photo of photoAlbum" class="iteration1">
+  <img src={{photo.src}} width="300px" style="padding-left: 5px">
+  <p> {{ photo.description }} </p>
+</div>
+
+<div class="iteration2">
+  <h1>{{ main.title }}</h1>
+  <img src="{{main.src}}" width="300px">
+  <p>{{ main.description }}</p>
+  <app-comments></app-comments>
+</div>
+
+<div class="iteration3">
+  <app-championships></app-championships>
+</div>
