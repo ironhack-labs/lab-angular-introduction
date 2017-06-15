@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { CommentsComponent } from './comments/comments.component';
 import { AddCommentComponent } from './add-comment/add-comment.component';
-import { ChampionshipsComponent } from './championships/championships.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,6 @@ import { ChampionshipsComponent } from './championships/championships.component'
     MainComponent,
     CommentsComponent,
     AddCommentComponent,
-    ChampionshipsComponent
   ],
   imports: [
     BrowserModule,
