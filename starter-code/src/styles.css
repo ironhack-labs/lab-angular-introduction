@@ -49,3 +49,17 @@ body {
 .addacomment form h4 {
   margin-bottom: 15px;
 }
+
+.champion h3 {
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.champion img {
+
+  margin: auto;
+  width: 200px;
+}
