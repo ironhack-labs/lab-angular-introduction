@@ -1,0 +1,25 @@
+<br>
+<div class="row">
+  <div class="col-md-9 offset-md-2" style="border-radius:17px; background-color:#f0f0f0;">
+    <label for="" style="font-size:20px; font-weight:600;  ">Comments</label>
+  </div>
+
+<div *ngFor="let OneCom of comments" class="col-md-9 offset-md-2" id="comment" style="border:1px solid black; margin-bottom:5px;">
+<label style="font-weight:700;" >{{OneCom.name}}</label><label for="">  <--{{OneCom.time}}</label>
+<p>{{OneCom.content}}</p>
+
+</div>
+
+
+
+  <div class="col-md-6 offset-md-3" style=" border-radius:17px; background-color:#f0f0f0; margin-top:30px;">
+    <label for="" class="" style="font-size:20px; font-weight:600; margin-left:170px; ">New Comment</label>
+<form class="" id="forms" action="index.html"  style="padding:20px;">
+  <label for="" style="font-weight:700;">Name:</label><br>
+  <input type="text" name="" value="" style="width:420px;"><br>
+  <label for="" style="font-weight:700;">Description:</label>
+  <textarea name="name" rows="2" cols="50"></textarea><br>
+  <button style="font-weight:700;  border-radius:10px; margin-left:110px;" class="btn btn-success" type="button" id="buttonTo">Add New Comments</button>
+</form>
+  </div>
+  </div>
