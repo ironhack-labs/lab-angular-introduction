@@ -1,0 +1,26 @@
+.group {
+  width: 27%;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid darkgrey;
+  border-radius: 3px;
+  margin: 0 2%;
+  background-color: #ddd
+}
+
+h1 {
+  text-align: center;
+}
+
+.photo {
+  list-style: none;
+}
+
+.img {
+  height: 200px;
+  margin-top: 10px;
+}
+
+p {
+  font-family: arial;
+}

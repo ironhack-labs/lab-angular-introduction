@@ -3,8 +3,10 @@
 </h1>
 
 <ul>
-  <li *ngFor="let photo of photoAlbum">
-    <p>{{ photo.description }}</p>
-    <img src="{{ photo.imageUrl }}">
-  </li>
+  <div *ngFor="let photo of photoAlbum" class="group">
+    <li class="photo">
+      <img class="img" src="{{ photo.imageUrl }}">
+      <p>{{ photo.description }}</p>
+    </li>
+  </div>
 </ul>
