@@ -1,12 +1,27 @@
-<div class="iteration-1 row">
+<div class="iteration row">
   <h1>
     {{ title }}
   </h1>
 
   <ul class="photos" >
-    <li *ngFor="let photo of photos" >
+    <li class="col-lg-3" *ngFor="let photo of photos" >
       <img src="{{ photo.path }}">
       <h2> {{ photo.desc }} </h2>
     </li>
   </ul>
+</div>
+
+<hr>
+
+<div class="row iteration">
+  <app-main></app-main>
+  <comments-section></comments-section>
+  <add-comment></add-comment>
+</div>
+
+<hr>
+
+
+<div class="row iteration">
+<app-championships></app-championships>
 </div>
