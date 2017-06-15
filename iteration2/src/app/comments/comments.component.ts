@@ -1,10 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 
-// let button = document.getElementById('comment');
-// button.addEventListener('click',()=>{
-//   console.log('ivan')
-// });
+
 class comment{
   public name:string;
   public content:string;

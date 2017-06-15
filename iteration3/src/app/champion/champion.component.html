@@ -1,0 +1,15 @@
+<div class=" col-xs-11 offset-md-3">
+
+
+<div *ngFor="let champs of cham" class="singleTeam">
+<h1 style="text-align:center">{{champs.year }}</h1>
+<h3 style="text-align:center">{{champs.championName}}</h3>
+<img src="{{champs.photo}}" alt=""style="height:150px; width:200px;">
+<h4>Best Players</h4>
+<ul>
+  <li *ngFor="let player of champs.mvp">
+    {{player}}
+  </li>
+</ul>
+</div>
+</div>
