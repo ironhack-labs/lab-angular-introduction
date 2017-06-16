@@ -1,0 +1,27 @@
+.grey-box {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #ddd;
+  border: 1px solid darkgrey;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  height: 250px;
+}
+
+.inline {
+  width: 400px;
+  display: inline-block;
+}
+
+li {
+  text-align: left;
+}
