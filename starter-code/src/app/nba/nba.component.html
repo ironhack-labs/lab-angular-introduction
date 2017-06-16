@@ -1,0 +1,15 @@
+<h1>Iteration 3</h1>
+
+<div class="grey-box">
+  <div *ngFor="let team of champions" class="inline">
+    <h1>{{ team.year }}</h1>
+    <h2>{{ team.champion }}</h2>
+    <img src="{{ team.championUrl }}">
+    <h3>Best Players</h3>
+    <ul>
+      <li *ngFor="let player of team.bestPlayers">
+        {{ player }}
+      </li>
+    </ul>
+  </div>
+</div>

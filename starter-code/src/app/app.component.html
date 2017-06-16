@@ -1,3 +1,19 @@
+<h1>Iteration 1</h1>
+
 <h1>
   {{title}}
 </h1>
+
+<ul>
+  <div *ngFor="let photo of photoAlbum" class="group">
+    <li class="photo">
+      <img class="img" src="{{ photo.imageUrl }}">
+      <p>{{ photo.description }}</p>
+    </li>
+  </div>
+</ul>
+
+<hr>
+
+<app-main></app-main>
+<app-nba></app-nba>
