@@ -1,0 +1,24 @@
+<div class="grey-box">
+  <h3>Add Your Comment</h3>
+
+  <label for="name">Name</label>
+  <br>
+  <input id="name" type="text" name="name">
+  <br><br>
+
+  <label for="desc">Description</label>
+  <br>
+  <textarea id="desc" name="desc" rows="8" cols="80"></textarea>
+  <br><br>
+  <button>Submit</button>
+</div>
+
+<div class="grey-box">
+  <ul>
+    <div *ngFor="let comment of comments">
+      <p>{{ comment }}</p>
+    </div>
+  </ul>
+</div>
+
+<hr>

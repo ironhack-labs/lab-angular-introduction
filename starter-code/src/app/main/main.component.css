@@ -1,0 +1,9 @@
+img, p, h2 {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}

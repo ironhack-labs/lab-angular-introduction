@@ -1,0 +1,9 @@
+.grey-box {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #ddd;
+  border: 1px solid darkgrey;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
