@@ -1,0 +1,8 @@
+<div class="comments row">
+  <h2>Comments</h2>
+  <ul *ngFor="let comment of comments">
+    <li><h3>{{ comment.name }}</h3>
+      <p>{{ comment.content }}</p>
+    </li>
+  </ul>
+</div>

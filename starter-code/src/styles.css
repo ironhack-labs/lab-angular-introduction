@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.photos li {
+  display: inline-block;
+  padding: 0 20px;
+  height: 225px;
+  text-align: center;
+}
+
+ h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.row {
+  margin: 0;
+}
+
+.iteration {
+  margin: 10px 20px 45px 20px;
+}
+
+.img {
+  text-align: center;
+
+}
+
+.main p {
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.comments li {
+ list-style-type: none;
+ padding: 5px;
+}
+
+.addacomment form {
+  width: 55%;
+  margin:auto;
+  text-align: center;
+  border: 1px solid #686868;
+  padding: 10px 0;
+}
+
+.addacomment form h4 {
+  margin-bottom: 15px;
+}
+
+.champion h3 {
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.champion img {
+
+  margin: auto;
+  width: 200px;
+}
