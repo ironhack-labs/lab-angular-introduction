@@ -1,0 +1,19 @@
+<hr>
+<div class="row">
+  <div class="col-md-4" *ngFor="let champion of champions">
+    <h2>{{champion.year}}</h2>
+    <h3>{{champion.championTeam}}</h3>
+    <div class="thumbnail">
+      <a href="#" target="_blank">
+        <img src="{{champion.championUrl}}" alt="Lights" style="width:40%">
+        <div class="caption">
+          <ul>
+            <li *ngFor="let player of champion.bestPlayers">
+              <span>{{player.name}}</span>
+            </li>
+          </ul>
+        </div>
+      </a>
+    </div>
+  </div>  
+</div>
