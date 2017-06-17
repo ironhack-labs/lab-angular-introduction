@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
-   title: string,
-   image: string,
+   title: string;
+   image: string;
    description: string;
   constructor() {
     this.title = 'Doggo Gets A Boop';
