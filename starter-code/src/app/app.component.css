@@ -1,0 +1,30 @@
+.row {
+  padding: 0 5%;
+  height: 500px;
+  width: 100%;
+}
+
+.col-3 {
+  margin: 10px;
+  width: 30%;
+  height: 450px;
+  background: linear-gradient(180deg, #fff, #ccc);
+  border-radius: 15px;
+  display: inline-flex;
+  overflow: hidden;
+}
+
+.container {
+  height: 450px;
+  width: 318px;
+}
+
+img {
+  height: 310px;
+  /*width:  100%;
+  object-fit: none;*/
+  object-position: center;
+  border-radius: 15px / 15px 15px 0px 0px;
+
+
+}

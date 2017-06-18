@@ -1,3 +1,16 @@
 <h1>
   {{title}}
 </h1>
+
+<div>
+  <div class="row">
+
+    <div *ngFor="let img of album" class="col-3">
+      <div class="container">
+        <div class="img"><img src="{{ img.imgURL }}"></div>
+        <br>
+        <span>{{ img.text }}</span>
+      </div>
+    </div>
+  </div>
+</div>
