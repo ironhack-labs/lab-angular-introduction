@@ -1,3 +1,15 @@
+
 <h1>
   {{title}}
 </h1>
+<h3>1st Iteration</h3>
+<div *ngFor="let img of images" class="firstPart">
+  <img src = {{img.src}} width="300px" height="300px">
+  <p> {{img.name}}</p>
+</div>
+  <div class="blog">
+  <app-my-nested></app-my-nested>
+  <app-my-comment-binding></app-my-comment-binding>
+</div>
+<hr>
+  <app-nba-champs></app-nba-champs >
