@@ -1,0 +1,21 @@
+.comments{
+  border-radius: 10px;
+  background-color: #e5e5e5;
+  padding:10px;
+  height: 15px;
+  text-align: center;
+}
+.box{
+  width: 500px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  border: 1px solid #f7e7f6;
+  border-radius: 3px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+p{
+  text-align: center;
+}
