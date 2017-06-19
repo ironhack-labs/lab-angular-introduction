@@ -1,3 +1,22 @@
-<h1>
-  {{title}}
-</h1>
+<div class="row">
+  <h1>
+    {{ title }}
+  </h1>
+<div *ngFor="let photo of photos" class="col-md-4">
+    <div class="thumbnail">
+      <a href="#">
+        <img class="img-responsive"  src="{{ photo.imageUrl }}" alt="" style="width:100%">
+        <div class="caption">
+          <h2> {{ photo.description }} </h2>
+        </div>
+      </a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
