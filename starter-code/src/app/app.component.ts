@@ -11,6 +11,6 @@ export class AppComponent {
   [
     { text: 'Breaching Sharks',     imgURL: 'https://i.imgur.com/dF2AY41.jpg'},
     { text: 'Hungry Hungry Hippos', imgURL: 'http://i.telegraph.co.uk/multimedia/archive/03071/Hippo-Attacks-Boat_3071856b.jpg'},
-    { text: 'Elephant Bench Presses SUV',   imgURL: 'http://i.imgur.com/jvsi7Cx.jpg'},
+    { text: 'Elephants Playing',   imgURL: 'http://i.imgur.com/jvsi7Cx.jpg'},
   ];
 }

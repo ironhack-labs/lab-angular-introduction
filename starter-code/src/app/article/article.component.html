@@ -1,3 +1,16 @@
-<p>
-  article works!
-</p>
+<h1> {{ title }} </h1>
+  <div *ngFor="let article of articles">
+    <div class='row'>
+    <div class="content">
+      <h2>{{ article.title }} </h2>
+      <div class="img"><img src="{{ article.img }}"></div>
+      <br>
+      <div class="paragraph">
+        {{ article.description }}
+      </div>
+      <div class="artComments">
+        <app-comments></app-comments>
+      </div>
+    </div>
+  </div>
+</div>
