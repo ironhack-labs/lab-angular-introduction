@@ -1,0 +1,16 @@
+<h3>
+  Comments
+</h3>
+
+<div *ngFor="let oneComment of comments" class="row">
+    <div class="col-md-8">
+      
+        
+        <div class="caption">
+          <h4> {{ oneComment.name }} </h4>
+          <p>{{oneComment.comment}}</p>
+        </div>
+     
+    </div>
+  </div>
+  <app-input></app-input>
