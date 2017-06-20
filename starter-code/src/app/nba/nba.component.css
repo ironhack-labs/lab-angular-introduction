@@ -1,0 +1,33 @@
+.nbaChampions {
+  height: 35%;
+  width: 100%;
+  padding: 30px;
+  align-content: center;
+  display: inline-table;
+  text-align: center;
+}
+
+.nbaChampions h3 {
+  font-weight: bolder;
+}
+
+.logo {
+  height: 250px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.spacer {
+  height: 50px;
+}
+
+.best h4 {
+  font-weight: bolder;
+  /*text-align: center;*/
+}
+
+.best {
+    padding: 0 0 0 30px;
+    margin:  0 0 0 60px;
+    text-align: left;
+}

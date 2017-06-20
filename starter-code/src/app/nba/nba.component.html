@@ -1,0 +1,20 @@
+<h1> {{ title }} </h1>
+
+<div class="row nbaChampions">
+  <div *ngFor="let champion of champions" class="col-md-3">
+    <div class="nbaTeam">
+      <div><h3>{{ champion.year }}</h3></div>
+      <div><h3>{{ champion.name }}</h3></div>
+      <div class ="row spacer"></div>
+      <div class="logo center-block"><img class="img-responsive center-block" src="{{ champion.logo }}"></div>
+      <div class ="row spacer"></div>
+      <div class="best center-block"><strong><h4>Best Players</h4></strong>
+        <ul>
+          <div *ngFor="let player of champion.bestPlayers" class="players">
+            <li>{{ player }}</li>
+          </div>
+        </ul>
+    </div>
+    </div>
+  </div>
+</div>
