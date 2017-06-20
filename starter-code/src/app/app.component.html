@@ -9,8 +9,10 @@
       <div class="container center-block">
         <div class="img"><img class="img-responsive center-block" src="{{ img.imgURL }}"></div>
         <br>
-        <span class="text">{{ img.text }}</span>
       </div>
+    </div>
+    <div class="container center-block">
+      <div *ngFor="let img of album" class="col-sm-4 center-block">{{ img.text }}</div>
     </div>
   </div>
 
