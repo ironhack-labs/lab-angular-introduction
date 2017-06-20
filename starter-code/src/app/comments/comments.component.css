@@ -1,0 +1,31 @@
+.ng-valid[required], .ng-valid.required  {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form)  {
+  border-left: 5px solid #a94442; /* red */
+}
+
+.lightBlue {
+  background: lightBlue;
+  padding: 25px;
+  margin: 20px 40px;
+}
+
+.commentTainer {
+  width: 85%;
+  background: #f2f3f4;
+  padding: 15px 40px;
+  margin: 0 25px;
+}
+
+.commentor {
+  font-size: 1.5em;
+}
+.indentComment {
+  width: 90%;
+  background: lightgrey;
+  border: 2px white solid;
+  padding: 25px;
+  margin: 5px;
+}

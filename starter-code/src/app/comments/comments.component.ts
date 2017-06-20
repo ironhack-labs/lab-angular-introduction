@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-comments',
@@ -6,16 +6,26 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./comments.component.css']
 })
 export class CommentsComponent {
+  model = new Comment("Name", "Write a comment","posted");
+  submitted = false;
+  comments = [];
+  postedDate = Date.now();
 
-model = new Comment("Bob Boberton",
-                              "I don't like this article",
-                              "posted");
+onSubmit(forminfo) {
+  this.submitted = true;
+  console.log(forminfo);
+  let newComment = new Comment(forminfo.name, forminfo.comment, this.postedDate);
+  this.comments.push(newComment);
+}
 
+newComment() {
+  this.model = new Comment("Enter Name", 'Enter Comment', "now");
+}
 
 }
 
 class Comment {
 
-constructor(public name: string, public comment: string, public posted: string) { }
+constructor(public name: string, public comment: string, public posted: any) { }
 
 }

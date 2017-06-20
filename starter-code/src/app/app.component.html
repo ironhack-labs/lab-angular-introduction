@@ -1,10 +1,12 @@
+<link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">
 <h1>
   {{title}}
 </h1>
 
   <div class="row">
-    <div *ngFor="let img of album" class="col-3">
-      <div class="container">
+    <div class="col-sm-1"></div>
+    <div *ngFor="let img of album" class="col-3 col-sm-3">
+      <div class="container ">
         <div class="img"><img src="{{ img.imgURL }}"></div>
         <br>
         <span class="text">{{ img.text }}</span>
@@ -12,7 +14,7 @@
     </div>
   </div>
 <hr>
-<div class="articleContainer">
+<div class="articleContainer container col-md-6">
   <app-article></app-article>
 </div>
 <hr>

@@ -1,12 +1,12 @@
-.row {
+/*.row {
   padding: 0 5%;
   height: 500px;
   width: 100%;
-}
+}*/
 
 .col-3 {
   margin: 10px;
-  width: 30%;
+  /*width: 30%;*/
   height: 450px;
   background: linear-gradient(180deg, #fff, #ccc);
   border-radius: 15px;
@@ -15,11 +15,10 @@
 }
 
 .container {
-  height: 100%;
-  width: 100%;
+  padding: 0px;
 }
 
-img {
+.col-3 img {
   height: 440px;
   width:  100%;
   /*object-fit: none;*/
@@ -36,5 +35,6 @@ img {
 }
 
 .articleContainer {
-  padding: 0 15%;
+  width: 100%;
+  padding: 0 5%;
 }
