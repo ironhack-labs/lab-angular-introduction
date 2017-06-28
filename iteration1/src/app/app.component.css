@@ -1,0 +1,22 @@
+#main {
+  margin: 40px auto;
+  font-family: sans-serif;
+  font-size: 20px;
+  width: 1200px;
+}
+
+.image-container {
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  width: 30%;
+}
+
+.image-container.middle {
+  margin: 0 5%;
+}
+
+.image-container img {
+  height: auto;
+  width: 100%;
+}
