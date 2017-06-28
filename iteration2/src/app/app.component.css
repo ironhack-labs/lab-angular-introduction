@@ -1,0 +1,22 @@
+#news {
+  font-family: sans-serif;
+  margin: 50px auto;
+  width: 1000px;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.description {
+  margin: 40px 0;
+}
+
+.comments-title {
+  background: #eee;
+  border-radius: 50px;
+  box-sizing: border-box;
+  color: #333;
+  padding: 10px 20px;
+}
