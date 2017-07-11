@@ -1,0 +1,16 @@
+title {
+  text-align: center;
+}
+
+.row-1 {
+  display: inline-block;
+  width: 30%;
+  height: 300px;
+}
+
+.row-2 {
+  display: inline-block;
+  width: 30%;
+  height: 50px;
+  text-align: center;
+}
