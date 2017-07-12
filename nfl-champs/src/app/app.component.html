@@ -1,0 +1,58 @@
+<!-- championships: [
+          Team1 {
+            year: XLIX	Feb. 1, 2015,
+            team: New England Patriots,
+            badge_url: <a href="/assets/patriots.jpg"></a>
+            best_Players: [QB Tom Brady, K Stephen Gostkowski, TE Rob Gronkowski]
+          },
+
+          Team2 {
+            year: 50	Feb. 7, 2016
+            team: Denver Broncos,
+            badge_url: <a href="/assets/broncos.png"></a>  ,
+            best_players: [CB Chris Harris, Jr., CB Aqib Talib, LB Von Miller, LB DeMarcus Ware]
+          },
+
+          Team3 {
+            year: LI	Feb. 5, 2017
+            team: New England Patriots,
+            badge_url: <a href="/assets/patriots.jpg"></a>  ,
+            best_players: [QB Tom Brady, MLB Dont'a Hightower, FS Devin McCourty]
+          }
+  ] -->
+
+<div>
+  <ul>
+    <li *ngFor="let champions of championships">
+        <h3> {{ champions.year }} </h3>
+        <h4> {{ champions.team  }} </h4>
+        <p> {{ champions.badge_url }} </p>
+    </li>
+  </ul>
+</div>  
+
+
+
+
+
+
+team 1
+  <ul>
+    <li *ngFor="let player of bestPlayers">
+        {{ player }}
+    </li>
+  </ul>
+
+team 2
+  <ul>
+    <li *ngFor="let player of bestPlayers">
+        {{ player }}
+    </li>
+  </ul>
+
+team 3
+  <ul>
+    <li *ngFor="let player of bestPlayers">
+        {{ player }}
+    </li>
+  </ul>
