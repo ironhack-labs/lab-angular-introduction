@@ -1,0 +1,10 @@
+.row {
+  display: inline-block;
+  margin: 50px auto;
+
+}
+
+
+.photo-album p {
+  text-align: center;
+}
