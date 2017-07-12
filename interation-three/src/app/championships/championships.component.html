@@ -1,0 +1,7 @@
+<div class="champions">
+  <div *ngFor=" let championships of championships">
+    <h3>{{championships.year}}</h3>
+    <h3>{{championships.name}}</h3>
+    <img src="{{ championships.championUrl }}"/>
+  </div>
+</div>
