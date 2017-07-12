@@ -1,0 +1,31 @@
+.main{
+  width: 900px;
+  height: 510px;
+  border: solid black;
+  clear: both;
+  margin: 20px;
+  margin-top: 10px;
+}
+.title{
+  text-align: center;
+}
+.image{
+  width: 80%;
+  height: 300px;
+  max-width: 500px;
+  position: relative;
+  left: 25%;
+}
+
+.image-image{
+  height: 300px;
+}
+
+.description{
+  width: 700px;
+  height: 120px;
+  clear: both;
+  border: solid black;
+  position: relative;
+  left: 10%;
+}

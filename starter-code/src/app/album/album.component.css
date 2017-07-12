@@ -1,0 +1,23 @@
+.album{
+  width: 900px;
+  height: 250px;
+  border: solid black;
+  /*position: static;*/
+}
+div{
+  height: 200px;
+  float: left;
+  border: solid black;
+  margin-left: 20px;
+}
+
+.image{
+  height: 150px;
+  display: inline;
+  float: left;
+  /*margin-left: 10px;*/
+  /*border: solid black;*/
+}
+p{
+  padding: 20px;
+}
