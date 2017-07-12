@@ -1,0 +1,13 @@
+.blog {
+  text-align: center;
+  margin:50px auto;
+}
+
+img {
+  max-width: 500px;
+  height:auto;
+}
+
+p {
+  text-align: left;
+}
