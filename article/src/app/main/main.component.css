@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+}
+
+img{
+  height:233px;
+  width:724px;
+  display: block;
+  margin: auto;
+}
+
+.summ {
+  text-align: center;
+  padding-left: 166px;
+  padding-right: 166px;
+}
+
+.comhead {
+    border: 5px;
+    border-radius: 15px;
+    background-color: grey;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    width: 699px;
+    padding: 9px;
+}
+
+.firstcom {
+  width: 1261px;
+  text-align: center;
+
+}
+
+.comname {
+display: inline-block;
+text-align: center;
+
+}
+
+.date {
+display: inline-block;
+}
