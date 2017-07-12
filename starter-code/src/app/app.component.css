@@ -1,0 +1,10 @@
+
+div{
+  border: 1px solid purple;
+  width:30%;
+  height:8%;
+  display: inline-block;
+}
+p{
+  text-align: center;
+}

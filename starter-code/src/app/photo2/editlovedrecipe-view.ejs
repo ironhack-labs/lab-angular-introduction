@@ -1,0 +1,135 @@
+
+<div class="login-block">
+<h2>Edit My Recipe</h2>
+<!-- add enctype to upload photos -->
+<form method="post" action="/recipes/<%= recipeDetails._id %>/update" enctype="multipart/form-data">
+  <label for="recipe-name-input"> Recipe Name: </label>
+  <input  id="recipe-name-input" type="text" name="recipename" value="<%= recipeDetails.recipename %>">
+  <br>
+
+  <label for="recipe-source-input"> Recipe Source: </label>
+  <input  id="recipe-source-input" type="text" name="recipesource" value="<%= recipeDetails.recipesource%>">
+  <br>
+
+  <label for="source-link-input"> Recipe Source Link: </label>
+  <input  id="source-link-input" type="text" name="sourcelink" value="<%= recipeDetails.sourcelink%>">
+  <br>
+
+  <!-- change type to file so it goes to public folder -->
+    <label for="photo-url">
+        Photo URL:<br>
+        <span> Click Me </span>
+      </label>
+    <input id="photo-url" type="file" name="photoUrl" value="<%= recipeDetails.photoUrl%>">
+    <br>
+
+  <label for="recipe-category-input"> Recipe Category: </label>
+
+
+<!-- //if breakfast is checked then showed checked breakfast box else just show unchecked breakfast box. -->
+
+  <fieldset>
+    <% if (recipeDetails.recipecategory === 'Breakfast') { %>
+      <input  id="recipe-category-input" type="checkbox" name="recipecategory" value="Breakfast" checked>
+    <% } else { %>
+      <input  id="recipe-category-input" type="checkbox" name="recipecategory" value="Breakfast">
+    <% } %>
+  <label> Breakfast </label>
+</fieldset>
+<fieldset>
+    <% if (recipeDetails.recipecategory === 'Lunch') { %>
+      <input  id="recipe-category-input" type="checkbox" name="recipecategory" value="Lunch" checked>
+    <% } else { %>
+      <input  id="recipe-category-input" type="checkbox" name="recipecategory" value="Lunch">
+      <% } %>
+  <label> Lunch </label>
+</fieldset>
+<fieldset>
+  <% if (recipeDetails.recipecategory === 'Dinner') { %>
+  <input  id="recipe-category-input" type="checkbox" name="recipecategory" value="Dinner" checked>
+  <% } else { %>
+    <input  id="recipe-category-input" type="checkbox" name="recipecategory" value="Dinner">
+    <% } %>
+  <label> Dinner </label>
+</fieldset>
+<!-- updated the name to  tags[] and type to checkbox -->
+
+  <label for="recipe-tags-input"> Recipe Tags: </label>
+  <br>
+
+<!-- //loop through recipetags array and display all checked ones -->
+  <% recipeDetails.recipetags.forEach((tag) => { %>
+    <fieldset>
+      <input  id="recipe-tags-input" type="checkbox" name="tags[]" value="<%= tag %>" checked>
+      <label> <%= tag %> </label>
+    </fieldset>
+  <% }) %>
+
+  <!-- if a tag wasn't checked, show it, checked ones are accounted for in foreach above. -->
+  <% if (recipeDetails.recipetags.includes('Healthy') === false) { %>
+    <fieldset>
+      <input  id="recipe-tags-input" type="checkbox" name="tags[]" value="Healthy">
+      <label> Healthy </label>
+    </fieldset>
+  <% } %>
+  <% if (recipeDetails.recipetags.includes('Vegetarian') === false) { %>
+    <fieldset>
+      <input  id="recipe-tags-input" type="checkbox" name="tags[]" value="Vegetarian">
+      <label> Vegetarian </label>
+    </fieldset>
+  <% } %>
+<% if (recipeDetails.recipetags.includes('Seafood') === false) { %>
+  <fieldset>
+    <input  id="recipe-tags-input" type="checkbox" name="tags[]" value="Seafood">
+    <label> Seafood </label>
+  </fieldset>
+<% } %>
+<% if (recipeDetails.recipetags.includes('Poultry') === false) { %>
+  <fieldset>
+    <input  id="recipe-tags-input" type="checkbox" name="tags[]" value="Poultry">
+    <label> Poultry </label>
+  </fieldset>
+<% } %>
+<% if (recipeDetails.recipetags.includes('Red Meat') === false) { %>
+  <fieldset>
+    <input  id="recipe-tags-input" type="checkbox" name="tags[]" value="Red Meat">
+    <label> Red Meat </label>
+  </fieldset>
+<% } %>
+  <!-- if this tag isn't already displayed above, show it. -->
+  <% if (recipeDetails.recipetags.includes('Veggies') === false) { %>
+    <fieldset>
+      <input  id="recipe-tags-input" type="checkbox" name="tags[]" value="Veggies">
+      <label> Veggies </label>
+    </fieldset>
+  <% } %>
+
+  <!-- if this tag isn't already displayed above, show it. -->
+  <% if (recipeDetails.recipetags.includes('Company') === false) { %>
+    <fieldset>
+      <input  id="recipe-tags-input" type="checkbox" name="tags[]" value="Company">
+      <label> Company </label>
+    </fieldset>
+  <% } %>
+
+<% if (recipeDetails.recipetags.includes('Quick') === false) { %>
+  <fieldset>
+    <input  id="recipe-tags-input" type="checkbox" name="tags[]" value="Quick">
+    <label> Quick </label>
+  </fieldset>
+<% } %>
+
+  <!-- <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br> -->
+  <br>
+
+  <label for="recipe-comment-input"> Recipe Comment: </label>
+  <!-- //use textarea for text area -->
+  <br>
+  <textarea  id="recipe-comment-input"  name="recipecomment" value="<%= recipeDetails.recipecomment%>"></textarea>
+  <br>
+  <button> Save This Recipe </button>
+</form>
+</div>
+<span>
+<a id="backtorecipesbutton" href="/recipes" class="backtorecipesbutton"> Back to My Recipes </a>
+</span>

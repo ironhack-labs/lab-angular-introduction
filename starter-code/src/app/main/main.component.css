@@ -1,0 +1,13 @@
+/*<div class="main">
+<h2>Learn how to code with Ironhack</h2>
+<img class='ironhack' src="/assets/ironhack.gif" >
+<p>
+Ironhack is available in Miami, Barcelona and Madrid and helps you learn how to program, even beginner coders will be able to create an application by the time 9 weeks is over.
+</p>
+</div>*/
+
+
+.main{
+  border: 1px solid black;
+  width: 100%;
+}
