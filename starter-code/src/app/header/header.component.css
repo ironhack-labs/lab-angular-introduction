@@ -1,0 +1,16 @@
+.pic {
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+img {
+  border: 1px solid black;
+}
+
+p {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: indigo;
+  line-height: 2px;
+  font-weight: 500;
+}
