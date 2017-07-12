@@ -1,0 +1,12 @@
+<div class="champions-section">
+  <div *ngFor=" let teams of championTeams" class="col col-1-3">
+    <h3 class="year">{{teams.year}}</h3>
+    <h4 class="year">{{teams.name}}</h4>
+    <img src="{{ teams.imageUrl }}" />
+    <ul *ngFor="let players of teams.bestPlayers" class="player-list">
+      <li>
+        {{players}}
+      </li>
+    </ul>
+  </div>
+</div>
