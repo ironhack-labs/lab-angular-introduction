@@ -1,0 +1,29 @@
+#comments {
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+  font-size: 30px;
+  background: rgb(232, 232, 232);
+  border-radius: 10px;
+}
+#add-comment {
+  padding-top: 10px;
+  margin: 20px;
+  font-weight: bold;
+}
+#name,
+#desc {
+  border: 2px solid black;
+}
+#comment {
+  width: 100px;
+  height: 50px;
+  background: black;
+  color: white;
+}
+
+#comments-div {
+  margin: 0 auto;
+  background: rgb(232, 232, 232);
+  width: 50%;
+}

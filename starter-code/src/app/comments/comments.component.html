@@ -1,0 +1,28 @@
+
+<span id="comments">Comments</span>
+
+<div class="comments-list">
+<span id="commenter-name"><b>{{commenterName}}</b></span>
+<br>
+<span id="date"><i>{{date}}</i></span>
+<br>
+<span id="comment-text">{{commentText}}</span>
+<br>
+<p> </p>
+</div>
+
+<div id="comments-div">
+<form id="add-comment">
+  <h3> Add your comment </h3>
+  <label for="name">Name: </label>
+    <br>
+    <input id="name" type="text">
+    <br><br>
+    <label for="desc">Description:</label>
+    <br>
+    <textarea id="desc" type="text"></textarea>
+    <br><br>
+    <button id="comment" (click)="addComment()"> <b> Comment </b> </button>
+    <br><br>
+</form>
+</div>
