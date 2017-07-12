@@ -1,7 +1,12 @@
 <div class="main">
   <div class="comments">
     {{message}}
-
+    <ul>
+      <li *ngFor= "let oneComment of myComments">
+        <h3>{{oneComment.name}}</h3>
+        <p>{{oneComment.comment}}</p>
+      </li>
+    </ul>
   </div>
   <div class="form">
 
