@@ -1,0 +1,16 @@
+.photo2{
+  width:100%;
+  height:90%;
+
+}
+div{
+  float:left;
+  clear:both;
+  border: 1px solid purple;
+  width:30%;
+  height:8%;
+  display: inline-block;
+}
+p{
+  text-align: center;
+}
