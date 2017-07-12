@@ -1,0 +1,13 @@
+.teams {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.teams-list {
+  text-align: center;
+}
+
+.teams-list > li {
+  display: inline-block;
+  list-style-type: none;
+}
