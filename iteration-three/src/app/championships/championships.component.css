@@ -1,0 +1,13 @@
+img {
+  height: 250px;
+  width: 300px;
+}
+
+.team-box {
+  border: 1px solid black;
+  padding: 30px;
+  margin: 10px;
+  width: 300px;
+  display: inline-block;
+  background-color: #E2DCD5;
+}
