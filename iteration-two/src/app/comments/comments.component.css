@@ -1,0 +1,14 @@
+.form-box {
+  text-align: center;
+}
+
+.ironhack-form {
+  border: 1px solid black;
+  padding: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+hr {
+  width: 400px;
+}
