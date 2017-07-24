@@ -1,0 +1,10 @@
+.c-box1{
+  display: inline-flex;
+  margin-left: 120px;
+}
+.c-box1 img{
+  width: 250px;
+  height: 250px;
+  float:left;
+  margin-right: 100px;
+}
