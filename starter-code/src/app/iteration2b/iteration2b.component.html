@@ -1,0 +1,14 @@
+<h2>Comentarios</h2>
+<ul>
+  <li *ngFor= "let comment of comments">
+    <h4>{{comment.title}}</h4>
+    <p>{{comment.author}}</p>
+    <p>{{comment.content}}</p>
+  </li>
+  <form>
+  Name:<br>
+  <input type="text" name="name"><br>
+  Description:<br>
+  <input type="text" name="description">
+</form>
+</ul>

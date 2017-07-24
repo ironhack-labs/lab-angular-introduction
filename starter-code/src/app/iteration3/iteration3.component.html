@@ -1,0 +1,15 @@
+
+<ul>
+  <li *ngFor= "let nba of nbas">
+    <h1>{{nba.year}}</h1>
+    <h2>{{nba.name}}</h2>
+    <img src="{{nba.url}}" alt="">
+    <h3>Best Players</h3>
+    <ul>
+      <li *ngFor = "let player of nba.players">
+      {{player}}
+      </li>
+    </ul>
+
+  </li>
+</ul>

@@ -1,0 +1,10 @@
+li {
+  display: inline-block;
+
+  list-style-type: none;
+}
+
+li img{
+  height: 150px;
+
+}
