@@ -1,0 +1,9 @@
+.comments-form{
+  background-color: #e6e6e6;
+  margin:0 auto;
+  width: 40%;
+}
+
+.comments-form input, .comments-form textarea{
+  width: 90%;
+}
