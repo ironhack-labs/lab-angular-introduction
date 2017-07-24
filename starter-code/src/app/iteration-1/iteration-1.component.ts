@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./iteration-1.component.css']
 })
 export class Iteration1Component {
-  text1 = "description1"
-  text2 = "description2"
-  text2 = "description3"
+  title1 = "Gallery photos";
+  text1 = "description1";
+  text2 = "description2";
+  text3 = "description3";
 }
