@@ -1,0 +1,11 @@
+<span *ngFor="let i of iterationThree">
+  <h1>{{i.year}}</h1>
+  <h2>{{i.title}}</h2>
+  <img src="{{i.image}}" height="300">
+  <h3>Best players</h3>
+  <ul>
+    <li *ngFor="let x of i.best">
+    {{x}}
+  </li>
+  </ul>
+</span>
