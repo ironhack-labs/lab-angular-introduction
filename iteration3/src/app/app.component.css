@@ -1,0 +1,22 @@
+.championships-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.champion-card {
+  min-width: 300px;
+  width: 33%;
+}
+
+img {
+  width: 95%;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}

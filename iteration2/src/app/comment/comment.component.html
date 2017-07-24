@@ -1,0 +1,9 @@
+<div *ngIf="comments">
+  <div *ngFor="let comment of comments">
+    <div class="comment-card">
+      <p class="comment">{{comment.name}}</p>
+      <p class="date">{{comment.date}}</p>
+      <p>{{comment.description}}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<div style="text-align:center">
+  <h1>Basketball champions</h1>
+  <div *ngIf="championships">
+    <div class="championships-container">
+      <div *ngFor="let champion of championships">
+        <div class="champion-card">
+          <h2>{{champion.year}}</h2>
+          <h4>{{champion.teamname}}</h4>
+          <img src="{{champion.champion_url}}" alt="Picture">
+          <h4>Best Players</h4>
+          <ul>
+            <div *ngFor="let name of champion.best_players">
+              <li>{{name}}</li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
