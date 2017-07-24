@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+}
+
+.comment {
+    border: 0px solid;
+    background: #f0f0f0;
+    border-radius: 30px;
+    margin: 20px 150px 20px 150px;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+.commentbox {
+  width: 70%;
+  margin-left: 250px;
+}
+
+
+form label, textarea, input {
+  display:block;
+  margin: 10px;
+}
