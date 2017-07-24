@@ -1,0 +1,9 @@
+span{
+  text-align: center;
+  display: inline-block;
+  margin: 0 30px;
+}
+
+li{
+  text-align: left;
+}
