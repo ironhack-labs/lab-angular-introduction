@@ -1,0 +1,18 @@
+.teamlogo {
+  width: 250px;
+}
+
+.teambox {
+  width:25%;
+  display: inline-block;
+  text-align: center;
+}
+
+.teambox ul, li {
+list-style-type: none;
+}
+
+.containerteam {
+  width: 70%;
+  margin-left: 250px;
+}

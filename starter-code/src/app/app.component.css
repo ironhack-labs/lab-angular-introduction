@@ -1,0 +1,13 @@
+.album {
+  display:inline-block;
+  margin:30px;
+  text-align: center;
+}
+
+.photo-picture {
+  width:300px;
+}
+
+#album-container {
+  text-align: center;
+}

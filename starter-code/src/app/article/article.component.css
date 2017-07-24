@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.article-image {
+  width: 100%;
+  max-width: 1500px;
+  height: 100%;
+  max-height: 900px;
+}
+
+.text-article {
+  margin: 40px 20px 20px 20px;
+}
