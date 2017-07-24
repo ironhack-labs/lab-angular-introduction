@@ -1,0 +1,28 @@
+.wrapper{
+font-family: 'Roboto', sans-serif;
+}
+
+article{
+  max-width: 700px;
+  padding: 5%;
+  margin: 0 auto;
+}
+
+h1{
+text-align: center
+}
+
+ul, li{
+  list-style: none;
+}
+
+img{
+  display: block;
+  max-width: 650px;
+  margin: 4% auto;
+}
+
+article p{
+  display: block;
+  text-align: justify;
+}
