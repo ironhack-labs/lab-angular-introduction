@@ -1,0 +1,16 @@
+<p>
+  iteration3 works!
+</p>
+
+<ul>
+    <li *ngFor="let champion of champions">
+        <div> <h3> {{ champion.year }}  </h3></div>
+        <div> <h2> {{ champion.teamName }} </h2> </div>
+        <div> <img src="{{ champion.champion_url }}"> </div>
+        <ul>
+          <li *ngFor="let player of champion.best_players" >
+            {{player}}
+          </li>
+        </ul>
+    </li>
+</ul>
