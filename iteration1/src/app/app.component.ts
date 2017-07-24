@@ -11,15 +11,15 @@ export class AppComponent {
   photos: object[] = [
     {
       id: 1,
-      name: 'photo1',
+      name: 'Over Barcelona',
       link: '../assets/1.jpg'
     }, {
       id: 2,
-      name: 'photo2',
+      name: 'Hard at work',
       link: '../assets/2.jpg'
     }, {
       id: 3,
-      name: 'photo3',
+      name: 'Pair programming',
       link: '../assets/3.jpg'
     }
   ];
