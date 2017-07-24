@@ -1,0 +1,13 @@
+.profile-card {
+  background: #f3f3f3;
+  border-radius: 4px;
+  padding: 30px;
+  text-align: center;
+  width: 500px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+.profile-card img {
+  max-width: 50%;
+  margin: 15px auto;
+}

@@ -1,0 +1,15 @@
+<!--The whole content below can be removed with the new code.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}
+  </h1>
+</div>
+<h2>Here are some photos to help you start: </h2>
+<div *ngIf="photos">
+  <div *ngFor="let photo of photos">
+    <div class="profile-card">
+      <img [src]="photo.source">
+      <p> Description: {{ photo.description }}</p>
+    </div>
+  </div>
+</div>

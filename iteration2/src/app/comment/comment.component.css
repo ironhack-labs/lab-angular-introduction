@@ -1,0 +1,10 @@
+.comment,
+.date {
+  display: inline-block;
+}
+
+.comment {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 30px;
+}
