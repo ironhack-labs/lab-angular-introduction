@@ -1,3 +1,12 @@
-<h1>
-  {{title}}
-</h1>
+<ul>
+  <li *ngFor= "let photo of photos">
+    <img src="{{photo.url}}" alt="">
+    <p>{{photo.title}}</p>
+  </li>
+</ul>
+
+<app-iteration2>Loading...</app-iteration2>
+
+<app-iteration2b>Loading...</app-iteration2b>
+
+<app-iteration3>Loading...</app-iteration3>
