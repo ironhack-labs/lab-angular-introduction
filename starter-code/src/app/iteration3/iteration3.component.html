@@ -1,0 +1,16 @@
+<div class="containerteam">
+<div class="teambox" *ngFor="let nba of nba">
+  <div>
+    <h2> {{ nba.year }} </h2>
+    <h3> {{ nba.champion }} </h3>
+    <img class="teamlogo" src={{nba.champion_url}}>
+    <h4>Best players: </h4>
+    <ul>
+      <li *ngFor = "let player of nba.best_players">
+        <span>{{ player }}</span>
+      </li>
+    </ul>
+
+  </div>
+</div>
+</div>
