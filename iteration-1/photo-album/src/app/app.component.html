@@ -1,0 +1,10 @@
+<h1>Welcome to {{title}}!</h1>
+<div class="main-wrapper">
+  <div class="image-wrapper" *ngFor="let photo of photos">
+    <img class="image" src="{{ photo.url }}" />
+    <div>
+    {{ photo.description }}
+    </div>
+  </div>
+</div>
+
