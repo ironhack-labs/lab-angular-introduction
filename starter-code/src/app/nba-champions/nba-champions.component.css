@@ -1,0 +1,19 @@
+.nba-item{
+  display: inline-block;
+  width: 30%;
+  margin: 0 10px;
+  text-align:center;
+}
+.nba-badge{
+  height: 100px;
+  width: 115px;
+  margin: 0 auto;
+}
+
+.nba-badge img{
+  width:100%;
+}
+
+.list{
+  text-align: left;
+}

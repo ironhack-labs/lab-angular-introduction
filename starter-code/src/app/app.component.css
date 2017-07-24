@@ -1,0 +1,24 @@
+ul li {
+  display: inline-block;
+  width: 30%;
+  margin: 0 10px;
+  height: 200px;
+}
+
+ul li img {
+  width: 100%;
+}
+
+p, h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.article-it2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.article-it2 img {
+  width: 100%;
+}

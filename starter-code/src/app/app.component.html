@@ -1,3 +1,25 @@
 <h1>
   {{title}}
 </h1>
+
+
+<!-- Iteration 1 -->
+<ul>
+    <li *ngFor="let photo of photos">
+        <img src="{{photo.path}}" alt="">
+        <p>{{ photo.description }}</p>
+    </li>
+</ul>
+
+<!-- Iteration 2 -->
+<div class="article-it2">
+  <h2>{{article.title}}</h2>
+  <img src="{{article.image}}" alt="">
+  <p>{{article.description}}</p>
+</div>
+
+<!-- Inherit component-->
+<app-comment></app-comment>
+
+<!-- iteration 3 -->
+<app-nba-champions></app-nba-champions>

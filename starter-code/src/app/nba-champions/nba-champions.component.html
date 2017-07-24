@@ -1,0 +1,16 @@
+<h1>NBA championships</h1>
+
+<ul>
+  <li class='nba-item' *ngFor="let champion of championships">
+    <h2>{{champion.year}}</h2>
+    <h3>{{champion.name}}</h3>
+    <div class='nba-badge'><img src="{{champion.champion_url}}" alt=""></div>
+    <h3>Best Players</h3>
+
+    <ul class='list'>
+      <li *ngFor="let player of champion.best_players">
+         {{player}}
+      </li>
+    </ul>
+  </li>
+</ul>
