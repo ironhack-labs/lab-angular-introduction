@@ -1,0 +1,22 @@
+.wrapper{
+font-family: 'Roboto', sans-serif;
+}
+
+ul, li{
+  list-style: none;
+}
+
+img{
+  max-width: 360px;
+  margin: 0 40px 30px 40px;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.photo{
+  display: inline-block;
+  text-align: center;
+}
