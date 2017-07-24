@@ -1,0 +1,14 @@
+<h3 class="comments">
+  {{title}}
+</h3>
+<div class="comments" *ngFor='let comment of comments'>
+  <h5>
+    {{comment.name}}
+    <small>
+      {{comment.date}}
+    </small>
+  </h5>
+  <p>
+    {{comment.comment}}
+  </p>
+</div>
