@@ -1,0 +1,16 @@
+.component {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.album {
+  width: 25%;
+  float: left;
+  margin: 15px 30px;
+}
