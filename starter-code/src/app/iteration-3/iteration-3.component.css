@@ -1,3 +1,10 @@
-c-box4{
+.box1 > ul > li{
+  float: left;
+  text-align: center;
+  list-style: none;
+  margin-right: 80px;
 
+}
+li{
+  list-style: none;
 }

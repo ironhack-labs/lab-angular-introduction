@@ -1,18 +1,19 @@
-<div class="c-box4">
+
+  <div class="box1">
   <ul>
 
     <li *ngFor="let champion of champions">
       <h3> {{ champion.year }} </h3>
-      <p> {{ champion.team_name }} </p>
+      <h3> {{ champion.team_name }} </h3>
       <img src="{{ champion.champion_url}} "/>
       <ul>
         <div class="">
 
           <li *ngFor="let player of champion.best_players">
-            {{ player }}
+          <b>  {{ player }}</b>
           </li>
         </div>
       </ul>
     </li>
   </ul>
-</div>
+  </div>
