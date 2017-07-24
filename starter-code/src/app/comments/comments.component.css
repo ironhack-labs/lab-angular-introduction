@@ -1,0 +1,32 @@
+.nombre {
+  font-weight: 600;
+}
+
+.parrafo {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.form {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.form-name > input {
+  width: 300px;
+  border: 1px solid #000;
+}
+
+.form-description > input {
+  width: 300px;
+  height: 100px;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+.form-button {
+  color: #fff;
+  background-color: #3D3D3D;
+  border: none;
+  padding: 8px 10px;
+}
