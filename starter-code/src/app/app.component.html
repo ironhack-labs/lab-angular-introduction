@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+<ul>
+  <li *ngFor="let image of images">
+    <img src='{{ image.src }}' alt="" width=200>
+      Ironhack {{ image.title }}
+  </li>
+</ul>
+
+<app-article></app-article>
+<app-champion></app-champion>
