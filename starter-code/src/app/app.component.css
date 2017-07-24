@@ -1,0 +1,13 @@
+.photoDiv {
+  float: left;
+  margin: 10px;
+}
+
+.photo {
+  width: 380px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Helvetica';
+}

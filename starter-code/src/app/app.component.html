@@ -1,3 +1,7 @@
 <h1>
   {{title}}
 </h1>
+<div class="photoDiv" *ngFor='let photo of photos'>
+  <img src={{photo.src}} alt={{photo.name}}>
+  <p>Ironhack {{photo.name}}</p>
+</div>
