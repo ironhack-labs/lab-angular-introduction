@@ -1,0 +1,10 @@
+<div>
+  <ul>
+    <li *ngFor='let comment of comments'>
+      <h4><strong>{{comment.author}}</strong> {{comment.date}}</h4>
+      <p>
+        {{comment.content}}
+      </p>
+    </li>
+  </ul>
+</div>
