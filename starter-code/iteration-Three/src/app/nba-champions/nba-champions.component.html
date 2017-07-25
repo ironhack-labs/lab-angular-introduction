@@ -1,0 +1,12 @@
+<h1>NBA Champions</h1>
+<div class="championships">
+  <div *ngFor="let champion of championships" class="nba-champion">
+    <h2 class="nba-champion__year">{{champion.year}}</h2>
+    <h3 class="nba-champion__team"> {{champion.team}}</h3>
+    <img class="nba-badge" [src]="champion.champion_url" />
+    <h4>Best Players</h4>
+    <ul class="nba-champion__best-players">
+      <li *ngFor="let player of champion.best_players">{{player}}</li>
+    </ul>
+  </div>
+</div>

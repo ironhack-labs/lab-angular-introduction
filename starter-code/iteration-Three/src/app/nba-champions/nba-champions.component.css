@@ -1,0 +1,19 @@
+.championships {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nba-champion {
+  width: 350px; 
+  float: left;
+ }
+.nba-champion__year {}
+.nba-champion__team {}
+.nba-badge { height: 150px; }
+.nba-champion__best-players { 
+  width: 140px;
+  text-align: center;
+  margin: 0 auto;
+}
+.nba-champion__best-players li { text-align: left; }

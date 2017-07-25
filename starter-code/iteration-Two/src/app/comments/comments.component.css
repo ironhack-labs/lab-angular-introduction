@@ -1,0 +1,49 @@
+.comment-title { 
+  background-color: lightgrey;
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 20px;
+  text-align: left;
+  padding-left: 40px;
+ }
+
+/* COMMENT LIST */
+.comment {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+.comment p {
+  margin: 0;
+}
+
+.comment__name {
+  font-weight: 800;
+}
+
+.comment__date { 
+  font-size: .8em; 
+  color: grey;
+  margin-left: 20px
+}
+
+
+
+ /* COMMENT FORM */
+.comments { 
+  background-color: lightgrey;
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+
+}
+.comment-form { 
+  text-align: left;
+}
+
+.label, button {
+  display: block;
+  margin: 10px 0;
+}
+
+input, textarea { width: 70%; }
