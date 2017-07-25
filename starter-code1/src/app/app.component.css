@@ -1,0 +1,12 @@
+p { color: blue; }
+img {
+  width: 100;
+  top:100;
+}
+.container{
+  display: block;
+  float: left;
+  text-align: center;
+  align-content: center;
+
+}
