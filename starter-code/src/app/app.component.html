@@ -1,3 +1,11 @@
 <h1>
   {{title}}
 </h1>
+
+<h2>Party GIPHYS</h2>
+<div *ngIf = "pictures">
+  <div *ngfor="let photo of pictures">
+    <img [src]="photo.Url" title="photo.place">
+
+  </div>
+</div>
