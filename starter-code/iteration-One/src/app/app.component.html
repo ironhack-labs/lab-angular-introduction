@@ -1,0 +1,7 @@
+<h1>Iteration #1: Photo Album</h1>
+<ul ngClass="photo-list">
+  <li *ngFor="let photo of photoAlbum" ngClass="photo">
+    <img src={{photo.imageUrl}} alt={{photo.description}}/>
+    <p>{{photo.description}}</p>
+  </li>
+</ul>
