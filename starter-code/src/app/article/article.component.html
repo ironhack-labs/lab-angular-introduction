@@ -1,0 +1,18 @@
+<h1> {{ title }} </h1>
+  <div *ngFor="let article of articles">
+    <div class='row'>
+    <div class="content container center-block container-fluid">
+      <h2>{{ article.title }} </h2>
+      <div class="img"><img class="center-block img-responsive" src="{{ article.img }}"></div>
+      <br>
+      <div class="paragraph">
+        {{ article.description }}
+      </div>
+      <br>
+      <br>
+      <div class="artComments">
+        <app-comments></app-comments>
+      </div>
+    </div>
+  </div>
+</div>

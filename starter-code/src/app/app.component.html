@@ -1,3 +1,37 @@
+<link rel="stylesheet" href="https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css">
 <h1>
   {{title}}
 </h1>
+
+  <div class="row">
+    <div class="col-sm-1 "></div>
+    <div *ngFor="let img of album" class="col-3 col-sm-3 center-block">
+      <div class="container center-block">
+        <div class="img"><img class="img-responsive center-block" src="{{ img.imgURL }}"></div>
+        <br>
+      </div>
+    </div>
+    <div class="container center-block">
+      <div *ngFor="let img of album" class="col-sm-4 center-block">{{ img.text }}</div>
+    </div>
+  </div>
+
+<div class="articleContainer center-block container col-md-6">
+  <hr>
+  <br>
+  <hr>
+  <br>
+  <hr>
+  <br>
+  <app-article></app-article>
+</div>
+<br>
+<div class="articleContainer center-block container col-md-6">
+  <hr>
+  <br>
+  <hr>
+  <br>
+  <hr>
+  <br>
+  <app-nba></app-nba>
+</div>
