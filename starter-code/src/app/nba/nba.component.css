@@ -1,0 +1,25 @@
+h1 {
+
+  margin-top: 50px;
+}
+.hallOfFame {
+}
+.champion {
+  text-align: center;
+
+  vertical-align: top;
+  display: inline-block;
+  width: 30%;
+}
+.bestPlayers {
+  text-align: left;
+  margin-left: 40px;
+}
+.champion > :first-child {
+  font-size: 24px;
+  font-weight: bold;
+}
+.champion > :nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
+}

@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title1:string = 'Only cats! - Iteration #1';
+  fotos: Array<Object> = [
+    {url: "http://lorempixel.com/400/200/cats", desc: "cat"},
+    {url: "http://lorempixel.com/400/200/animals", desc: "animal"},
+    {url: "http://lorempixel.com/400/200/sports", desc: "sports"}
+  ];
 }
