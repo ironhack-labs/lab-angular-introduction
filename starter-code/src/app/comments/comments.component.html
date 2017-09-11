@@ -1,0 +1,15 @@
+<h2> Comments </h2>
+<ul>
+  <li *ngFor="let comment of comments">
+    <p> <strong> {{comment.name}} </strong> {{comment.postedAt.toString().slice(4, 15)}} </p>
+    <p> {{comment.desc}} </p>
+  </li>
+</ul>
+<form>
+  <h3> Add your comment </h3>
+  Name:<br>
+  <input type="text" name="name"><br>
+  Description:<br>
+  <input type="text" name="desc">
+  <button type="submit"> Comment </button>
+</form>

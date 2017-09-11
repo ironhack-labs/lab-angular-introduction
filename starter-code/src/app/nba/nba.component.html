@@ -1,0 +1,14 @@
+<h1> {{title3}} </h1>
+<ul class="hallOfFame">
+  <li class="champion" *ngFor="let champion of championships">
+    <p> {{champion.year}} </p>
+    <p> {{champion.name}} </p>
+    <img src={{champion.champion_url}} style="height:300px">
+    <p> <strong> Best players </strong></p>
+    <ul>
+      <li class="bestPlayers" *ngFor="let player of champion.best_players">
+        <p> {{player}} </p>
+      </li>
+    </ul>
+  </li>
+</ul>
