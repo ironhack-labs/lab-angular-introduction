@@ -1,0 +1,15 @@
+<p>
+  comments works!
+</p>
+
+<form (submit)="addComment(comment.value)">
+   <label for="comment"> New Comment</label>
+   <input type="text" #comment>
+
+</form>
+
+<ul>
+    <li *ngFor="let comment of comments; let i = index"> {{i + 1}}: {{comment}}
+    </li>
+     
+</ul>
