@@ -9,6 +9,8 @@ import { ImagesAlbumComponent } from './images-album/images-album.component';
 import { AcordionComponent } from './acordion/acordion.component';
 import { MainComponent } from './main/main.component';
 import { CommentComponent } from './comment/comment.component';
+import { TeamsGroupComponent } from './teams-group/teams-group.component';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { CommentComponent } from './comment/comment.component';
     ImagesAlbumComponent,
     AcordionComponent,
     MainComponent,
-    CommentComponent
+    CommentComponent,
+    TeamsGroupComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,
