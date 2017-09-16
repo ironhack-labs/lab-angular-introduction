@@ -1,0 +1,8 @@
+<p>{{ champion.year }}</p>
+<img width="100" class="img-responsive" src="{{ champion.champion_url }}" />
+<h3>{{ champion.champion }}</h3>
+<ul>
+  <li *ngFor="let player of champion.best_player">
+    {{ player }}
+  </li>
+</ul>
