@@ -1,29 +1,7 @@
-
-
-<div class="card luigi-card" style="width: 20rem;">
-  <img style="width: 100px" class="card-img-top" src="../images/Luigi-PNG-Photos.png" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="container">
+  <div class="row">
+    <div  class="col" *ngFor="let photo of photos">
+      <photo [photo]="photo"></photo>
+    </div>
   </div>
 </div>
-
-<div class="card mario-card" style="width: 20rem;">
-  <img style="width: 100px" class="card-img-top" src="../images/maxresdefault.png" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-
-<div class="card wario-card" style="width: 20rem;">
-  <img style="width: 100px" class="card-img-top" src="../images/WARIUSA.png" alt="Card image cap">
-  <div class="card-body">
-    <h4 class="card-title">Card title</h4>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
-

@@ -1,15 +1,12 @@
-<p>
-  comments works!
-</p>
+<div>
 
-<form (submit)="addComment(comment.value)">
-   <label for="comment"> New Comment</label>
-   <input type="text" #comment>
+    <label for="name"> Your name</label>
+    <input type="text" [(ngModel)]="newComment.name">
+   <label for="comment"> Add your Comment</label>
+   <input type="text" [(ngModel)]="newComment.comment">
 
-</form>
+   <button class="btn btn-primary" (click)="addComment(newComment.name, newComment.comment)"> Submit comment </button>
 
-<ul>
-    <li *ngFor="let comment of comments; let i = index"> {{i + 1}}: {{comment}}
-    </li>
-     
-</ul>
+</div>
+
+
