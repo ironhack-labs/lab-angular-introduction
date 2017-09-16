@@ -1,11 +1,11 @@
-<div class="col text-center">
-  <h3>{{ year }}</h3>
-  <h4>{{ title }}</h4>
-  <img src="{{ url }}" alt="">
+<div class="text-center">
+  <h3>{{ quote.year }}</h3>
+  <h4>{{ quote.title }}</h4>
+  <img src="{{ quote.url }}" alt="">
   <br>
   <b>Best players</b>
   <ul class="text-left">
-    <li *ngFor="let player of players; let i = index;">
+    <li *ngFor="let player of quote.players; let i = index;">
       {{ player }}
     </li>
   </ul>

@@ -1,8 +1,8 @@
 <div class="container">
   <div class="row">
-    <team></team>
-    <team></team>
-    <team></team>
+    <div class="col" *ngFor="let quote of quotes">
+      <team [quote]="quote"></team>
+    </div>
   </div>
 </div>
   

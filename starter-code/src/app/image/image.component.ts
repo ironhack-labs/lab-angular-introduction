@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'image',
@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./image.component.css']
 })
 export class ImageComponent implements OnInit {
-  url: String = "http://www.barcinno.com/wp-content/uploads/2016/05/rsz_img_8767.jpg"
-  body: String = "Barcelona"
+  @Input() quote: any;
+  
   constructor() { }
 
   ngOnInit() {

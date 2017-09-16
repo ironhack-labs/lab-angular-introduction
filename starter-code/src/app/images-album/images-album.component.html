@@ -1,13 +1,7 @@
 <div class="container">
   <div class="row">
-    <div class="col">
-      <image></image>
-    </div>
-    <div class="col">
-      <image></image>
-    </div>
-    <div class="col">
-      <image></image>
+    <div class="col" *ngFor="let quote of quotes">
+      <image [quote]="quote"></image>
     </div>
   </div>
 </div>
