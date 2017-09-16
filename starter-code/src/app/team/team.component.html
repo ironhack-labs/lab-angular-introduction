@@ -1,0 +1,12 @@
+<div class="text-center">
+  <h3>{{ quote.year }}</h3>
+  <h4>{{ quote.title }}</h4>
+  <img src="{{ quote.url }}" alt="">
+  <br>
+  <b>Best players</b>
+  <ul class="text-left">
+    <li *ngFor="let player of quote.players; let i = index;">
+      {{ player }}
+    </li>
+  </ul>
+</div>
