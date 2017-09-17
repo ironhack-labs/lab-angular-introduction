@@ -1,7 +1,8 @@
 .card {
-  height: 100%;
+  background-color: transparent;
+  border: 0px;
 }
 
 .card-img {
-  height: 10%;
+  height: 300px;
 }

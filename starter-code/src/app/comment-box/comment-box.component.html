@@ -9,20 +9,21 @@
   </div>
 </div>
 
+
 <div class="row commentMainBox">
   <div class="col-sm-12 commentBox">
-    <h4>Add your comment</h4>
-    <div class="form-group">
-      <label for="authorName"> Your name</label>
-      <input type="text" [(ngModel)]="newComment.authorName">
-
+    <h4 class="addCommentTitle">Add your comment</h4>
+    <form>
       <div class="form-group">
-
-        <label for="authorComment"> Add your Comment</label>
-        <input type="text" [(ngModel)]="newComment.authorComment">
+        <label for="authorName"> Your name</label>
+        <input type="text" class="form-control" [(ngModel)]="newComment.authorName" [ngModelOptions]="{standalone: true}">
+        <br>
+        <div class="form-group">
+          <label for="authorComment"> Add your Comment</label>
+          <input type="text" class="form-control" [(ngModel)]="newComment.authorComment" [ngModelOptions]="{standalone: true}">
+        </div>
+        <button class="btn btn-primary" (click)="addComment(newComment.authorName, newComment.authorComment)"> Submit comment </button>
       </div>
-      <button class="btn btn-primary" (click)="addComment(newComment.authorName, newComment.authorComment)"> Submit comment </button>
-    </div>
+    </form>
   </div>
 </div>
-
