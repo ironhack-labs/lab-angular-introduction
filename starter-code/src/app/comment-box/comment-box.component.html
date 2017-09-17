@@ -1,7 +1,28 @@
 <div class="container">
-    <div class="row">
-      <div  class="col" *ngFor="let comment of comments">
-        <comments [comment]="comment"></comments>
+  <h4 class="commentTitle">Comments </h4>
+  <div class="row">
+    <ul>
+      <li *ngFor="let comment of comments">
+        <comment-item [comment]="comment"></comment-item>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="row commentMainBox">
+  <div class="col-sm-12 commentBox">
+    <h4>Add your comment</h4>
+    <div class="form-group">
+      <label for="authorName"> Your name</label>
+      <input type="text" [(ngModel)]="newComment.authorName">
+
+      <div class="form-group">
+
+        <label for="authorComment"> Add your Comment</label>
+        <input type="text" [(ngModel)]="newComment.authorComment">
       </div>
+      <button class="btn btn-primary" (click)="addComment(newComment.authorName, newComment.authorComment)"> Submit comment </button>
     </div>
   </div>
+</div>
+
