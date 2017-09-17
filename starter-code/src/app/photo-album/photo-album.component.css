@@ -1,0 +1,16 @@
+img {
+  margin: 0 auto;
+}
+
+.row {
+  display: flex; /* equal height of the children */
+}
+
+.col {
+  flex: 1; /* additionally, equal width */
+  
+}
+
+ul {
+  list-style-type: none;
+}

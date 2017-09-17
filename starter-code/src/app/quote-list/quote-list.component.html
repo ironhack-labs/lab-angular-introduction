@@ -1,0 +1,6 @@
+<h3> An awesome quote list! </h3>
+<ul>
+  <li *ngFor="let quote of quotes">
+    <quote-item [quote]="quote" (onDelete)="removeQuote($event)"></quote-item>
+  </li>
+</ul>
