@@ -1,16 +1,17 @@
 <h2>{{title}}</h2>
 
 <ul>
-  <!-- <li *ngFor="let comment in comments">
-
-  </li> -->
+  <li *ngFor="let comment of comments">
+    <h3>{{comment.name}}</h3>
+    <p>{{comment.comment}}</p>
+  </li>
 </ul>
 <br>
 
-<form action="/" method="post">
+<form>
   <label for="name">Name: </label>
   <input type="text" id="name">
   <label for="comment">Comment: </label>
   <textarea type="text" id="comment"></textarea>
-  <button></button>
+  <button id="post-btn">Post</button>
 </form>

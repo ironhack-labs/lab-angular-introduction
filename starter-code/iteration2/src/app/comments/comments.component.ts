@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CommentsComponent implements OnInit {
   title: string = "Comments";
-
+  comments: any =[
+    {name: "Ben", comment:"I tried to get angular forms working and failed."},
+    {name: "Bill", comment:"Me too"}
+  ];
   constructor() { }
 
   ngOnInit() {

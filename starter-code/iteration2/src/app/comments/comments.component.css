@@ -5,5 +5,11 @@ h2{
   margin: 0 auto;
 }
 input{
-  clear:both;
+  display: block;
+  margin:0 auto;
+}
+
+form{
+  background-color: #eee;
+  padding: 20px;
 }
