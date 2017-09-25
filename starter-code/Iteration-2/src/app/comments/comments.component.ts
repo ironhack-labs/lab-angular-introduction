@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CommentsComponent implements OnInit {
   comments = [
-    { 
+    {
      name: "Bobby",
      comment: "It seems quite complicated, how much previous experience do I need?"
     },
@@ -16,6 +16,12 @@ export class CommentsComponent implements OnInit {
     comment: "We give you pre-work, don't worry!"
     }
   ]
+
+newCommentName: string = 'Name';
+newCommentDesc: string = 'Description';
+addComment() {
+  this.comments.push({name: this.newCommentName, comment: this.newCommentDesc})
+}
 
   constructor() { }
 
