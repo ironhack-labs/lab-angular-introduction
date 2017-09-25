@@ -1,0 +1,15 @@
+h2{
+  background: #eee;
+  width: 1200px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+input{
+  display: block;
+  margin:0 auto;
+}
+
+form{
+  background-color: #eee;
+  padding: 20px;
+}

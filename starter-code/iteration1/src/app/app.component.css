@@ -1,0 +1,13 @@
+ul{
+  list-style: none;
+}
+li{
+  margin: 0 50px;
+  display: inline-block;
+}
+p{
+  text-align: center
+}
+img{
+  width: 300px;
+};
