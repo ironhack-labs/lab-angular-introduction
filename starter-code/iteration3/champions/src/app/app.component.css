@@ -1,0 +1,36 @@
+body {
+  background: rgba(120,0,120,.5);
+}
+
+h1 {
+  text-align: center;
+  color: rgba(220,220,80,1);
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  background-color: rgba(120,0,120,.8);
+  width: 25%;
+  display: inline-block;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  display: inline-block;
+
+}
+
+.players {
+  color: rgba(200,200,100,.9);
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.inner {
+  padding: 10px;
+}

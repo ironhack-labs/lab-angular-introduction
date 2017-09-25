@@ -1,0 +1,10 @@
+.comment {
+  background: rgba(0,0,0,.2);
+  border-radius: 25px;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.inner {
+  padding: 10px;
+}
