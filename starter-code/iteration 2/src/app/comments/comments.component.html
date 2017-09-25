@@ -1,0 +1,21 @@
+<div class="comments-container">
+
+  <h2>Comments</h2>
+
+  <ul>
+    <li *ngFor="let comment of comments">
+      <h3>{{ comment.name }}</h3>
+      <p>{{ comment.comment }}</p>
+    </li>
+  </ul>
+
+  <div class="add-a-comment">
+    <h2>Add your comment</h2>
+    <h3>Name:</h3>
+    <input type="text" name="nameinput" [(ngModel)]="newCommentName">
+    <h3>Description:</h3>
+    <input type="text" name="descriptioninput" [(ngModel)]="newCommentDescription">
+    <button (click)="addComment()">Submit</button>
+  </div>
+
+</div>
