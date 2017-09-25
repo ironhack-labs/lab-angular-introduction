@@ -1,0 +1,21 @@
+h1 {
+  font-family: Helvetica;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+
+
+
+img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+p {
+  font-family: Helvetica;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
