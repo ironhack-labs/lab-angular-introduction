@@ -1,10 +1,11 @@
 .container {
   display: flex;
   justify-content: space-around;
+  text-align: center;
 }
 
-.container img {
-  height: 200px;
-  width: 200px;
+.champion-logo {
+  width: 250px;
+  height: 250px;
   background-color: red;
 }
