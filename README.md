@@ -42,7 +42,7 @@ In this lesson we are going to work with Angular 2 for the first time. The goal 
 
 ### Starter Code
 
-The starter code is composed of three different folders, called `iteration-1`, `iteration-2`, `iteration-3`. The only folder that has something inside is the `iteration-1` folder, that contains a project created with the Angular CLI.
+The starter code is composed of three different folders, called `iteration1`, `iteration2`, `iteration3`. The only folder that has something inside is the `iteration1` folder, that contains a project created with the Angular CLI.
 
 As you may noticed, this lesson is composed of three different iterations. In each iteration we will cover a different project. In the first iteration we provide you the basic skeleton of the app, while in the other two iterations you will have to create it.
 
