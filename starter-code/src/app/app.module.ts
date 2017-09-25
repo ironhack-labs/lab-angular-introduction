@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { TotoroComponent } from './totoro/totoro.component';
+import { MononokeComponent } from './mononoke/mononoke.component';
+import { PonyoComponent } from './ponyo/ponyo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TotoroComponent,
+    MononokeComponent,
+    PonyoComponent
   ],
   imports: [
     BrowserModule,
