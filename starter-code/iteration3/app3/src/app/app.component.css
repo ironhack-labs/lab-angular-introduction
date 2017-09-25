@@ -1,0 +1,19 @@
+.main-list {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  padding: 40px;
+}
+
+.bullets {
+  padding-top: 40px;
+  text-align: left;
+}
+
+img {
+  height: 100px;
+}
+
+.teams {
+  margin: 0 auto;
+}

@@ -1,0 +1,13 @@
+h1, p {
+  font-family: helvetica;
+  width: 700px;
+  padding-left: 18%;
+}
+
+p {
+  text-align: justify;
+}
+
+img {
+  width: 700px;
+}

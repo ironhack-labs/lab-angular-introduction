@@ -1,0 +1,45 @@
+.comments-div {
+  background-color: grey;
+  width: 700px;
+  margin: 0 auto;
+  font-family: helvetica;
+  text-align: left;
+}
+
+.form {
+  background-color: grey;
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  text-align: left;
+  font-family: helvetica;
+}
+
+input, textarea {
+  width: 90%;
+  padding-top: 15px;
+}
+
+h3, p {
+  font-family: helvetica;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+.comment-head, .comment-text {
+  text-align: left;
+  line-height: 8px;
+}
+
+.comment-text {
+  padding-bottom: 10px;
+}
+
+.comment-section {
+  width: 700px;
+  margin: 0 auto;
+}
