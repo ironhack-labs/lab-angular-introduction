@@ -1,0 +1,16 @@
+.cards {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.card{
+  padding: 15px;
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+.title {
+  text-align: center;
+}

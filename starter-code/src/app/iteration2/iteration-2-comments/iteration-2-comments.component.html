@@ -1,0 +1,12 @@
+<div *ngFor="let comment of comments">
+  <h3>{{comment.name}}</h3>
+  <p>{{comment.comment}}</p>
+</div>
+
+<form>
+  <label for="name">Name</label>
+  <input [(ngModel)]="name" type="text" name="name" placeholder="Your name">
+  <label for="comment">Comment</label>
+  <input [(ngModel)]="comment" type="text" name="comment" placeholder="">
+  <button (click)=(getvalues(name,comment))>Submit</button>
+</form>
