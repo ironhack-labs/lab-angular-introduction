@@ -1,26 +1,28 @@
-<div>
-
+<div class="parent">
   <h3>Comments:</h3>
 
   <ul>
     <li *ngFor="let comment of comments">
-      {{ comment }}
+      <strong>{{ comment.author }}:</strong> <em>{{ comment.date}}</em>
+      <br> {{ comment.comment}}
     </li>
   </ul>
 
-  <h3>Add your comment:</h3>
   <div class="form">
+    <h3>Add your comment:</h3>
     <form action="#" method="post">
       <div>
         <label for="name">Name:</label>
+        <br>
         <input type="text" id="name" />
       </div>
       <br>
       <div>
         <label for="description">Description:</label>
+        <br>
         <textarea id="description"></textarea>
       </div>
+      <button type="button" name="button">Comment</button>
     </form>
   </div>
-
 </div>

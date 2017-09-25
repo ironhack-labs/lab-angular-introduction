@@ -9,6 +9,7 @@ import { Image2Component } from './image2/image2.component';
 import { Image3Component } from './image3/image3.component';
 import { MainComponent } from './main/main.component';
 import { CommentsComponent } from './comments/comments.component';
+import { ChampionshipsComponent } from './championships/championships.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CommentsComponent } from './comments/comments.component';
     Image2Component,
     Image3Component,
     MainComponent,
-    CommentsComponent
+    CommentsComponent,
+    ChampionshipsComponent
   ],
   imports: [
     BrowserModule,

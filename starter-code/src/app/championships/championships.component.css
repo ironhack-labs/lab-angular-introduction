@@ -1,0 +1,16 @@
+.column {
+  float: left;
+  text-align: center;
+}
+
+.img {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+img {
+  position: absolute;
+margin: auto;
+  width: 100%;
+}

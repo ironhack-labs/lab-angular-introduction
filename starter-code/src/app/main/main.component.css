@@ -2,10 +2,16 @@
   clear: both;
 }
 
-.main {
-  margin: 0 200px;
+img {
+  width: 200px;
 }
 
-img {
-  width: 300px;
+.main {
+  text-align: center;
+}
+
+h3 {
+  margin: 0 auto;
+  text-align: center;
+  width: 600px;
 }

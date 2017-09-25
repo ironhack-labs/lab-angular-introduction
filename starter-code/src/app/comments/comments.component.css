@@ -1,12 +1,39 @@
+.parent {
+  text-align: center;
+}
 
 .form {
   width: 400px;
+  height: 250px;
+  background: lightgrey;
+  margin: 0 auto;
 }
 
-.form input {
-  width: 100%;
+.parent form {
+  margin-left: 20px;
 }
 
-.form textarea {
-  width: 100%;
+.parent h3 {
+  padding-top: 10px;
+  margin-left: 20px;
+}
+
+.parent input {
+  width: 90%;
+  border: 1px solid black;
+}
+
+.parent textarea {
+  border: 1px solid black;
+  width: 90%;
+  height: 80px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 10px;
 }
