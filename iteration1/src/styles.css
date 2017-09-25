@@ -1,33 +1,31 @@
 @import url("https://fonts.googleapis.com/css?family=Merienda:700|Spicy+Rice");
 
-body{
-  color: teal;
+body {
+  background-color: teal;
+  color: white;
   font-family: 'Merienda', cursive;
 }
 
-section{
-  padding:5%;
-  margin:0
+section {
+  background-color: teal;
+  padding: 5%;
+  margin: 0
 }
 
-.col-3{
+.col-3 {
   float: left;
   text-align: center;
   width: 27%;
-  border-radius: 100px;
+  border-radius: 50px;
   padding: 30px 20px;
-  border: 2px solid teal;
+  background-color: white;
+  color: teal;
 }
 
 .col-middle {
   margin: 0 5%;
 }
 
-.clearfix{
+.clearfix {
   clear: both;
-}
-
-.col {
-  float: left;
-  padding-bottom: 50px;
 }
