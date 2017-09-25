@@ -1,0 +1,10 @@
+<h3 style="margin-top: 60px">Comments</h3>
+
+<div style="margin-top: 40px" class="container">
+
+  <div *ngFor="let comment of commentsList">
+    <h4>{{ comment.author }}</h4>
+    <p>{{ comment.text }}</p>
+  </div>
+
+</div>
