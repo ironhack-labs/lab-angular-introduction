@@ -1,0 +1,13 @@
+img{
+  width: 100%;
+}
+
+div{
+  width: 30%;
+  float: left;
+  margin-left: 1%;
+}
+
+div p{
+  text-align: center;
+}
