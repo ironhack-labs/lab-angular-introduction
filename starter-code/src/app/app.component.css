@@ -1,3 +1,7 @@
+h2 {
+  text-align: center;
+}
+
 .miyazaki {
   display: inline-block;
   text-align: center;
@@ -20,4 +24,15 @@
   width: 25%;
   display: inline-block;
   vertical-align: middle;
+}
+
+.museum {
+  width: 60%;
+  padding-left: 250px;
+}
+
+.comments {
+  width: 60%;
+  padding-left: 250px;
+
 }

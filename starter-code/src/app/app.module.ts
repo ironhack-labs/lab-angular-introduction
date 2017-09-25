@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { TotoroComponent } from './totoro/totoro.component';
 import { MononokeComponent } from './mononoke/mononoke.component';
 import { PonyoComponent } from './ponyo/ponyo.component';
+import { MainComponent } from './main/main.component';
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TotoroComponent,
     MononokeComponent,
-    PonyoComponent
+    PonyoComponent,
+    MainComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule,

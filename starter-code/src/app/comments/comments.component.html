@@ -1,0 +1,26 @@
+<h2 class="title">Comments</h2>
+<section>
+  <ul>
+    <li *ngFor = "let comment of comments">
+      <p class="author-name"><strong>{{ comment.author }}</strong>
+        <span>{{ comment.date }}</span>
+        <span>{{ comment.hour }}</span>
+      </p>
+      <p>{{ comment.text }}</p>
+    </li>
+  </ul>
+</section>
+<section class="add-comment" >
+  <h3>Add your comment</h3>
+  <form action="POST">
+    <div>
+      <label for="name">Name:</label><br>
+      <input type="text" name="name">
+    </div>
+    <div>
+      <label for="description">Description:</label><br>
+      <input type="text" name= "description">
+    </div>
+    <button>Comment</button>
+  </form>
+</section>
