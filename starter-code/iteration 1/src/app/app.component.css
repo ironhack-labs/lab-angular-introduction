@@ -1,0 +1,12 @@
+h1, h3 {
+  text-align: center
+}
+
+img {
+  height: 313px;
+  width: 470px;
+}
+
+.photo-container {
+  display: inline-block;
+}
