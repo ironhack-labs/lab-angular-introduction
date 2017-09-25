@@ -9,6 +9,7 @@ import { MononokeComponent } from './mononoke/mononoke.component';
 import { PonyoComponent } from './ponyo/ponyo.component';
 import { MainComponent } from './main/main.component';
 import { CommentsComponent } from './comments/comments.component';
+import { ChampionsComponent } from './champions/champions.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CommentsComponent } from './comments/comments.component';
     MononokeComponent,
     PonyoComponent,
     MainComponent,
-    CommentsComponent
+    CommentsComponent,
+    ChampionsComponent
   ],
   imports: [
     BrowserModule,

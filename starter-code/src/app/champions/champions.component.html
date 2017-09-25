@@ -1,0 +1,10 @@
+<section *ngFor="let element of championship">
+
+  <h3><strong>{{ element.year }}</strong></h3>
+  <h3><strong>{{ element.champion }}</strong></h3>
+  <img src="{{element.champion_url}}">
+
+  <ul *ngFor="let player of element.best_players">
+    {{ player }}
+  </ul>
+</section>
