@@ -1,0 +1,11 @@
+.img{
+  width:33%;
+  display: inline-block;
+  height:200px;
+  float: left;
+}
+
+img{
+  height: 180px;
+  width:75%;
+}
