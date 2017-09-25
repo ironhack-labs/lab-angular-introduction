@@ -1,3 +1,18 @@
-<p>
-  comments works!
-</p>
+<p class="comments">Comments</p>
+<ul>
+  <li class="comment-ind" *ngFor="let comment of comments">
+    <p class="comment-name"> {{comment.name}} </p>
+    <p class="comment-comment"> {{comment.comment}} </p>
+</ul>
+
+<div class="comment-box">
+  <p>Add your comment</p>
+  Name: <br />
+  <input type="text" width=500>
+  <br />
+  Description: <br />
+  <textarea rows="4" cols="50">
+  </textarea>
+  <br />
+  <button>Comment</button>
+</div>
