@@ -1,0 +1,15 @@
+img, figure {
+  max-width: 300px;
+  padding: 0 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+div {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+h1 {
+  text-align: center;
+}
