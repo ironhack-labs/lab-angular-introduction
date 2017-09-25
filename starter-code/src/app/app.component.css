@@ -1,3 +1,23 @@
 .miyazaki {
   display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.totoro {
+  width: 25%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.mononoke {
+  width: 25%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ponyo {
+  width: 25%;
+  display: inline-block;
+  vertical-align: middle;
 }

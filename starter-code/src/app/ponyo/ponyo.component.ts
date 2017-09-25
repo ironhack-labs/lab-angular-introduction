@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PonyoComponent implements OnInit {
   image = "https://gurlgonegeek.files.wordpress.com/2011/03/ponyo-7402901.jpg";
-  description = "Ponyo having funny moments under the rain"
+  description = "Ponyo runing under the rain"
 
   constructor() { }
 
