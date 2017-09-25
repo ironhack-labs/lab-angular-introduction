@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  photos: Array<Object> = [
+    {
+      description: 'Ironhack Paris',
+      pick: '/assets/ironhack-paris.jpg'
+    },
+    {
+      description: 'Ironhack Barcelona',
+      pick: '/assets/ironhack-barcelona.jpg'
+    },
+    {
+      description: 'Ironhack Miami',
+      pick: '/assets/ironhack-miami.jpg'
+    }
+  ]
 }
