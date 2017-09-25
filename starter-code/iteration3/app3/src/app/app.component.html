@@ -1,0 +1,17 @@
+<div class="teams">
+<ul>
+  <li *ngFor="let oneTeam of teamList" class="main-list">
+    <h2> {{oneTeam.year}} </h2>
+    <h3> {{oneTeam.name}}</h3>
+    <img src="{{ oneTeam.champion_url }}" alt="">
+
+    <div class="bullets">
+      <ul>
+        <li *ngFor="let onePlay of oneTeam.best_players" class="second-list">
+          {{onePlay}}
+        </li>
+      </ul>
+    </div>
+  </li>
+</ul>
+</div>

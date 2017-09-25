@@ -1,0 +1,14 @@
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 30px;
+}
+
+h2, li {
+  font-family: helvetica;
+  text-align: center;
+}
+
+img {
+  height: 200px;
+}
