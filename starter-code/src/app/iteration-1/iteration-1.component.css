@@ -1,0 +1,17 @@
+.img-cont {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  margin: 5px;
+}
+
+.img {
+  width: 400px;
+  max-height: 400px;
+}
+
+.img-label {
+  width: 50%;
+  margin-left: 150px;
+  display: inline-block;
+}
