@@ -1,0 +1,18 @@
+<div class="enmedio">
+<h2>Pregunta lo que quieras</h2>
+<form>
+  <label for="name">Nombre</label>
+  <input type="text"  [(ngModel)]="b" name="b"><br>
+  <label for="question">Pregunta!</label>
+  <input type="text" [(ngModel)]="c" name="c"><br>
+  <button (click)=(a(b,c))>pregunta!</button>
+</form>
+
+<h2> Comentarios a Mr Ardilla</h2>
+<p>.........................</p>
+<div *ngFor="let co of comentario">
+  <h4>{{co.name}}</h4>
+  <p>{{co.question}}</p>
+</div>
+
+</div>
