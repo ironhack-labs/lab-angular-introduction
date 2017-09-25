@@ -1,3 +1,4 @@
-<p>
-  photo works!
-</p>
+<div class='container' *ngFor='let photo of photos'>
+  <img class="image" src="{{photo.imgSrc}}" alt="{{photo.imgTxt}}">
+  <p class='img-text'>{{photo.imgTxt}}</p>
+</div>
