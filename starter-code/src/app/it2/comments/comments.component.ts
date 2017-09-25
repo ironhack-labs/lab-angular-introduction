@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./comments.component.css']
 })
 export class CommentsComponent implements OnInit {
-Comments: Array<object>= [
+Comments: Array<Object>= [
 {name:  'Pablo',
 date: '25/12/2015',
 comment: 'A mi me gusta mucho'},
@@ -23,5 +23,10 @@ comment: 'Pues a mi no '}
 
   ngOnInit() {
   }
+  getComents(name: String, comment: String ) {
 
+    this.Comments.push({name, comment} );
+  }
+  
+  
 }

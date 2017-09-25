@@ -4,3 +4,9 @@
         <p> {{ Coment.comment }} </p>
     </li>
 </ul>
+
+<form action=""class="comment-form">
+name:  <input id="namea"[(ngModel)]="namea" name="namea"><br>
+comment:  <textarea id="commenta"[(ngModel)]="commenta" name="comenta"> </textarea>
+<button (click)=(getComents(namea,commenta))>Submit</button>
+</form>
