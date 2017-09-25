@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 
+// Tell Angular what to do with this class.
 @Component({
   selector: "app-album",
   templateUrl: "./album.component.html",

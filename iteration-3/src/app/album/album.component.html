@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+    <div *ngFor="let item of albums" class="col col-lg-4">
+      <div>
+        <img width="250px" height="160px" src="{{ item.img }}" alt="{{ item.text }}">
+      </div>
+      <div>{{ item.text }}</div>
+    </div>
+  </div>
+</div>
