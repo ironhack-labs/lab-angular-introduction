@@ -1,0 +1,12 @@
+.outer-li{
+  display: inline-block;
+  margin: 50px;
+}
+
+li{
+  list-style: none;
+}
+
+*{
+  text-align: center;
+}
