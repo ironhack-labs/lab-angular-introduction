@@ -1,0 +1,22 @@
+.container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+  text-align: center;
+}
+.championships{
+  list-style: none;
+  text-align: center;
+  width: 29%;
+  float: left;
+}
+.championships img{
+  width: 100%;
+  margin: 0 auto;
+}
+ul>ul{
+  text-align: left;
+}
+.best-players{
+  margin: 20px 0;
+}

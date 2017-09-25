@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>{{title}}</h1>
+  <ul *ngFor="let e of championship" class="championships">
+    <li ><h3>{{e.year}}</h3></li>
+    <li ><h3>{{e.champion}}</h3></li>
+    <li><img src="{{e.champion_url}}" alt=""></li>
+    <li class="best-players"><b>Best players</b></li>
+    <ul *ngFor="let i of e.best_players">
+      <li>{{i}}</li>
+    </ul>
+  </ul>
+</div>
