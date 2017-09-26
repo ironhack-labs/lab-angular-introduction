@@ -1,0 +1,15 @@
+
+<div>
+  <ul class="teams">
+    <li class="team" *ngFor='let team of champions'>
+      <h3>{{team.team}}</h3>
+      <h4>{{team.year}}</h4>
+      <h4>Best players</h4>
+      <ul>
+        <li *ngFor='let players of team.bestPlayers'>
+          {{players}}
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
