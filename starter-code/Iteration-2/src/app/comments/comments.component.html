@@ -1,0 +1,18 @@
+<p class="comments">Comments</p>
+<ul>
+  <li class="comment-ind" *ngFor="let comment of comments">
+    <p class="comment-name"> {{comment.name}} </p>
+    <p class="comment-comment"> {{comment.comment}} </p>
+</ul>
+
+<div class="comment-box">
+  <p>Add your comment</p>
+  Name: <br />
+  <input type="text" name="name-input" id="name-box"[(ngModel)]="newCommentName">
+  <br />
+  Description: <br />
+  <textarea rows="4" cols="57" name="comment-input" [(ngModel)]="newCommentDesc">
+  </textarea>
+  <br />
+  <button (click)="addComment()">Comment</button>
+</div>

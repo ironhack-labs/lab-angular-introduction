@@ -1,0 +1,6 @@
+<h1>{{title}}</h1>
+<div>
+  <figure *ngFor="let picture of pictures">
+    <img src="{{picture.src}}" alt="">
+    <figcaption> {{picture.caption}} </figcaption>
+  </figure>
