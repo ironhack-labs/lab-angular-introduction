@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./comentarios.component.css']
 })
 export class ComentariosComponent implements OnInit {
+  title = "Comments";
+  titulo = " Add you comment"
+
+
 
   constructor() { }
 

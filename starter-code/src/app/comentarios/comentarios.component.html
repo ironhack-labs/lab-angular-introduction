@@ -1,3 +1,16 @@
-<p>
-  comentarios works!
-</p>
+<h1>{{title}}</h1>
+<div ng-controller="form-coment">
+  <form class="" action="index.html" method="post">
+    <h2>{{titulo}}</h2>
+    <label for="">name</label><br>
+    <input type="text" ng-model="comentario.name" value="">
+    <br><br>
+    <label for="">description</label><br>
+    <textarea ng-model="comentario.description" rows="8" cols="80"></textarea>
+    <br><br>
+    <button ngclick="comentario(comentario)">ADD</button>
+  </form>
+  <p>{{name}}</p>
+</div>
+
+<app-nba></app-nba>

@@ -6,7 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
 
   src = "http://mobileworldcapital.com/system/contents/images/article_595_contents_6763_capital_big.jpg";
   description = "IRONHACK"
