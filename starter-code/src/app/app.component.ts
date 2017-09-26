@@ -7,7 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
-  width = 20;
 
   src = "http://mobileworldcapital.com/system/contents/images/article_595_contents_6763_capital_big.jpg";
   description = "IRONHACK"
