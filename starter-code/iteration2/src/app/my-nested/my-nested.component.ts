@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./my-nested.component.css']
 })
 export class MyNestedComponent implements OnInit {
-  title = "Comments"
-  constructor() { }
+  title = "Comments";
+  constructor() {  }
 
   ngOnInit() {
   }
-
+  name = "Bobby Green";
 }
