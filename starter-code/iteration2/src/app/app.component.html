@@ -1,0 +1,24 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+</div>
+
+<div>
+  <ul>
+    <li *ngFor="let oneArticle of article">
+    <h3> {{ oneArticle.title }} </h3>
+    <img src="{{ oneArticle.image }}">
+    <p> {{ oneArticle.description }}</p>
+    </li>
+
+
+
+    <!-- <li *ngFor="let oneComment of oneArticle.comments">
+      <h4> {{ oneComment.name}} </h4>
+      <p> {{ oneComment.Date}}</p>
+      <p> {{ oneComment.comment}} </p>
+    </li> -->
+  </ul>
+</div>
