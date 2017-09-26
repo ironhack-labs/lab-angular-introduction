@@ -5,11 +5,15 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { PhotoComponent } from './photo/photo.component';
+import { BlogArticleComponent } from './blog-article/blog-article.component';
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PhotoComponent
+    PhotoComponent,
+    BlogArticleComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule,
