@@ -1,0 +1,15 @@
+<div class="comments-wrapper">
+  <ul>
+    <li *ngFor="let championship of championships">
+      <h3 class="comment">{{championship.year}}</h3>
+      <p class="comment">{{championship.champion}}</p>
+      <img src="{{championship.champion_url}}" >
+      <ul>
+        <li *ngFor="let player of championship.best_players">
+        <p>{{player}}</p>
+        </li>
+
+      </ul>
+    </li>
+  </ul>
+</div>
