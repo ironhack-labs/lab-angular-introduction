@@ -1,16 +1,6 @@
 <h1>{{title}}</h1>
-
 <div>
-  <figure>
-    <img src="../../assets/pexels-photo.jpg" alt="">
-    <figcaption>Construction Worker 1</figcaption>
+  <figure *ngFor="let picture of pictures">
+    <img src="{{picture.src}}" alt="">
+    <figcaption> {{picture.caption}} </figcaption>
   </figure>
-  <figure>
-    <img src="../../assets/pexels-photo-585418.jpg" alt="">
-    <figcaption>Construction Worker 2</figcaption>
-  </figure>
-  <figure>
-    <img src="../../assets/pexels-photo-585419.jpg" alt="">
-    <figcaption>Construction Worker 3</figcaption>
-  </figure>
-</div>
