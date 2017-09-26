@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="floats" *ngFor="let element of championship">
+    <h2>{{element.year}}</h2>
+    <h2>{{element.champion}}</h2>
+    <img src="{{element.champion_url}}" alt="">
+    <h2>Best players</h2>
+    <ul>
+      <li *ngFor="let players of element.best_players">{{players}}</li>
+    </ul>
+  </div>
+
+</div>

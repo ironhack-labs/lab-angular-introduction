@@ -1,0 +1,13 @@
+.container{
+  width:100%;
+  text-align: center;
+}
+.floats{
+float: left;
+width: 33.33333%
+}
+
+img{
+  width: 100%
+
+}
