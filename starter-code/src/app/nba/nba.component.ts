@@ -13,7 +13,7 @@ export class NbaComponent implements OnInit {
 
   title2 = "Golden State Warriors"
   year2 = "2014-2018"
-  src2 = "http://www.elpoderdelasideas.com/wp-content/uploads/nuevo-antes-despues-logo-cleveland-cavaliers2.png";
+  src2 = "https://seeklogo.com/images/G/golden-state-warriors-logo-C4106147E7-seeklogo.com.png";
   description2 = "Best player"
 
 
