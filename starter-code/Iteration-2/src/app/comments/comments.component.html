@@ -8,10 +8,10 @@
 <div class="comment-box">
   <p>Add your comment</p>
   Name: <br />
-  <input type="text" name="name-input" [(ngModel)]="newCommentName">
+  <input type="text" name="name-input" id="name-box"[(ngModel)]="newCommentName">
   <br />
   Description: <br />
-  <textarea rows="4" cols="50" name="comment-input" [(ngModel)]="newCommentDesc">
+  <textarea rows="4" cols="57" name="comment-input" [(ngModel)]="newCommentDesc">
   </textarea>
   <br />
   <button (click)="addComment()">Comment</button>

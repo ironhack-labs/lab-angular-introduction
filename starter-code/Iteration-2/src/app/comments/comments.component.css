@@ -13,16 +13,20 @@
   background-color: #ececec;
   max-width: 500px;
   border: .5px solid #c1bfbf;
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 5px 20px;
   margin-bottom: 50px;
+}
+
+#name-box {
+  width: 480px;
 }
 
 input {
   margin-bottom: 20px;
 }
 
-p {
+.comment-name {
   font-weight: bold;
 }
 
