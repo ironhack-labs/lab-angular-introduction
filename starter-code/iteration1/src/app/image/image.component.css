@@ -1,0 +1,11 @@
+.all{
+  margin: 0 auto;
+}
+.image{
+  float: left;
+  margin: 0 10;
+}
+.photo{
+  width: 250px;
+  margin: 25px;
+}
