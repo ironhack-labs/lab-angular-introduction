@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { PhotoComponent } from './photo/photo.component';
 import { BlogArticleComponent } from './blog-article/blog-article.component';
 import { CommentsComponent } from './comments/comments.component';
+import { CommentFormComponent } from './comment-form/comment-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PhotoComponent,
     BlogArticleComponent,
-    CommentsComponent
+    CommentsComponent,
+    CommentFormComponent
   ],
   imports: [
     BrowserModule,
