@@ -1,0 +1,19 @@
+ul{
+  list-style: none;
+}
+
+li{
+  margin: 0 30%;
+  display: table;
+}
+
+p{
+  text-align: center;
+  font-size: 2rem;
+}
+
+img{
+  width: 500px;
+  border: thin solid black;
+  margin-top: 10%;
+};
