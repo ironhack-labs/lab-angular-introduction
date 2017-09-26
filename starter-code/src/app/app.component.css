@@ -1,0 +1,29 @@
+body {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.title {
+  display:flex;
+  justify-content: center;
+
+}
+.box-img{
+  display:flex;
+  justify-content: space-between;
+}
+
+img {
+  max-width: 400px;
+  max-height: 400px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  justify-content: center;
+}
