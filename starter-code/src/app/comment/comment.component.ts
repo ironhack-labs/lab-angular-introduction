@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CommentComponent implements OnInit {
     commetTitle:string= "Comment: ";
-    comments=[{name:"Pedro", comment:"Que rico"}];
+    comments=[{name:String, comment:String}];
   constructor() {
 
    }
@@ -16,8 +16,10 @@ export class CommentComponent implements OnInit {
   ngOnInit() {
   }
 
-  getvalues(name: String, comment: String){
-    this.comments.push({ name, comment });
+  getvalues(myForm){
+    console.log("a")
+    this.comments.push({ name: myForm.name, comment: myForm.comment });
   }
+
 
 }

@@ -1,7 +1,7 @@
 <div>
   <h2>{{commetTitle}}</h2>
 </div>
-<form>
+<form (ngSubmit)="getvalues(myForm)" #myForm="ngForm">
   <label for="name">Name</label>
   <input [(ngModel)]="name" type="text" name="name" placeholder="Your name">
   <label for="comment">Comment</label>
@@ -10,6 +10,6 @@
 </form>
 
 <div *ngFor="let comment of comments">
-      <p>{{comment.name}}</p>
-      <p>{{comment.comment}}</p>
+      <p>{{myForm.name}}</p>
+      <p>{{myForm.comment}}</p>
   </div>
