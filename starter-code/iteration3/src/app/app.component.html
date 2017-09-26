@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1> {{title}}!</h1>
+</div>
+
+<div *ngFor="let oneTeam of champions">
+  <h3>{{oneTeam.year}}</h3>
+  <img src="{{oneTeam.url}}">
+  <h6> Best Players</h6>
+<ul *ngFor="let players of oneTeam.best_players">
+  <li>
+    {{players}}
+  </li>
+</ul>
+
+</div>
