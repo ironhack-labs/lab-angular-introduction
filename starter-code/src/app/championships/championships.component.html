@@ -5,7 +5,7 @@
     <img src="{{element.champion_url}}" alt=""><br>
   </div>
   <br><h3>Best Players:</h3>
-  <ul *ngFor="let player of element.best_players">
-    <li>{{player}}</li>
+  <ul>
+    <li *ngFor="let player of element.best_players">{{player}}</li>
   </ul>
 </div>
