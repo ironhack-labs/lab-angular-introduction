@@ -1,3 +1,4 @@
-<p>
-  comments works!
-</p>
+<div class='comment-container'  *ngFor='let comment of comments'>
+  <p><b>{{comment.author}}</b> {{comment.date}}</p>
+  <p>{{comment.text}}</p>
+</div>
