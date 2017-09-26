@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Stockholm!';
+  photos: Array<Object> = [
+  {url: "./assets/sthlm1.jpg", description: "subway"},
+  {url: "./assets/sthlm2.jpg", description: "water"},
+  {url: "./assets/sthlm3.jpg", description: "cold"}
+  ];
 }

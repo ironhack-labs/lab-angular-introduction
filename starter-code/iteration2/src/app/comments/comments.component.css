@@ -1,0 +1,28 @@
+.comments-wrapper {
+  margin: 0 auto;
+  border: 2px solid black;
+  margin-top: 5px;
+  width: 50%
+}
+
+.comment {
+  color: purple;
+
+}
+
+li {
+
+  background-color: #cfcfcf;
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+.add-comment {
+  margin: 0 auto;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%
+
+}

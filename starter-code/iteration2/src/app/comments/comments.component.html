@@ -1,0 +1,17 @@
+
+<div class="comments-wrapper">
+  <ul>
+    <li *ngFor="let comment of comments">
+      <h3 class="comment">{{comment.name}}</h3>
+      <p class="comment">{{comment.description}}</p>
+    </li>
+  </ul>
+</div>
+
+<div class="add-comment">
+  <h2>Add you comment below</h2>
+  <input type="text" name="new-comment-description" [(ngModel)]="newCommentName" placeholder="NAME">
+  <input type="text" name="new-comment-description" [(ngModel)]="newCommentDescription" placeholder="COMMENT">
+  <button (click)="addComment()">Add a comment</button>
+
+</div>
