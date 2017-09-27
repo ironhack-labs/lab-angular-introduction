@@ -1,0 +1,32 @@
+
+<!-- <ul>
+  <li *ngFor="let oneAd of adsList">
+
+    <h3> {{oneAd.title}}</h3>
+    <a [href]="oneAd.link" target="_blank">
+    Learn More
+  </a>
+  </li>
+</ul> -->
+<div class="champList">
+  <ul>
+    <li *ngFor="let oneTeam of champList">
+
+      <h3> {{oneTeam.year}}</h3>
+
+      <h3> {{oneTeam.team}}</h3>
+
+      <img src="{{oneTeam.link}}" alt="">
+      <ul>
+        <li *ngFor="let champPlayers of oneTeam.players">
+          <h4> {{ champPlayers }}</h4>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+</div>
+
+
+    <!-- <li *ngFor= "let playersChamp of oneTeam.players">
+      <h4> {{playersChamp}} </h4> -->
