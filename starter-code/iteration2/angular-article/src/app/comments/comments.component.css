@@ -1,0 +1,14 @@
+h2{
+  background-color: lightgrey;
+  border-radius: 10px;
+  margin: 15% 0;
+  padding: 10px;
+}
+
+.comment-box {
+  background-color: lightgrey;
+  width: 30%;
+  border-radius: 10px;
+  margin: 0 35%;
+  padding: 15px;
+}
