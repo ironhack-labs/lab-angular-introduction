@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-  picture = ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPZvhDSoP1B-Ox9jirsRGWoek5-83E57_CnSdQnV64VZDgoyHw"]
+   familyPictures: Array<string> = ['https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPZvhDSoP1B-Ox9jirsRGWoek5-83E57_CnSdQnV64VZDgoyHw',
+ ,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0zJHGFfvm1zg4Rek_MWgK1YqOU7xu0RZEahIJn6Nlnzo5wHsirQ",
+,"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFSlykLh6DX_KLySvvOrv8grQ1vRclpliKr1pzZQvPqOmnSuVIHg"];
 }
