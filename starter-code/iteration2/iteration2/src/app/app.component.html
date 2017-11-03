@@ -8,6 +8,8 @@
 <h2>Here are some links to help you start: </h2>
 
 <ul>
-  <li *ngFor="let pictures of familyPictures">
-      <img src="{{ pictures }}" > 
+    <li *ngFor="let familyPicture of familyPictures">
+        <span> <img src="{{ familyPicture.pictures }}" ></span>
+        <small> {{ familyPicture.description }} </small>
+    </li>
 </ul>
