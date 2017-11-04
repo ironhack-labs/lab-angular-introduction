@@ -1,0 +1,18 @@
+<div class="comment" *ngFor="let comment of comments">
+  <h3 class="title">{{ comment.author }} <span class="date">{{ comment.date }}</span></h3>
+  <p>
+    {{ comment.description }}
+  </p>
+</div>
+
+<div class="comment-form">
+  <h4>Add your comment</h4>
+
+  <label for="name">Name:</label><br>
+  <input type="text" name="name" class="txt">
+  <br><br>
+  <label for="description">Description:</label><br>
+  <textarea name="description" class="txt"></textarea>
+  <br><br>
+  <button class="btn">Comment</button>
+</div>

@@ -1,0 +1,41 @@
+.comment {
+  margin: 0 5% 40px 5%;
+  width: 90%;
+}
+
+.title .date {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.comment-form {
+  background: #eee;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin: 40px 25%;
+  padding: 1px 20px 25px;
+  width: 50%;
+}
+
+.comment-form .txt {
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 13px;
+  height: 30px;
+  margin-top: 5px;
+  padding: 5px;
+  width: 100%;
+}
+
+.comment-form textarea.txt {
+  height: 70px;
+}
+
+.comment-form .btn {
+  border: 1px solid #333;
+  background: #333;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 20px;
+}

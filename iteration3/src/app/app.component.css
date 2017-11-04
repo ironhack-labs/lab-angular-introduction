@@ -1,0 +1,33 @@
+#champions {
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  width: 900px;
+}
+
+.season {
+  float: left;
+  text-align: center;
+  width: 30%;
+}
+
+.season:nth-child(2) {
+  margin: 0 5%;
+}
+
+.season .year {
+  font-size: 30px;
+}
+
+.season .team-name {
+  font-size: 22px;
+}
+
+.season .team-img {
+  max-height: 250px;
+  max-width: 300px;
+}
+
+.players {
+  text-align: left;
+}
