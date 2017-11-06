@@ -1,0 +1,16 @@
+<hr><p class="header">Iteration 3</p><hr>
+
+<div class="container">
+  <div class="row">
+    <div class="banner" *ngFor="let champ of champs">
+      <div class="col-xs-4">
+      <h1>{{champ.year}}</h1>
+      <h2><strong>{{champ.team}}</strong></h2>
+      <p><img src="./assets/team/{{ champ.img }}" alt=""></p>
+      <div class="banner" *ngFor="let player of champ.players">
+        {{player}}
+      </div>
+    </div>
+  </div>
+
+</div>
