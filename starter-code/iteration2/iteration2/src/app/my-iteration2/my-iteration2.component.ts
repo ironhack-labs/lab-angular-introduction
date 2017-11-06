@@ -10,9 +10,9 @@ export class MyIteration2Component implements OnInit {
 
 smilyFace: string = "http://www.nesta.org.uk/sites/default/files/yellow_happy.jpg";
 comment: String = "";
-  // picture: string ="";
- onKey(value) {
-       console.log(`Input value: ${value}`);}
+
+ onKey(value) {}
+
   constructor() { }
 
   ngOnInit() {
