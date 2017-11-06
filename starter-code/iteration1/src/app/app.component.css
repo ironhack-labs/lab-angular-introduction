@@ -1,15 +1,12 @@
 
-
-
 .title {
    text-align: center;
-   color: Red;
 
 }
 
 .photoimage {
     width: 100%;
     height: auto;
-    border: 1px solid red;
+    border: 1px solid black;
 
 }

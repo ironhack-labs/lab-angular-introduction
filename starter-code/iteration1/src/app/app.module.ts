@@ -6,10 +6,16 @@ import { HttpModule } from '@angular/http';
 
 
 import { AppComponent } from './app.component';
+import { MyMainComponentComponent } from './my-main-component/my-main-component.component';
+import { MyCommentsComponentComponent } from './my-comments-component/my-comments-component.component';
+import { MyGameComponentComponent } from './my-game-component/my-game-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyMainComponentComponent,
+    MyCommentsComponentComponent,
+    MyGameComponentComponent
   ],
   imports: [
     BrowserModule,
