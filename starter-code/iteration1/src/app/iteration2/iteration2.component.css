@@ -1,0 +1,11 @@
+.header {
+  text-align: center;
+}
+
+.paragraph {
+  text-align: left;
+  justify-content: center;
+  margin: 35px 0;
+  font-size: 18px;
+
+}

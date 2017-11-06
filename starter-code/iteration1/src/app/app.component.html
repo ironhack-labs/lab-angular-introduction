@@ -1,3 +1,16 @@
 <h1>
   {{title}}
 </h1>
+
+  <!-- <p><img class="box" src="./assets/photos/{{photo[0].source}}" alt=""></p> -->
+<div class="container">
+  <div class="row">
+    <div *ngFor="let photo of photos" class="col-xs-4">
+    <img class="img-rounded" src="./assets/photos/{{ photo.source }}" alt="">
+      <p><span class="desc"> <i>{{ photo.description }}</i></span></p>
+    </div>
+  </div>
+  </div>
+<!-- </div> -->
+<app-iteration2></app-iteration2>
+<app-iteration2-comments></app-iteration2-comments>
