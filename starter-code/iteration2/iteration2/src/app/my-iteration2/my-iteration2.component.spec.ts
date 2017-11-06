@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MyNestedComponent } from './my-nested.component';
+import { MyIteration2Component } from './my-iteration2.component';
 
-describe('MyNestedComponent', () => {
-  let component: MyNestedComponent;
-  let fixture: ComponentFixture<MyNestedComponent>;
+describe('MyIteration2Component', () => {
+  let component: MyIteration2Component;
+  let fixture: ComponentFixture<MyIteration2Component>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MyNestedComponent ]
+      declarations: [ MyIteration2Component ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MyNestedComponent);
+    fixture = TestBed.createComponent(MyIteration2Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
