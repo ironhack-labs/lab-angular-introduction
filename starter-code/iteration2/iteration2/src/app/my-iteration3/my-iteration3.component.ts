@@ -27,9 +27,9 @@ export class MyIteration3Component implements OnInit {
 }];
 
   bestPplayers : Array<object> =[
-    {clavelandPlayer: ""},
-    {warriorPlayer:""},
-    {spursPlayer:""}
+    [{clavelandPlayer1: "Lorem Ipsum is simply dummy tex"}],
+    {warriorPlayer:"Lorem Ipsum is simply dummy tex2"},
+    {spursPlayer:"Lorem Ipsum is simply dummy tex3"}
 
 
 
