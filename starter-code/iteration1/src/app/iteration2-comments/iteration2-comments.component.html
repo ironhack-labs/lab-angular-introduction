@@ -2,3 +2,47 @@
 <div class="col-xs-12">
   <p class="header">Iteration 2 - comments</p>
 </div><hr>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 class="comments">Comments</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-1">
+    </div>
+    <div class="col-xs-8">
+        <div class="eachComment" *ngFor="let comment of comments">
+          <p> <span class="author"> {{ comment.author }} </span> <span class="date"> {{ comment.date }} </span> </p>
+          <div class="text">
+          {{ comment.comment_ }}
+          </div>
+        </div>
+    </div>
+    <div class="col-xs-1">
+    </div>
+
+  </div>
+
+  <div class="form-group" >
+    <div class="col-xs-3">
+
+    </div>
+    <form id="comment-box" class="col-xs-6 " action="" method="post">
+      <h4> Add your comment </h4>
+      <div>
+        <p> Name: </p>
+        <input class="col-xs-1"type="text" style="width: 100%;">
+      </div>
+      <div>
+        <p> Your comment: </p>
+        <textarea name="name" rows="8" cols="60"></textarea>
+      </div>
+      <button type="button" name="button"> Comment </button>
+    </form>
+    <div class="col-xs-3">
+
+    </div>
+  </div>
+</div>
