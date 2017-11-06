@@ -1,0 +1,13 @@
+<section>
+  <div id="champs" *ngFor="let champ of arrayofChampions">
+    <h1>{{ champ.year }}</h1>
+    <h3>{{ champ.team.name }}</h3>
+    <img [src]="champ.team.logo" />
+    <h3>Players</h3>
+    <ul>
+      <li *ngFor="let player of champ.team.players">
+        {{ player }}
+      </li>
+    </ul>
+  </div>
+</section>
