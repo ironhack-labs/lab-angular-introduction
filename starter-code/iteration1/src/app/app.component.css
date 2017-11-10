@@ -1,0 +1,13 @@
+img {
+  height: 200px;
+  width: auto;
+}
+.imageAlbum {
+    display: inline-block;
+}
+p {
+    text-align: center;
+}
+h1 {
+    padding-left: 7%;
+}

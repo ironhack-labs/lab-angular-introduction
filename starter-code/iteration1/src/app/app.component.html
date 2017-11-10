@@ -1,3 +1,8 @@
 <h1>
   {{title}}
 </h1>
+
+<div class="imageAlbum" *ngFor="let image of images">
+  <img src="./assets/images/{{ image.source }}" alt="">
+  <p><span> <i>{{ image.description }}</i></span></p>
+</div>
