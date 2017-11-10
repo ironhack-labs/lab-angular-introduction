@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'DBZ Photo Album';
+
+  images: Array<object> = [
+    {
+      source:'Goku.png',
+      description: "Goku"
+    },
+    {
+      source: 'Gohan.png',
+      description: "Gohan"
+    },
+    {
+      source: 'Vegeta.png',
+      description: "Vegeta"
+    }
+  ];
 }
