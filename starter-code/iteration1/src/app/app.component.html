@@ -1,3 +1,7 @@
 <h1>
   {{title}}
 </h1>
+    <div *ngFor="let city of photos">
+        <img src = '{{ city.image }}'>
+        <p>  {{ city.comment }} </p>
+    </div>
