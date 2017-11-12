@@ -1,0 +1,26 @@
+<div class="conteiner-fluid">
+  <div class="row">
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+</div>
+</div>
+<div class="row">
+<h2>iteratipn1 </h2>
+</div>
+<div class="row">
+<div class="col-md-3">
+<ul>
+    <li *ngFor="let familyPicture of familyPictures">
+        <span> <img src="{{ familyPicture.pictures }}" ></span>
+        <small> {{ familyPicture.description }} </small>
+    </li>
+</ul>
+</div>
+<div >
+  <app-my-iteration2></app-my-iteration2>
+  <app-my-iteration3></app-my-iteration3>
+</div>
+</div>
+</div>
