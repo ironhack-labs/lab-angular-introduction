@@ -1,3 +1,21 @@
 <h1>
   {{title}}
 </h1>
+<ul>
+    <li *ngFor="let photo of album">
+      <!-- this animals is the reference to array of object
+      which is declared in the my-nested.component.ts -->
+      <!-- anything starting *ng is directives
+      which mean in this case a for loop -->
+
+        <img height="150" width="150" [src]="photo.src">
+        {{ photo.description }}
+
+    </li>
+  </ul>
+<hr>
+<h1>Iteration 2</h1>
+  <app-iteration2></app-iteration2>
+<hr>
+<h1>Iteration 3</h1>
+<app-iteration3></app-iteration3>

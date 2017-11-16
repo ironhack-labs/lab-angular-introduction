@@ -1,0 +1,15 @@
+<h1>
+  {{title}}
+</h1>
+
+<img height="200"[src]="img">
+<p>{{description}}</p>
+<h3>{{commentsection}}</h3>
+<div>
+<ul class="reviews">
+  <li *ngFor="let reviewelement of review">
+    <h4>{{reviewelement.username}}</h4>
+    <em>{{reviewelement.date}}</em>
+    <p>{{reviewelement.text}}</p>
+</ul>
+</div>

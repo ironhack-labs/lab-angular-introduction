@@ -1,0 +1,13 @@
+<ul class="gamecharts">
+  <li *ngFor = "let championship of championships">
+    <h2>{{championship.year}}</h2>
+    <img width="70"[src]="championship.img">
+    <h3>{{championship.besttext}}</h3>
+    <ul>
+      <li *ngFor = "let player of championship.bestplayers">
+      {{player}}
+    </li>
+    </ul>
+
+  </li>
+</ul>
