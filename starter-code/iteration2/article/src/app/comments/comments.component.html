@@ -1,0 +1,17 @@
+<h2>
+  {{comments}}
+</h2>
+<div *ngFor="let article of article">
+  <h4>{{article.name}}</h4>
+  <p>{{article.date}}</p>
+  <p>{{article.comment}}</p>
+</div>
+<div class="form">
+  <h3>{{addcomment}}</h3>
+  <form>
+    <input type="text" name="" value=""><br><br>
+    <input type="text" name="" value=""><br><br>
+    <button type="button" name="button">Comment</button>
+  </form>
+
+</div>

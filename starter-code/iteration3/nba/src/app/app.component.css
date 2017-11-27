@@ -1,0 +1,20 @@
+h1{
+  text-align: center;
+}
+
+ul{
+list-style-type: none;
+margin: 0 auto;
+padding-left: 0;
+}
+
+img {
+  width: 80%;
+}
+
+.champions {
+  display: inline-block;
+  width: 30%;
+  height: auto;
+  text-align: center;
+}
