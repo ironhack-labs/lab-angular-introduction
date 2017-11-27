@@ -1,3 +1,8 @@
 <h1>
   {{title}}
 </h1>
+
+<div class="ordered" *ngFor="let img of content">
+  <img src={{img.url}} width="250"/>
+  <p>{{img.name}}</p>
+</div>
