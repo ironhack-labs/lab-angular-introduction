@@ -1,0 +1,11 @@
+<ul>
+  <li *ngFor = "let e of Championships">
+  <h3>{{e.year}}</h3>
+<h4>{{e.team}}</h4>
+<img src="{{e.img}}" alt="">
+<h5>Best Player:</h5>
+<ul>
+  <li *ngFor = "let player of e.bestPlayer">{{player}}</li>
+</ul>
+</li>
+</ul>
