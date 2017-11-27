@@ -1,0 +1,12 @@
+img {
+max-width: 300px;
+}
+
+ .container {
+   display: flex;
+ }
+
+div{
+  justify-content: space-around;
+
+}
