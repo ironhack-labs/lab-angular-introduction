@@ -1,0 +1,9 @@
+.album {
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  text-align: center;
+}
