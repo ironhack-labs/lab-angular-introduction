@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+  <ul>
+    <li *ngFor="let cats of imgAlbum">
+      <img src="{{cats.img}}" alt="{{cats.description}}" height="{{heightcat}}">
+      <h3>{{cats.description}}</h3>
+    </li>
+  </ul>

@@ -1,0 +1,15 @@
+h1{
+  text-align: center;
+}
+
+li{
+  float: left;
+  list-style: none;
+  text-align: center;
+  margin: 30px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+}
