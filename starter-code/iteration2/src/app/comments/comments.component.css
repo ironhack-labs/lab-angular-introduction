@@ -1,0 +1,16 @@
+.comments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20%;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 30%;
+  border: 1px solid black;
+  background-color: grey;
+}
