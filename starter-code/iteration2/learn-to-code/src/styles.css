@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+.main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main img{
+  width: 600px;
+  height: auto;
+
+}

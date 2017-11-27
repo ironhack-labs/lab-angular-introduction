@@ -1,0 +1,12 @@
+
+.trip{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.trip img{
+  width: 600px;
+  height: auto;
+
+}

@@ -1,0 +1,9 @@
+.photo{
+  display:inline-block;
+}
+
+.photo img{
+  width: 200px;
+  height: 180px;
+
+}
