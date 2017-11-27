@@ -1,0 +1,20 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+<ul id="ul">
+  <li>
+    <div class="inline-block"*ngFor = "let oneChampion of champions">
+      {{ oneChampion.year }}
+      {{ oneChampion.name }}
+      <img style="width:50%" src="{{ oneChampion.img }}" alt=""  >
+      <h5>Best Players</h5>
+      <ul class="players">
+        <li *ngFor = "let onePlayer of oneChampion.player">
+          <p>{{onePlayer}}</p>
+        </li>
+    </ul>
+    </div>
+  </li>
+</ul>
