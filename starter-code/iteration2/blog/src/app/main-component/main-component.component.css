@@ -1,0 +1,28 @@
+img {
+  max-width: 60%;
+  transition: 0.15s opacity linear;
+}
+
+img:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+p {
+  color: gray;
+  letter-spacing: 1px;
+  font-size: 10px;
+  max-width: 80%;
+  text-align: justify;
+  margin: 2em auto;
+}
+
+h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  text-align: right;
+  background-color: yellow;
+  width: 80%;
+  float: right;
+  letter-spacing: -4px;
+}
