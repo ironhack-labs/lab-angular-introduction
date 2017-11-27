@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <ul>
+    <li class="champions" *ngFor="let team of NBAChampions">
+      <p><b>{{ team.year }}</b></p>
+      <p><b>{{ team.champion }}</b></p>
+      <img src="{{ team.championUrl }}" width="200px" height="auto">
+      <p><b>Best players</b></p>
+      <ul>
+        <li *ngFor="let player of team.bestPlayers">
+          {{ player }}
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,18 @@
+div {
+  margin-top: 5%;
+}
+
+li {
+  width: 40%;
+  margin: 0 auto;
+  list-style: none;
+}
+
+form {
+  background-color: #787878;
+  width: 25%;
+  margin-top: 5%;
+  margin: 0 auto;
+  padding: 2% 0;
+  border-radius: 5%;
+}

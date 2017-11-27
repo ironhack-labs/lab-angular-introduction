@@ -1,17 +1,21 @@
-<h4>{{ title }}</h4>
-<h2>{{ autor }}</h2>
-<p>{{ date }}</p>
-<p>{{ content }}</p>
 <div>
+  <ul>
+    <li *ngFor="let comment of comments">
+      <h3>{{ comment.title }}</h3>
+      <h4>{{ comment.autor }}</h4>
+      <p>{{ comment.date }}</p>
+      <p>{{ comment.content }}</p>
+    </li>
+  </ul>
   <form>
-    <legend>
-      </label>
-      <label>Name</label><br>
-      <input type="text" name="name">
-      <br>
-      <label>Description</label><br>
-      <input type="text" name="description">
-      <br>
-      <button type="submit">Comment</button>
+    <legend>Comentario:</legend>
+    <br><br>
+    <label>Name</label>
+    <input type="text" name="name">
+    <br><br>
+    <label>Description</label>
+    <textarea type="text" name="description"></textarea>
+    <br><br>
+    <button type="submit">Comment</button>
   </form>
 </div>
