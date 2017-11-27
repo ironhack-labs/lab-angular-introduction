@@ -1,0 +1,13 @@
+.big-container {
+  text-align: center;
+  margin: 0 auto;
+}
+
+div {
+  padding: 40px;
+  display: inline-block;
+}
+
+img {
+  width: 200px;
+}

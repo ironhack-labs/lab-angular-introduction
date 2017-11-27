@@ -1,0 +1,26 @@
+
+
+.bar {
+  background-color: lightgrey;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.bar h2 {
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+section {
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.form {
+  background-color: lightgrey;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+}

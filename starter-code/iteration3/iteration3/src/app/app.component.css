@@ -1,0 +1,13 @@
+section {
+  text-align: center;
+  padding: 50px;
+}
+
+div {
+  display: inline-block;
+  padding: 50px;
+}
+
+img {
+  height: 200px;
+}
