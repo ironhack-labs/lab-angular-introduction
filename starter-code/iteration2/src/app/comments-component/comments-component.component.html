@@ -1,0 +1,21 @@
+
+<h2>{{comment}}</h2>
+<div *ngFor="let comments of comments">
+<h4>{{comments.name}}</h4>
+<p>{{comments.date}}</p>
+<p>{{comments.comment}}</p>
+</div>
+
+
+<div style="text-align:center">
+<div class="formulario">
+<h4>Add your comment</h4>
+<label for="">Name:</label>
+<input type="text">
+<br><br>
+<label for="">Description:</label>
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<br><br>
+<button>Comment</button>
+</div>
+</div>

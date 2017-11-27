@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+.iteration1{
+  text-align: center;
+}
+
+.item {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px;
+}
