@@ -4,10 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { Image1Component } from './image1/image1.component';
+import { Image2Component } from './image2/image2.component';
+import { Image3Component } from './image3/image3.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Image1Component,
+    Image2Component,
+    Image3Component
   ],
   imports: [
     BrowserModule,
