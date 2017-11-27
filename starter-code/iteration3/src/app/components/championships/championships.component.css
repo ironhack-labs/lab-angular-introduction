@@ -1,0 +1,19 @@
+
+.championships {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.year {
+  max-width: 30%;
+}
+
+.year img {
+  max-height: 200px;
+}
+
+.year li {
+  list-style:none;
+}

@@ -1,0 +1,14 @@
+<p>
+  championships works!
+</p>
+
+<div class="championships">
+<div *ngFor="let champion of championships" class="year">
+  <p>{{ champion.year }}</p> 
+  <h1>{{ champion.champion }}</h1> 
+  <img src="{{champion.url}}" alt="">
+  <ul *ngFor="let mvp of champion.mvps">
+    <li>{{mvp}}</li>
+  </ul>
+</div>
+</div>

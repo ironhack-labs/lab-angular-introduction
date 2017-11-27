@@ -1,0 +1,21 @@
+.album {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+}
+
+.album img {
+  max-width: 90%;
+}
+
+.album p {
+  max-width: 90%;
+  font-size: 12px;
+}
+
+.img-container {
+  text-align: center;
+}
