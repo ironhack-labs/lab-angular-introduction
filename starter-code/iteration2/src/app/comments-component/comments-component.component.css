@@ -1,0 +1,21 @@
+.comments{
+  border-radius: 10px;
+  background-color: #e0dede;
+  width: 700px;
+}
+.posts{
+  margin-left: 50px;
+}
+.formulario{
+  width: 700px;
+}
+.cuadrado{
+  background-color: #e0dede;
+  width:300px;
+  height: 150px;
+  margin-left: 150px;
+}
+.content{
+  margin-left: 30px;
+  margin-top: 20px;
+}

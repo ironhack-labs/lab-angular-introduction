@@ -1,0 +1,18 @@
+<ul>
+  <li *ngFor="let e of championship" class="float">
+    <h2>{{e.date}}</h2>
+    <h3>{{e.name}}</h3>
+    <img src="{{e.img}}" width="200" height="200"/>
+    <h4>{{e.title}}</h4>
+  </li>
+</ul>
+<div style="clear:both;"></div>
+<ul>
+  <li *ngFor="let o of bestPlayers" class="float1">
+    <p>{{o.player1}}</p>
+    <p>{{o.player2}}</p>
+    <p>{{o.player3}}</p>
+    <p>{{o.player4}}</p>
+    <p>{{o.player5}}</p>
+  </li>
+</ul>
