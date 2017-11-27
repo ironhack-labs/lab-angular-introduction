@@ -1,0 +1,51 @@
+h2{
+  width: 48%;
+  margin-left: 260px;
+  font-size: 18px;
+  background-color: #ced4dd;
+  padding: 10px;
+  border: 1px solid #ced4dd;
+  border-radius: 50px;
+}
+
+h3{
+  width: 48%;
+  font-size: 14px;
+  padding-top:5px
+}
+
+.center-comments{
+  width: 48%;
+  margin-left: 270px;
+  font-size: 12px;
+  line-height: 8px;
+}
+
+.center-form{
+  background-color:#ced4dd;
+  width: 30%;
+  height: 180px;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 15px;
+  padding:10px;
+  padding-top:5px;
+}
+
+h4{
+  width: 48%;
+  font-size: 14px;
+}
+
+input{
+  width: 100%;
+}
+
+button{
+  background-color: black;
+  color:white;
+  padding:6px;
+  margin-top: 15px;
+  font-size:10px;
+  border: none;
+}
