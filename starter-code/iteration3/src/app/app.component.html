@@ -1,0 +1,17 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1> {{ title }} </h1>
+</div>
+<ul *ngFor ="let e of NBAchampions">
+  <li>
+    <h2>{{e.year}}</h2>
+  </li>
+  <li><h3>{{e.name}}</h3></li>
+  <li><img src="{{e.url}}" alt=""></li>
+  <li><h3>Best Player</h3></li>
+    <li>
+      <ul *ngFor= "let a of e.bestPlayer">
+        <li>{{a}}</li>
+      </ul>
+    </li>
+</ul>
