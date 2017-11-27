@@ -1,0 +1,12 @@
+.team {
+    display: inline-block;
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+.imagesize{
+  width: 200px;
+}
