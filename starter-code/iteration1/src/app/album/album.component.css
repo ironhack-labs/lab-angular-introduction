@@ -1,0 +1,10 @@
+ul{
+  list-style: none;
+}
+li{
+  display: inline-block;
+  margin-left: 10%;
+}
+li img{
+  width: 200px;
+}

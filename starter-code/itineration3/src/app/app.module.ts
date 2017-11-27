@@ -1,20 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+
 
 import { AppComponent } from './app.component';
-import { AlbumComponent } from './album/album.component';
+import { NbaChampionsComponent } from './nba-champions/nba-champions.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlbumComponent
+    NbaChampionsComponent
   ],
   imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

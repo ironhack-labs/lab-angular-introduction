@@ -1,20 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+
 
 import { AppComponent } from './app.component';
-import { AlbumComponent } from './album/album.component';
+import { MainComponentComponent } from './main-component/main-component.component';
+import { CommentsComponent } from './comments/comments.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlbumComponent
+    MainComponentComponent,
+    CommentsComponent
   ],
   imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
