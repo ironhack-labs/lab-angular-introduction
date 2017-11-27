@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow|Monoton');
+
+p{
+  font-family: 'Barlow', sans-serif;
+}
+h1{
+  font-family: 'Monoton', cursive;
+
+}
+
+div{
+text-align: center;
+}
