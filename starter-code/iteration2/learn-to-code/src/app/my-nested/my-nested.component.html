@@ -1,13 +1,10 @@
 <h3>Comments</h3>
 
-<h5>Bobby</h5>
-<p>This is my first comment</p>
-<h5>Jane</h5>
-<p>This is my second comment</p>
-<br>
-<br>
-<div class="main">
-  <p>Add your comment</p>
+`<ul>
+  <li *ngFor="let comment of comments">
+      {{ comment }}
+  </li>
+</ul>`
 
 <form action="/action_page.php" class="comments">
   Name:<br>
@@ -18,5 +15,3 @@
   <br><br>
   <input type="submit" value="Submit">
 </form>
-
-</div>

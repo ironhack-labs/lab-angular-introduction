@@ -5,7 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './my-nested.component.html',
   styleUrls: ['./my-nested.component.css']
 })
+
 export class MyNestedComponent implements OnInit {
+  comments: Array<string> = ['Dog', 'Duck', 'Elephant', 'Zebra'];
 
   constructor() { }
 
