@@ -4,12 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { PhotoComponent } from './photo/photo.component';
+import { MainComponentComponent } from './main-component/main-component.component';
+import { CommentsComponent } from './comments/comments.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PhotoComponent
+    MainComponentComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule,

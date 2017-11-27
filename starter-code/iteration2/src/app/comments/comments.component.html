@@ -1,0 +1,18 @@
+<h2>Comments</h2>
+<ul>
+  <li *ngFor="let e of comments">
+    <h3>{{e.name}} <span>{{e.date}}</span></h3>
+    <p>{{e.description}}</p>
+  </li>
+</ul>
+<h3>Add your comment</h3>
+<form action="">
+  <div class="form-group">
+    <label for="">Name: </label>
+    <input type="text">
+  </div>
+  <div class="form-group">
+    <label for="">Description</label>
+    <textarea name="name" rows="8" cols="80"></textarea>
+  </div>
+</form>
