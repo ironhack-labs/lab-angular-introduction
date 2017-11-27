@@ -6,5 +6,23 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Gallery';
+  images: Array<Object>;
+
+  constructor() {
+    this.images = [
+      {
+        title: 'Sandwich Pusheen',
+        url: '/assets/fancy.gif'
+      },
+      {
+        title: 'Tired Pusheen',
+        url: '/assets/giphy.gif'
+      },
+      {
+        title: 'Creative Pusheen',
+        url: '/assets/push.gif'
+      },
+    ]
+  }
 }

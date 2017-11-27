@@ -1,3 +1,10 @@
 <h1>
   {{title}}
 </h1>
+
+<div class="gallery">
+  <div class="gallery-item" *ngFor="let image of images">
+    <img src="{{image.url}}">
+    <p>{{image.title}}</p>
+  </div>
+</div>
