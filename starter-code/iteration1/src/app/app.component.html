@@ -1,3 +1,7 @@
 <h1>
   {{title}}
 </h1>
+<div *ngFor= "let element of info">
+  <img src="{{element.img}}" alt="">
+  <p> {{element.description}}</p>
+</div>

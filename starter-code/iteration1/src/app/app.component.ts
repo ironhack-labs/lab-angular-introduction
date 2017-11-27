@@ -7,4 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  info:Array<any> = [
+    {
+      img:"http://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg",
+      description: "ironhack Madrid"
+    },
+    {
+      img:"http://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg",
+      description: "ironhack Madrid"
+    },
+    {
+      img:"http://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg",
+      description: "ironhack Madrid"
+    }
+  ]
 }
