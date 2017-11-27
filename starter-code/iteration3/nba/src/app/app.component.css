@@ -1,0 +1,35 @@
+h3 {
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+span {
+  font-family: sans-serif;
+}
+
+img {
+  width: 100px;
+}
+
+.year {
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.name {
+  display: block;
+  margin: 1em 0;
+}
+
+.player {
+  display: inline-block;
+  width: 100px;
+  float: left;
+  margin-right: 2em;
+}
+
+.col {
+  display: inline-block;
+  padding: 2em;
+  text-align: center;
+}
