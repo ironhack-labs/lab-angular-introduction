@@ -1,3 +1,9 @@
 <h1>
   {{title}}
+  <ul>
+  <li *ngFor="let image of images">
+      <img src="{{ image['imgUrl'] }}" width="{{ maxWidth }}">
+      <p>{{ image['description'] }}</p>
+  </li>
+</ul>
 </h1>
