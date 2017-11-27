@@ -1,0 +1,19 @@
+.champions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.year {
+  max-width: 30%;
+  text-align: center;
+}
+
+.year img {
+  max-height: 131px;
+  object-fit: contain;
+}
+
+.year li {
+  list-style: none;
+}
