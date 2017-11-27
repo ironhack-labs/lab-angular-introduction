@@ -1,0 +1,10 @@
+img {
+  width: 300px;
+  max-height: auto;
+  border: 2px solid #484848;
+}
+
+li {
+  display: inline-block;
+  width: 30%;
+}
