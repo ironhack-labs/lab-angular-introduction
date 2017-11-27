@@ -1,0 +1,11 @@
+<div class="champdiv">
+  <div class="champions" *ngFor="let champ of champions">
+    <h2>{{champ.year}}</h2>
+    <h3>{{champ.team}}</h3>
+    <img src={{champ.url}} width="200">
+    <h3>Best Players</h3>
+    <ul *ngFor="let mvp of champ.bestPlayers">
+      <li>{{mvp}}</li>
+    </ul>
+  </div>
+</div>
