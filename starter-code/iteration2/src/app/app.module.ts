@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CommentComponentComponent } from './comment-component/comment-component.component';
+import { MainComponent } from './main/main.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CommentComponentComponent
+    CommentComponentComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule
