@@ -1,0 +1,14 @@
+<ul>
+<div style="display:flex; jusfity-content:center;">
+  <li *ngFor="let e of dashboard">
+    <p>{{e.year}}</p><br>
+    <p>{{e.champion}}</p><br>
+    <img src="{{ e.champUrl}}">
+    <ul>
+      <li *ngFor="let ee of e.bestPayer">
+        {{ ee }}
+      </li>
+    </ul>
+   </li>
+ </div>
+</ul>

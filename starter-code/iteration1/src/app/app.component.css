@@ -1,0 +1,14 @@
+.container{
+  text-align: center;
+}
+.item {
+  width: 300px;
+  padding-right: 100px;
+  display: inline-block;
+}
+
+.item img {
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+}
