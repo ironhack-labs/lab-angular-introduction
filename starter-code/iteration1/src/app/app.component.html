@@ -1,3 +1,7 @@
-<h1>
-  {{title}}
-</h1>
+
+<div class="ih">
+ <div  *ngFor="let pics of pictures">
+  <img src="{{pics.src}}" alt="photo">
+    <h3> {{ pics.name }} </h3>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+.ih {
+    display: flex;
+    flex-direction: row;
+
+}
+
+img {
+    width: 300px;
+    height: auto;
+}
