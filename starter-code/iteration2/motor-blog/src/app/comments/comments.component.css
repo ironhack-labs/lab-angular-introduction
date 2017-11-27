@@ -1,0 +1,13 @@
+.postedDate {
+  font-size: 0.6rem;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  background-color: grey;
+  border: solid 10px grey;
+  border-radius: 10px;
+}

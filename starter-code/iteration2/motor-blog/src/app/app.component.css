@@ -1,0 +1,28 @@
+h1 {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+body {
+  font-family: sans-serif;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+img {
+  width: 400px;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: lighter;
+  text-align: justify;
+}

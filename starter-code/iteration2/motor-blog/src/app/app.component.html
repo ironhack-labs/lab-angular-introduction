@@ -1,0 +1,9 @@
+<h1>Motor Blog</h1>
+<ul>
+  <li *ngFor="let article of motorArticle">
+    <h2>{{ article.title }}</h2>
+    <img src="{{ article.img }}" alt="" class="">
+    <p>{{ article.body }}</p>
+    <app-comments></app-comments>
+  </li>
+</ul>

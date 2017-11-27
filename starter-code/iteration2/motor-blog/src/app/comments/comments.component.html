@@ -1,0 +1,7 @@
+  <ul>
+    <li *ngFor="let comment of comments">
+      <h4>{{ comment.name }}</h4>
+      <p>{{ comment.description }}</p>
+      <p class="postedDate">Posted on {{ comment.createdAt }}</p>
+    </li>
+  </ul>
