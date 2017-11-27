@@ -1,3 +1,8 @@
 <h1>
   {{title}}
 </h1>
+
+<div class='list' *ngFor="let image of content" >
+     <img src={{image.url}} width="120px"/>
+     <p>{{image.name}}</p>
+ </div>
