@@ -1,3 +1,8 @@
 <h1>
   {{title}}
 </h1>
+<ul>
+  <li *ngFor="let image of imageURL">
+  <img src="{{image}}" width="200"/>
+  <span *ngFor="let location of place"> {{location}} </span>
+  </li>
