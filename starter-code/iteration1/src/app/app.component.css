@@ -1,0 +1,11 @@
+.foto img {
+  width: 200px;
+}
+
+.foto p {
+  font-size: 25px;
+}
+
+.foto {
+  display: inline-block;
+}
