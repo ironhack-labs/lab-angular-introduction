@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title: string = 'album';
+  title: string = 'Album';
   album: { src: string, description: string}[] = [
     {
       src: '../assets/photo1.png',
