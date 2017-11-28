@@ -1,0 +1,17 @@
+.title {
+  display: flex;
+  justify-content: center;
+}
+.pics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: stretch;
+}
+
+img {
+  width: 100px;
+  length: 100px;
+}
