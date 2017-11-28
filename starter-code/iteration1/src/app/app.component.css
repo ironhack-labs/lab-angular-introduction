@@ -1,0 +1,15 @@
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.gallery-item {
+  box-shadow: 1px 1px 3px 1px lightgray;
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 30%;
+  padding: 10px;
+  flex-direction: column;
+}

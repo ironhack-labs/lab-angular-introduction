@@ -1,0 +1,11 @@
+<h2> Comments </h2>
+<div *ngFor="let comment of comments">
+  <h1>{{comment.name}}<span>{{comment.date}}</span></h1>
+  <p>{{comment.text}}
+</div>
+
+<form>
+  <input placeholder="name">
+  <input placeholder="comment">
+  <button>Comment!</button>
+</form>
