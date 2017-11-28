@@ -7,31 +7,31 @@ import { Component } from '@angular/core';
 })
 export class DashboardComponent {
   championships = [
-    new championships('2015-16','Cleveland Cavalliers',
-    'http://as01.epimg.net/img/especiales/baloncesto/nba/escudos/cleveland_cavaliers.svg',
+    new championships('2014-15','Hunter Morty',
+    'https://pocketmortys.net/images/assets/MortyWildManFront.png',
     [
-      'Lebron',
-      'Lebron',
-      'Lebron',
-      'Lebron'
+      'Slumber',
+      'Fortify',
+      'Flail',
+      'Protect'
     ]
   ),
-  new championships('2015-16','Cleveland Cavalliers',
-    'http://as01.epimg.net/img/especiales/baloncesto/nba/escudos/cleveland_cavaliers.svg',
+  new championships('2015-16','Unicorn Morty',
+    'https://pocketmortys.net/images/assets/MortySuperUnicornFront.png',
     [
-      'Lebron',
-      'Lebron',
-      'Lebron',
-      'Lebron'
+      'Encrust',
+      'Glitter Blast',
+      'Flair',
+      'Love Bug'
     ]
   ),
-  new championships('2015-16','Cleveland Cavalliers',
-    'http://as01.epimg.net/img/especiales/baloncesto/nba/escudos/cleveland_cavaliers.svg',
+  new championships('2016-17','Jesus Morty',
+    'https://pocketmortys.net/images/assets/MortyTheOneTrueFront.png',
     [
-      'Lebron',
-      'Lebron',
-      'Lebron',
-      'Lebron'
+      'Harden',
+      'Condition',
+      'Ascend',
+      'Sparkle'
     ]
   )]
 
