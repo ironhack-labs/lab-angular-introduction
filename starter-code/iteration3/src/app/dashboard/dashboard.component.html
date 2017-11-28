@@ -1,0 +1,17 @@
+<div class="sytle:align=center">
+
+</div>
+<img style="margin-left:440px" width="500"
+src="http://i.cdn.turner.com/adultswim/big/img/2015/12/15/PocketMortysPressLogo_1.png">
+
+<div class="championships">
+  <div *ngFor="let championship of championships">
+    <p>{{championship.year}}</p>
+    <p>{{championship.champion}}</p>
+    <img width="200" height="315" src="{{championship.championUrl}}" alt="">
+    <h4>Attacks</h4>
+    <ul>
+      <li *ngFor="let player of championship.bestPlayers">{{player}}</li>
+    </ul>
+  </div>
+</div>

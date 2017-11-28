@@ -1,9 +1,5 @@
-.album {
-  margin-top: 160px;
+.championships {
   display: flex;
   justify-content: space-around;
-}
-
-p {
   text-align: center;
 }
