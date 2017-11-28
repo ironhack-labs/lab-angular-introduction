@@ -7,7 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class MyNestedComponent implements OnInit {
-  comments: Array<string> = ['Dog', 'Duck', 'Elephant', 'Zebra'];
+  comments: Array<Object> =[
+    {
+       author: 'Billy',
+       date: new Date(),
+       content: 'Flama One '
+     },{
+       author: 'Bobby',
+       date: new Date(),
+       content: 'Flama Two. '
+     },{
+       author: 'Milly',
+       date: new Date(),
+       content: 'Flama 3 '
+     },
+ ]
 
   constructor() { }
 

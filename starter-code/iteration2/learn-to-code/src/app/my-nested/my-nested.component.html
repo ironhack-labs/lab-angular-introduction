@@ -1,10 +1,10 @@
 <h3>Comments</h3>
 
-`<ul>
-  <li *ngFor="let comment of comments">
-      {{ comment }}
-  </li>
-</ul>`
+<div class="com" *ngFor="let comment of comments">
+  <h3>{{comment.author}}</h3>
+  <p>{{comment.date}}</p>
+  <p>{{comment.content}}</p>
+</div>
 
 <form action="/action_page.php" class="comments">
   Name:<br>
