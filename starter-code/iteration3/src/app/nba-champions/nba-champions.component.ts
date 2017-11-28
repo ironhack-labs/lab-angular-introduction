@@ -11,9 +11,9 @@ export class NbaChampionsComponent implements OnInit {
 
   ngOnInit() {
   }
-  title = "Some NBA Champions";
-  height = "200";
-  championships = [
+  title:string = "Some NBA Champions";
+  height:string = "200";
+  championships:Array<object>  = [
     {
       year: "2015-16",
       champion: "Cleveland Cavaliers",

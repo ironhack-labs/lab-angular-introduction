@@ -6,11 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./comments-component.component.css']
 })
 export class CommentsComponentComponent implements OnInit {
-  formcomments = {
+  formcomments:object = {
     name: "",
     description: "",
   };
-  comments = [{
+  comments:Array<object> = [{
     name: "Pablo",
     description: "I love Ramen",
     date: "21/12/2017"
