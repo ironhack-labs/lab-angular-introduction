@@ -1,0 +1,20 @@
+<div *ngFor="let info of comments">
+<p>
+ <span>{{info.name}}</span> <span>{{info.date}}</span> <span>{{info.time}}</span>
+</p>
+<p>
+  {{info.comment}}
+</p>
+</div>
+
+<form action="POST">
+  <label for="name">Name</label>
+  <input type="text" placeholder="Your Name">
+  <label for="comment">Cooment</label>
+  <input type="text" placeholder="Your comment">
+
+  <input type="button" value="Submit">
+
+
+
+</form>
