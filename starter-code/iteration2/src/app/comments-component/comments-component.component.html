@@ -1,0 +1,15 @@
+<div style="text-align:center">
+<h2>{{comment}}</h2>
+<div *ngFor="let comments of comments">
+<h3>{{comments.name}}</h3>
+<p>{{comments.date}}</p>
+<p>{{comments.text}}</p>
+</div>
+<div>
+  <label for="">Name</label>
+ <input type="text">
+ <br>
+ <label for="">Description</label>
+  <textarea name="" id="" cols="30" rows="10"></textarea>
+</div>
+</div>

@@ -1,0 +1,20 @@
+.container {
+text-align: center;
+}
+
+.divs {
+   display: inline-block;
+   padding: 0px 50px;
+   border: 2px solid blue;
+   border-radius: 30px;
+
+}
+.item {
+  width: 300px;
+  height: 300px;
+  border: 5px solid red;
+
+}
+.divs p {
+  text-align: center;
+}
