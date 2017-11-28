@@ -1,0 +1,8 @@
+.photo-album {
+  font-family: helvetica;
+  font-size: 14px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
