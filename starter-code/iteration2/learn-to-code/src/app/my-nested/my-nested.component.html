@@ -1,0 +1,17 @@
+<h3>Comments</h3>
+
+<div class="com" *ngFor="let comment of comments">
+  <h3>{{comment.author}}</h3>
+  <p>{{comment.date}}</p>
+  <p>{{comment.content}}</p>
+</div>
+
+<form action="/action_page.php" class="comments">
+  Name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Description:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
