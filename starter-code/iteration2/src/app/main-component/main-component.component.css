@@ -1,0 +1,35 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+img{
+  width: 600px;
+  margin: 0 auto;
+}
+
+p{
+  text-align: justify;
+}
+
+li{
+  list-style: none;
+  text-align: center;
+  margin: 30px;
+}
+
+ul{
+ width: 800px;
+ margin: 0 auto;
+}

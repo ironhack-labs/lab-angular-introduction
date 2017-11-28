@@ -2,14 +2,19 @@ h1{
   text-align: center;
 }
 
-li{
+.teams{
   float: left;
   list-style: none;
   text-align: center;
   margin: 30px;
+  list-style: none;
 }
 
-ul{
+li{
+  list-style: none;
+}
+
+.champion{
   display: flex;
   justify-content: space-around;
 }
