@@ -1,0 +1,18 @@
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+img{
+    width: 30%;
+    height: 30%;
+
+}
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
