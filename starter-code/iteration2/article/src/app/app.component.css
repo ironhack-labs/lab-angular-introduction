@@ -1,0 +1,12 @@
+h1{
+  display: block;
+  text-align:center;
+}
+
+img{
+  margin-left:280px;
+}
+.center{
+  width: 50%;
+  margin: 0 auto;
+}

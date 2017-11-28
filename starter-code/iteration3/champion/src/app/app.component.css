@@ -1,0 +1,20 @@
+#ul{
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left:0px;
+
+}
+
+.inline-block{
+  display: inline-block;
+  width: 22%;
+  margin: 0 10px;
+}
+
+h5{
+  margin:0px;
+}
+
+.players{
+  font-size: 10px;
+}
