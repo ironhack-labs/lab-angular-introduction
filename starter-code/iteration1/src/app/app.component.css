@@ -1,0 +1,32 @@
+/*.lenny1{
+display: inline-block;
+margin-right: 20px;
+ }
+
+ }
+ .lenny2{
+ display: inline-block;
+ margin-right: 20px;
+}*/
+
+
+ .lenny{
+ text-align: center;
+ height: 100px;
+ width: 15%;
+}
+
+
+ /*.a{*/
+    /*display: inline-block;
+    margin : 0px 30px;*/
+  /*}*/
+   .fotos {
+     display: inline-block;
+    width: 15%;
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    background-color: #f5f4ff;
+  }
