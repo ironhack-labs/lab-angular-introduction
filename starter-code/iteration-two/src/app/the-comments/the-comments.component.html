@@ -1,0 +1,15 @@
+<div class="container">
+  <h2>Comments:</h2>
+  <div class="media" *ngFor="let comment of comments">
+    <div class="media-left media-top">
+      <img src="{{ comment.pictureReviewerUrl }}" class="media-object" style="width:80px">
+    </div>
+    <div class="media-body">
+      <h4 class="media-heading media-left">{{ comment.reviewerName }}</h4>
+      <br>
+      <h6 class="media-heading media-left"><strong>{{ comment.reviewDate }}</strong></h6>
+      <p>{{ comment.reviewComment }}</p>
+    </div>
+  </div>
+  <hr> 
+</div>
