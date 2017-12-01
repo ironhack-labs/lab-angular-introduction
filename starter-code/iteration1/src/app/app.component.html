@@ -1,3 +1,11 @@
 <h1>
   {{title}}
 </h1>
+
+
+  <ul>
+    <li *ngFor="let oneCountry of myAlbum">
+      <img src="{{oneCountry.imageUrl}}" />
+      <h3> {{oneCountry.description}} </h3>
+    </li>
+  </ul>

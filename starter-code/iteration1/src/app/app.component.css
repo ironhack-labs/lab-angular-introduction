@@ -1,0 +1,16 @@
+h1{
+  text-align: center;
+  margin: 50px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+
+}
+
+img {
+width: 300px;
+}
