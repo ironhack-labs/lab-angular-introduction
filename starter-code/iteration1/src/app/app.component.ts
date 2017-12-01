@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  myPhotos: any[] = [
+    {title: "Josh Doctson", imageUrl: "https://media.giphy.com/media/3o6fJ2qEfmMyReMeze/giphy.gif"},
+    {title: "Mesut Ozil", imageUrl: "https://media.giphy.com/media/l4EoRYGfdkJyhlVQs/giphy.gif"},
+    {title: "Alexander Barkov", imageUrl: "https://media.giphy.com/media/k0sxK4LPW9H2w/giphy.gif"}
+  ]
 }
