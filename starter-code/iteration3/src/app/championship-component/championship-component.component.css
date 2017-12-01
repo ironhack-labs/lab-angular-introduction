@@ -1,0 +1,19 @@
+.champ{
+display:flex;
+justify-content:center;
+width:800px;
+height:400px;
+
+}
+.champs{
+  display:flex;
+  justify-content:center;
+  width:100px;
+  height:100px;
+}
+
+.champ>img{
+width:100px;
+height:100px;
+
+}
