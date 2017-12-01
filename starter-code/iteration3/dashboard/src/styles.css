@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+ul{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+*{
+  text-align: center;
+  list-style: none;
+}
