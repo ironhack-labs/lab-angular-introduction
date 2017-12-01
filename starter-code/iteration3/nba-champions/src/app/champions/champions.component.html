@@ -1,0 +1,11 @@
+<ul>
+  <li *ngFor="let oneChampionship of theChampionships">
+    <h3><b> {{ oneChampionship.year }} </b></h3>
+    <h3> {{ oneChampionship.teamName }} </h3>
+    <img width=100px src="{{ oneChampionship.badgeUrl }}" />
+    <p>Best CosPlayers</p>
+    <ul>
+      {{ oneChampionship.bestPlayers}}
+    </ul>
+  </li>
+</ul>
