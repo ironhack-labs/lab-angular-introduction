@@ -1,0 +1,10 @@
+.description{
+width:40%;
+font-style: normal;
+background-color:#24d2c563;
+}
+.m-container{
+display:flex;
+justify-content: center;
+width:100%;
+}
