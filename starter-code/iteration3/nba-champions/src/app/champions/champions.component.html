@@ -5,7 +5,14 @@
     <img width=100px src="{{ oneChampionship.badgeUrl }}" />
     <p>Best CosPlayers</p>
     <ul>
-      {{ oneChampionship.bestPlayers}}
+        <li> {{ oneChampionship.bestPlayers[0]}} </li>
+        <li> {{ oneChampionship.bestPlayers[1]}} </li>
+        <li> {{ oneChampionship.bestPlayers[2]}} </li>
     </ul>
+    <!-- <ul>
+      <li *ngFor="let onePlayer of bestPlayers">
+        <h4> {{ onePlayer }} </h4>
+      </li>
+    </ul> -->
   </li>
 </ul>
