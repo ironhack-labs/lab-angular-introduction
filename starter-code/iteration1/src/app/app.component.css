@@ -1,0 +1,14 @@
+.catImg{
+  height:300px;
+  width:300px;
+  display: inline;
+}
+.imgDiv{
+  height:350px;
+  width:350px;
+  margin: 0px;
+}
+img{
+  height: 350px;
+  width: 350px;
+}
