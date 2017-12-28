@@ -1,0 +1,13 @@
+.commentList {
+  list-style-type:none;
+}
+
+.commentTitle {
+  background-color: #C5C2C2;
+  border-radius: 30px;
+  padding: 5px 0px 5px 20px;
+}
+
+.commentForm {
+  padding-bottom: 30px;
+}

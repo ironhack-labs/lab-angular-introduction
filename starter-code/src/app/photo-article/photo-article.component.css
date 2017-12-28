@@ -1,0 +1,12 @@
+.img-article {
+  width: 100%;
+}
+
+.crop {
+  height: 300px;
+  overflow: hidden;
+}
+
+.description {
+  text-align: center;
+}

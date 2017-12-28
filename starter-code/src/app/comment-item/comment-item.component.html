@@ -1,4 +1,9 @@
-<p><b> {{ comment.authorName }} </b></p>
-<p> {{ comment.authorComment }} </p>
-
-
+<div class="row">
+    <div class="col-sm">
+        <h5>{{commentItem.name}}</h5>
+        <p>{{commentItem.text}}</p>
+    </div>
+    <div class="col-sm">
+        <button class="btn-danger" (click)="onQuoteDelete()"> Eliminar </button>
+    </div>
+  </div> 

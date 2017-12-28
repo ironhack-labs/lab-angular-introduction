@@ -1,0 +1,27 @@
+<div class="row">
+
+<h1>
+  Els vostres comentaris
+</h1>
+
+<ul class="commentList">
+  <li *ngFor="let commentItem of commentList">
+    <app-comment-item [commentItem]="commentItem" (onDelete)="removeComment($event)"></app-comment-item>
+  </li>
+</ul>
+</div>
+
+
+<form class="commentForm">
+    <h4 class="commentTitle">Afegeix comentari</h4>
+    <div class="form-group">
+      <label for="name">Nom</label> <br>
+      <input type="name" name="name" [(ngModel)]="newComment.name" required />
+    </div>
+    <div class="form-group">
+      <label for="comment">Comentari</label>
+      <textarea class="form-control" type="comment" name="comment" [(ngModel)]="newComment.text" rows="3" required></textarea>
+    </div>
+    <button type="submit" (click)="addComment()"> Comentar </button>
+  </form>
+

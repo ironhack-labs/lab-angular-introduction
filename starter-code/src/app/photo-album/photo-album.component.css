@@ -1,16 +1,10 @@
-img {
-  margin: 0 auto;
+.img-places {
+  height: 100%;
+  width: 90%;
 }
 
-.row {
-  display: flex; /* equal height of the children */
-}
-
-.col {
-  flex: 1; /* additionally, equal width */
-  
-}
-
-ul {
-  list-style-type: none;
+.col-sm {
+  text-align: center;
+  padding-bottom: 6%;
+  padding-top: 2%;
 }

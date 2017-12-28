@@ -1,0 +1,9 @@
+<div class="row">
+    <div class="col-sm">
+        <h5>{{nbaCard.date}}</h5>
+        <p>{{nbaCard.teamName}}</p>
+        <img class="teamLogo" src="{{nbaCard.teamLogo}}" alt="nba team logo">
+        <p>Best players</p>
+        <li class="playerList" *ngFor="let playerName of nbaCard.players">{{playerName}}</li>
+    </div>
+  </div> 

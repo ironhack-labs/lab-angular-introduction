@@ -5,27 +5,25 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { PhotoAlbumComponent } from './photo-album/photo-album.component';
-import { MainComponent } from './main/main.component';
+import { PhotoArticleComponent } from './photo-article/photo-article.component';
+import { CommentsBoxComponent } from './comments-box/comments-box.component';
 import { CommentItemComponent } from './comment-item/comment-item.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { CounterComponent } from './counter/counter.component';
-import { QuoteListComponent } from './quote-list/quote-list.component';
-import { QuoteItemComponent } from './quote-item/quote-item.component';
-import { PhotoItemComponent } from './photo-item/photo-item.component';
-import { CommentBoxComponent } from './comment-box/comment-box.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { NbaBoxComponent } from './nba-box/nba-box.component';
+import { NbaItemComponent } from './nba-item/nba-item.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PhotoAlbumComponent,
-    MainComponent,
+    PhotoArticleComponent,
+    CommentsBoxComponent,
     CommentItemComponent,
-    NavBarComponent,
-    CounterComponent,
-    QuoteListComponent,
-    QuoteItemComponent,
-    PhotoItemComponent,
-    CommentBoxComponent
+    NavbarComponent,
+    NbaBoxComponent,
+    NbaItemComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

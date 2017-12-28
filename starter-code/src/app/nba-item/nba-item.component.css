@@ -1,0 +1,13 @@
+.teamLogo {
+  width: 45%;
+  height: 120px;
+  padding-bottom: 20px;
+}
+
+.playerList {
+  font-size: 13px;
+}
+
+h5, p {
+  font-weight: 600;
+}
