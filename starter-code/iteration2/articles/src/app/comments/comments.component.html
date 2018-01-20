@@ -1,0 +1,21 @@
+<h3>Comments</h3>
+
+<ul>
+  <li *ngFor="let oneComment of myComments">
+    <p><b>{{ oneComment.username }}</b></p>
+    <p> {{ oneComment.content}} </p>
+  </li>
+</ul>
+
+
+<h3> Add a Comment </h3>
+<form method="" action="">
+  <label for="username-input"> Username: </label>
+  <input id="username-input" type="text" placeholder="WeekdayBlues" name="commentUsername"/>
+  <br />
+
+  <label for="comment-input"> Comment: </label>
+  <input id="comment-input" type="text" placeholder="Write your comment here." name="commentContent"/>
+  <br />
+
+</form>
