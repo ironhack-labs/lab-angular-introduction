@@ -1,0 +1,16 @@
+<p>
+  comments works!
+</p>
+
+<p>Author: {{author}}</p>
+<p>Date: {{comments.date}}</p>
+<p>Comment: {{comments.comment}}</p>
+
+
+<ul>
+  <li *ngFor="let comment of comments">
+    <p>Author: {{ comment.author }}</p>
+    <p>Date: {{ comment.date }}</p>
+    <p>Comment: {{ comment.comment }}</p>
+  </li>
+</ul>
