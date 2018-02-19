@@ -1,0 +1,13 @@
+.wrapper {
+  margin: 0 25px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+div {
+  margin: 20px; 
+}
