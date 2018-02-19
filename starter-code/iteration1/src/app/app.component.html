@@ -1,3 +1,22 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="jumbotron text-center">
+        <h1 class="display-4"><h1>{{title}}</h1></h1>
+        <p class="lead">{{subTitle}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let item of items"> 
+      <div class="img-wrap">
+         <img class="img-fluid" src="{{item.src}}" alt="Animals">
+      </div>
+      <div class="description">
+        <h6 class="text-center"><small>{{item.description}}</small></h6>
+      </div>
+    </div>
+  </div>
+</div>
