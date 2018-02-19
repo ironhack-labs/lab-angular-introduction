@@ -1,0 +1,15 @@
+
+<div class="container">
+    <div class="head">
+        <h1>Comments</h1>
+    </div>
+  <div class="main-container">
+    <div class="comments" *ngFor="let comment of comment">
+      <div class="name-date">
+        <h2>{{comment.name}}</h2>
+        <p>{{comment.date}}</p>
+      </div>
+      <p>{{comment.text}}</p>
+    </div>
+  </div>
+</div>

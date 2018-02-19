@@ -1,0 +1,30 @@
+
+.container{
+    margin: 0 20px;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.head{
+    width: 80%;
+    margin-left: 10%;
+    text-align: left;
+    font-size: 14px;
+    background-color: rgb(202, 199, 199);
+    border-radius: 10px;
+}
+.comments{
+    width: 80%;
+}
+.name-date{
+    display: flex;
+    align-items: center;
+}
+.name-date p{
+    margin-left: 20px;
+}
+div{
+    border: 1px solid red;
+}
