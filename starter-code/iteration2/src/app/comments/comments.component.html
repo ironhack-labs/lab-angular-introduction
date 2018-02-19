@@ -1,0 +1,24 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="comments-title">
+        <h3 class="text-left"> {{title}} </h3>
+      </div>
+    </div>
+  </div>
+  <div class="row comment-wrap" *ngFor="let comment of comments">
+    <div class="col-sm-5">
+      <div class="meta">
+        <h4><small>{{comment.author}}</small></h4>
+        <div>
+          <small>{{comment.date}}</small>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-7">
+      <p>{{comment.comment}}</p>
+      <hr>
+    </div>
+  </div>
+  <app-comment-form></app-comment-form>
+</div>

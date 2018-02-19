@@ -1,0 +1,53 @@
+app-main {
+  display: block;
+  width: 100%;
+  padding-bottom: 100px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.img-wrap {
+  margin: 20px auto 50px;
+}
+
+.img-wrap img {
+  max-width: 100%;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+.comments-title {
+  background: rgb(204, 204, 204);
+  padding: 10px 20px 1px;
+  border-radius: 20px;
+  margin: 50px 0 30px;
+}
+
+.comments-title h3 {
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+.comment-wrap {
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.comment-wrap hr {
+  margin: 50px 0 0;
+}
+
+#new-comment {
+  margin-top: 50px;
+  font-size: 60%;
+  text-align: left;
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 30px 15px;
+}
