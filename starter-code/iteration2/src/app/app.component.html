@@ -1,0 +1,30 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+  <h1>
+    {{title}}
+  </h1>
+
+
+  <img src= {{image}} > 
+
+<p>description</p>
+
+<ul> <p>Comments:</p>
+  <li *ngFor="let comment of comments">
+    {{comment.name}} 
+    {{comment.comment}}
+  </li>
+</ul>
+
+<ul>
+  <form action="">
+  <li>
+      <input type='text' name='name' placeholder='Your name'>
+  </li>
+  <li>
+      <input type='text' name='description' placeholder='Insert description'>
+  </li>
+  <button class='submit'>Comment</button>
+  
+</form>
+</ul>
