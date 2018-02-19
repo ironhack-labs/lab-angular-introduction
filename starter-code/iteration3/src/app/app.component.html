@@ -1,0 +1,12 @@
+<div   style="text-align:center">
+  <div class="team" *ngFor="let item of teams">
+    <h1>{{item.year}}</h1>
+    <h2>{{item.name}}</h2>
+    <img src="{{item.src}}">
+    <br>
+    <b>Best players:</b>
+    <ul>
+      <li *ngFor="let player of item.best">{{player}}</li>
+    </ul>
+  </div>
+</div>
