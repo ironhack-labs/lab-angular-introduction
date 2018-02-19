@@ -1,0 +1,13 @@
+p{
+  text-align: justify;
+}
+
+strong{
+  text-align: left;
+}
+
+div{
+  width: 650px;
+  text-align: center;
+  margin: 0 auto;
+}
