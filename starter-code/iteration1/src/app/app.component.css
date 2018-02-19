@@ -1,0 +1,10 @@
+
+.my-images {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px blue solid;
+    border-radius: 10px;
+}
