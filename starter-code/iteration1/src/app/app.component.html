@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+<div class="row">
+  <div *ngFor="let image of images">
+    <img src="{{image.url}}" alt="">
+    <h2> {{image.title}} </h2>
+</div>
+</div>
