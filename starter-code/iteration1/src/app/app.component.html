@@ -1,3 +1,29 @@
 <h1>
   {{title}}
 </h1>
+
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="https://i.gyazo.com/290469ec7a0183352a2699448ee1e26e.png" alt="Img1" title="Img1" />
+      <p>Ironhack Madrid</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://i.gyazo.com/a48c2c5c3744eeb3299dff8c6b16fda8.png" alt="Img2" title="Img2" />
+      <p>Ironhack Miami</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="https://i.gyazo.com/8450e74a5c7b40aaf637bbca3f3e6f5b.png" alt="Img3" title="Img3" />
+      <p>Ironhack Barcelona</p>
+    </div>
+  </div>
+</div> -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let image of images">
+      <img src="{{image.src}}" alt="" title="" />
+      <p>{{image.description}}</p>
+    </div>
+  </div>
+</div>
