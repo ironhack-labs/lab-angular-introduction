@@ -1,0 +1,19 @@
+div {
+  margin: 0 auto;
+  width: 602px;
+}
+
+div :first-child {
+  background-color: rgb(225, 225, 225);
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+div :nth-child(2) {
+  margin: 10px 25px 3px 25px;
+}
+
+div :last-child {
+  color: red;
+  margin: 0 25px;
+}
