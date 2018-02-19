@@ -1,0 +1,16 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div   style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+  <div class="jaja" *ngFor="let item of teams">
+    <h1>{{item.year}}</h1>
+    <h2>{{item.name}}</h2>
+    <img src="{{item.src}}">
+    <br>
+    <b>Best players:</b>
+    <ul>
+      <li *ngFor="let player of item.best">{{player}}</li>
+    </ul>
+  </div>
+</div>
