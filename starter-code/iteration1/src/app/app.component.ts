@@ -6,5 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  image: Array<object >;
+
+  constructor(){
+    this.image = [{
+        src: '../assets/barcelona.jpg',
+        name: 'Barcelona'
+      },
+      {
+        src: '../assets/madrid.jpg',
+        name: 'Madrid'
+      },
+      {
+        src: '../assets/miami.jpg',
+        name: 'Miami'
+      }
+    ]
+  }
 }

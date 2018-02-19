@@ -1,3 +1,11 @@
-<h1>
-  {{title}}
-</h1>
+
+<div class="image-list">
+  <ul>
+    <li *ngFor = "let image of image">
+      <div class="img-display">
+        <img src='{{image.src}}'>
+        <h3>Ironhack {{image.name}}</h3>
+      </div>
+    </li>
+  </ul>
+</div>
