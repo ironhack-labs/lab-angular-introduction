@@ -1,0 +1,37 @@
+<p>
+  comments-component works!
+</p>
+<div class='coment' *ngFor="let comment of comments ">
+  <span>{{comment.name}}</span>
+  <p>{{comment.description}}</p>
+  <p>{{comment.date}}</p>
+  <hr>
+  
+</div>
+
+<div class="container">
+    <h2>Add task</h2>
+
+    <form>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <label for="content">Content</label>
+        <input type="text" class="form-control" required>
+      </div>
+
+      <div class="form-group">
+        <div class="checkbox">
+          <label for="isImportant">
+            <input type="checkbox"> Is important
+          </label>
+        </div>
+      </div>   
+
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+</div>
