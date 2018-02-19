@@ -1,3 +1,12 @@
 <h1>
   {{title}}
 </h1>
+<div class="Container">
+<ul>
+  <li *ngFor="let photo of photo">
+    <img src="{{photo.src}}" width="100%">
+    <p>{{photo.description}}</p>
+
+  </li>
+</ul>
+</div>
