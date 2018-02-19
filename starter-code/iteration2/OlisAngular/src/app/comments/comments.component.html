@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+<div *ngFor="let item of comments" class = "estilito1">
+  {{item.comentador}}<br> 
+  {{item.date}}<br>
+  {{item.comentario}}<br>
+<hr>
+</div>
+<div class = "estilito1">
+<form action="submit" >
+  <label for="name">name</label><br>
+<input type="text" name="name" id=""><br>
+<label for="comentario">comentario</label><br>
+<textarea name="comentario" id="" cols="30" rows="10"></textarea><br>
+<button>comment</button>
+</form>
+
+</div>
