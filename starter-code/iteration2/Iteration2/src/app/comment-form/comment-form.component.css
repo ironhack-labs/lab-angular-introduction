@@ -1,0 +1,18 @@
+.form {
+    background-color: #D3D3D3;
+    width: 100%;
+    height: auto;
+    max-width: 480px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+input {
+    width: 90%;
+}
+
+button {
+    background-color: black;
+    color: white;
+}

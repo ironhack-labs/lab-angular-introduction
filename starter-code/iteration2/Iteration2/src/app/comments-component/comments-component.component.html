@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12" id="radius">
+      <h3>Comments</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12" *ngFor="let comment of comments">
+      <h4>{{comment.author}} - <span>{{comment.date}}</span>    </h4>   
+      <hr/>
+      <h5>{{comment.comment}}</h5>
+      <br/>
+    </div>
+</div>
