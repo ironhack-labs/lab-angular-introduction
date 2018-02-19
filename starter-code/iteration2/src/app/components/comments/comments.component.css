@@ -1,0 +1,44 @@
+div {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h4 {
+  text-align: center;
+}
+
+.container {
+  width: 50%;
+  background-color: lightgrey;
+}
+
+form {
+  display: block;
+  margin: 0 auto;
+  
+}
+
+form input, form textarea {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+}
+
+h3 {
+  background-color: lightgrey;
+  padding: 10px 5px;
+  border-radius: 25px;
+}
+
+.comment-name {
+  font-weight: bold;
+  font-weight: 20px;
+}
+
+.comment-date {
+  font-weight: 300;
+  color: grey;
+  font-size: 14px;
+}
