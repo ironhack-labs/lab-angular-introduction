@@ -20,8 +20,6 @@ import { Component } from '@angular/core';
     </div>  
   </div>
   `,
-
-
 })
 export class AppComponent {
   title = "A collection of wonderful disasters.";
