@@ -1,0 +1,15 @@
+div{
+    width: 650px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+div h1{
+    margin-bottom: 40px;
+}
+
+div p{
+    text-align: justify;
+    margin-top: 30px;
+}

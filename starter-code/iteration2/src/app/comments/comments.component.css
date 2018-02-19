@@ -1,0 +1,51 @@
+section{
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+section h3{
+    background: #ddd;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+section form{
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    width: 300px;
+    padding: 20px 30px;
+}
+
+section form h5{
+    font-size: 16px;
+    margin-top: 0;
+}
+
+section form textarea{
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 100px;
+}
+
+section form div{
+    margin-bottom: 20px;
+}
+
+section form label{
+    display: block;
+    margin-bottom: 15px;
+    font-size: 16px;   
+}
+
+section form input{
+    width: 100%;
+    height: 30px;
+}
+
+section form button{
+    background: #999;
+    font-size: 16px;
+    color: #3A3A39;
+
+}
