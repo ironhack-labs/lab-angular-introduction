@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+        <h3>{{title}}</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let champion of champions">
+      <h3>{{champion.year}}</h3>
+      <h3>{{champion.team}}</h3>
+      <img src="{{champion.logo}}" alt="logo" title="logo" />
+      <p>{{best}}</p>
+      <br/>
+      <ul *ngFor="let player of champion.players">
+        <li>{{player}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
