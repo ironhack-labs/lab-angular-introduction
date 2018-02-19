@@ -1,0 +1,17 @@
+<div *ngFor="let c of comments">
+  <h2>{{c.name}}-{{c.date}}</h2>
+  <p>{{c.description}}</p>
+</div>
+<div> 
+<form action="">
+    <h2>Add a comment if u dare!</h2>
+    <label for="name">Name:</label>
+    <input type="text">
+    <br>
+    <label for="description">Description:</label>
+    <br>
+    <textarea name="description" id=""></textarea>
+    <br>
+    <button>Submit</button>
+</form>
+</div>
