@@ -1,0 +1,17 @@
+<div>
+  <h1>{{title}}</h1>
+  <div *ngFor="let item of comments">
+      <h5>{{item.author}} - <em> {{item.date}} </em></h5>
+      <p>{{item.content}}</p>
+      <hr>
+  </div>
+  <div>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="content"><br>
+      <label for="content">Description:</label><br>
+      <textarea name="content" id="content" cols="30" rows="10"></textarea><br>
+      <button type="submit">Comment</button>
+    </form>
+  </div>
+</div>
