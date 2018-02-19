@@ -1,14 +1,14 @@
 <div class="comments">
   <h2>Comments</h2>
-  <div *ngFor="let comment of comments">
-      <span> {{ comment }} </span>
+  <div *ngFor="let comment of comments" class="comment-item">
+    <span> {{ comment }} </span>
   </div>
 
   <form (ngSubmit)="addComment(myForm)" #myForm="ngForm" novalidate>
   
-    <div class="field" [ngClass]="{'has-error': feedbackEnabled && myComment.errors}">
+    <div class="field">
       <label>Comment</label>
-      <input type="text" name="comment" [(ngModel)]="comment" #myComment="ngModel" [disabled]="processing"/>
+      <input type="text" name="comment" ngModel required #comment="ngModel"/>
       <!-- <div *ngIf="feedbackEnabled && myComment.errors">
         <p *ngIf="myComment.errors.required" class="validation">comment required</p>
         <p *ngIf="myComment.errors.minlength" class="validation">comment is too short</p>
