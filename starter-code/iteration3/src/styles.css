@@ -1,0 +1,21 @@
+app-champions {
+    width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+    margin-top: 30px;
+}
+
+.year {
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.team {
+    font-weight: 600;
+    margin: 20px 0;
+    font-size: 1.7em;
+}
