@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+  url_img = 'http://via.placeholder.com/350x150';
+  description = "Ironhack Madrid";
 }
