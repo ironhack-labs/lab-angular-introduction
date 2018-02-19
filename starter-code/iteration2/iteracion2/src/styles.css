@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+div {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+}
+form {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
+}
+
+form input {
+  margin: 10px 0;
+}
+
+li {
+  list-style: none;
+}

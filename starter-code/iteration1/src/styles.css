@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+.row {
+  width:100%;
+  display: inline-block;
+}
+
+img {
+width: 300px;
+}
