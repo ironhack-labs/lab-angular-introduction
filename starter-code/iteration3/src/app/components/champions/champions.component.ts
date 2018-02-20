@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./champions.component.css']
 })
 export class ChampionsComponent implements OnInit {
-  champions = [
+  champions: Array<{}> = [
     {
       year: '2015-16',
       name: 'Clevland Cavaliers',
@@ -21,29 +21,29 @@ export class ChampionsComponent implements OnInit {
       ]
     },
     {
-      year: '2015-16',
-      name: 'Clevland Cavaliers',
+      year: '2014-15',
+      name: 'Golden State Warriors',
       championUrl:
-        'https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/cavaliers/images/170531-global-logo.png',
+        'http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/gsw.png',
       bestPlayers: [
-        'Lebron James',
-        'Kevin Irving',
-        'Kevin Love',
-        'J. R. Smith',
-        'Anderson Varejao'
+        'Stephen Curry',
+        'Klay Thompson',
+        'Draymong Green',
+        'Andrew Bogut',
+        'Gestus Ezeli'
       ]
     },
     {
-      year: '2015-16',
-      name: 'Clevland Cavaliers',
+      year: '2014-13',
+      name: 'San Antonio Spurs',
       championUrl:
-        'https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/cavaliers/images/170531-global-logo.png',
+        'http://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/sas.png',
       bestPlayers: [
-        'Lebron James',
-        'Kevin Irving',
-        'Kevin Love',
-        'J. R. Smith',
-        'Anderson Varejao'
+        'Tim Duncan',
+        'Tony Parker',
+        'Manu Ginobili',
+        'Kawhi Leonard',
+        'Tiago Splitter'
       ]
     }
   ];
