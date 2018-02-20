@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { commentInterface, commentListInterface } from './interfaces';
+//import { commentInterface, commentListInterface } from './interfaces';
 
 @Component({
   selector: 'app-comments',
@@ -37,9 +37,16 @@ class commentList implements commentListInterface{
 export class CommentsComponent implements OnInit {
 
   title = 'Comments';
-  name ='Boby Tables';
-  description = 'It seems quite';
-  updatedAt= new Date(Date.now());
+  //name ='Boby Tables';
+  //description = 'It seems quite';
+  //updatedAt= new Date(Date.now());
+
+  comments = [
+        { name: 'Bobby Tables', updatedAt: new Date(Date.now()), description: 'Whatever will be good if you wanna enjoy' },
+        { name: 'IronHack School', updatedAt: new Date(Date.now()), description: 'Angular comments to practice.' }
+        
+     ]
+
 
   constructor() { 
   }
