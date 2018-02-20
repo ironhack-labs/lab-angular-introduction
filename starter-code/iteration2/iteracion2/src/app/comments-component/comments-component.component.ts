@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './comments-component.component.html',
   styleUrls: ['./comments-component.component.css'],
   template: `
+  <hr>
     <h1>{{title1}}</h1>
     <form action="/my-handling-form-page" method="post">
     <div>
