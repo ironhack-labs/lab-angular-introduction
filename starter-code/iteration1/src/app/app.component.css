@@ -1,0 +1,18 @@
+div {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 750px;
+}
+img {
+    width: 275px;
+    height: 200px;
+    background-color: grey;
+}
+span {
+    display: block;
+}
+
+section {
+  display: flex;
+}
