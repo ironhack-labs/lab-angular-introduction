@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<h1> {{title}}</h1>
+
+  <figure *ngFor="let item of campusArray; let i=index">
+    <p><img src="{{imgArray[i]}}"></p>
+    <figcaption>{{campusArray[i]}}</figcaption>
+  </figure>
+
+
