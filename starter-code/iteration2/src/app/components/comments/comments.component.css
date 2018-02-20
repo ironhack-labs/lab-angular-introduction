@@ -1,0 +1,32 @@
+.comments-bg{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  background-color: lightgrey;
+  border-radius: 16px;
+  margin: 0 400px;
+}
+
+.comments-title{
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.user{
+  font-size: 12px;
+}
+
+.flex-container{
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  margin: 0 430px;
+}
+
+form{
+  border: 1px solid black;
+  padding: 30px;
+  margin: 0 auto;
+}
