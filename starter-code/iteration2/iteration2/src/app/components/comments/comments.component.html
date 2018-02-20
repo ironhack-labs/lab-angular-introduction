@@ -1,0 +1,16 @@
+<ul>
+  <li *ngFor="let comment of comments">
+    <h3> {{ comment.name }}</h3>
+    <p> {{ comment.comment }}</p>
+
+  </li>
+</ul>
+
+<h6>New Comment</h6>
+<form action="">
+  <label for="name">name</label>
+  <input type="text">
+  <label for="comment">write a comment</label>
+  <input type="text">
+  <button>COMMENT</button>
+</form>
