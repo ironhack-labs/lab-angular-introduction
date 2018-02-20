@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+img{
+    width: 100%;
+    text-align: center;
+}
+li{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
