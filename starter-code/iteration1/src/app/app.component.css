@@ -1,0 +1,19 @@
+.gallery{
+  font-family: sans-serif;
+}
+.gallery-list{
+  border: 1px solid #eee;
+  border-radius: 2px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.gallery-item{
+  display: inline-block;
+  text-align: center;
+}
+.gallery-item img{
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}

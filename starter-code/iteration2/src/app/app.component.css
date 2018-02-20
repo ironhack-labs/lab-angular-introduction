@@ -1,0 +1,12 @@
+.article{
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 960px;
+  color: #444;
+  margin: 0 auto;
+}
+.article-img img{
+  width: 100%;
+}
