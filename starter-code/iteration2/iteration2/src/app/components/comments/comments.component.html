@@ -1,7 +1,10 @@
-<p>
-  great article. de puta madre
-</p>
+<ul>
+  <li *ngFor="let comment of comments">
+    <h3> {{ comment.name }}</h3>
+    <p> {{ comment.comment }}</p>
 
+  </li>
+</ul>
 
 <h6>New Comment</h6>
 <form action="">

@@ -5,7 +5,7 @@
       <small> {{ champion.champion }} </small>
       <img src="{{ champion.championUrl }}" alt="">
       <ul>
-        <li *ngFor="let bestPlayer of bestPlayers">
+        <li *ngFor="let bestPlayer of champion.bestPlayers">
           <span>{{ bestPlayer }}</span>
         </li>
       </ul>
