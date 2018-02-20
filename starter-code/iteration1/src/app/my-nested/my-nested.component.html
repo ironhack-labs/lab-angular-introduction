@@ -1,0 +1,38 @@
+<!-- <div class="row">
+  <div class="col s4">
+    <img src="https://bloximages.newyork1.vip.townnews.com/elvocero.com/content/tncms/assets/v3/editorial/0/84/08452510-76e6-11e7-93f7-37f244bb10a5/5980c670ab2fe.image.jpg" style="width: 100px">
+  </div>
+  <div class="col s4">
+    <img src="http://timeinc.brightcove.com.edgesuite.net/rtmp_uds/293884104/201504/3149/293884104_4175543795001_Kanye1-1280.jpg?pubId=293884104&videoId=4175416937001" style="width: 100px">
+  </div>
+  <div class="col s4">
+    <img src="https://www.billboard.com/files/media/03-David-Guetta-2017-billboard-1548.jpg" style="width: 100px">
+  </div>
+</div>
+<div class="row">
+  <div class="col s4">
+    <p>
+      Bad Bunny
+    </p>
+  </div>
+  <div class="col s4">
+    <p>
+      Kanye West
+    </p>
+  </div>
+  <div class="col s4">
+    <p>
+      David Guetta
+    </p>
+  </div>
+</div> -->
+<div *ngFor="let c of content; let i = index">
+  <div class="imagen">
+    <div class="texto">
+      <h1>{{c.name}}</h1>
+    </div>
+    <div class="photo">
+      <img src="{{c.img}}" alt="" style="width: 150px">
+    </div>
+  </div>
+</div>

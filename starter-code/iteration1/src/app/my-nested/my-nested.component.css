@@ -1,0 +1,17 @@
+.photo{
+    width: 100px;
+    margin-left: 100px;
+}
+
+.texto{
+    width: 100px;
+    margin-left: 140px; 
+}
+.imagen{
+    align-content: space-between;
+    align-items: center;
+    float: left;
+    width: 100px;
+    margin-left: 100px;
+}
+
