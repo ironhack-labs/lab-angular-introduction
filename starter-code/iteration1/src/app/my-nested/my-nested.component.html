@@ -26,4 +26,13 @@
     </p>
   </div>
 </div> -->
-
+<div *ngFor="let c of content; let i = index">
+  <div class="imagen">
+    <div class="texto">
+      <h1>{{c.name}}</h1>
+    </div>
+    <div class="photo">
+      <img src="{{c.img}}" alt="" style="width: 150px">
+    </div>
+  </div>
+</div>
