@@ -1,3 +1,21 @@
-<p>
-  champions works!
-</p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <h6 class="text-center d-block">
+        <small>{{title}}</small>
+      </h6>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 text-center" *ngFor="let champion of champions">
+      <div class="year">{{champion.year}}</div>
+      <div class="team">{{champion.team}}</div>
+      <div class="image">
+        <img src="{{champion.img}}" alt="NBA">
+      </div>
+       <ul *ngFor="let player of champion.players">
+         <li>{{player}}</li>
+       </ul>
+    </div>
+  </div>
+</div>
