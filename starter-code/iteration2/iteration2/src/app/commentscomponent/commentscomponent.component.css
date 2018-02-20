@@ -1,0 +1,44 @@
+.comments {
+background-color: grey;
+height: 40px;
+width: 800px;
+padding-left: 20px;
+}
+
+.comm1 {
+    width: 800px; 
+}
+
+.comm1>h2 {
+    background-color: #cdd2d8;
+    height: 40px;  
+    width: 800px;
+    padding-left: 20px;   
+}
+
+.comm2 {
+    width: 800px;
+}
+
+.comm2>h2 {
+    background-color: #cdd2d8;
+    height: 40px;  
+    width: 800px;
+    padding-left: 20px;   
+}
+
+.comment-box {
+    background-color: blue;
+    height: 180px;
+    width: 800px;
+    padding-left: 20px;   
+    color: white;
+}
+.space {
+    height: 80px;
+    width: 700px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
