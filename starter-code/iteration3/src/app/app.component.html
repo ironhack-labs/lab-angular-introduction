@@ -4,5 +4,19 @@
     Welcome to 
   </h1>
 
+
+  <ul> <p>NBA Champions:</p>
+    <li *ngFor="let championship of championships">
+      {{championship.year}} 
+      {{championship.champion}} 
+      {{championship.championUrl}}
+
+      {{forEach(championship.bestPlayer)}} 
+      
+    </li>
+  </ul>
+
+
+
 <app-championships></app-championships>
 
