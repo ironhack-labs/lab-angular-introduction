@@ -1,0 +1,23 @@
+
+.container{
+    margin: 0 20px;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    font-size: 20px;
+}
+.image{
+    width: 80%;
+    text-align: center;
+}
+.image img{
+   width: 100%;
+}
+.description{
+    width: 80%;
+    font-size: 20px;
+}
