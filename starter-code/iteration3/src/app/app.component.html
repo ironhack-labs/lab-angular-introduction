@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    {{ title }}!
+  </h1>
+  <div class="nba" *ngFor="let item of teams">
+    <h1>{{item.year}}</h1>
+    <h2>{{item.name}}</h2>
+    <img src="{{item.src}}">
+    <br>
+    <b>Best Players:</b>
+    <ul>
+      <li *ngFor="let juan of item.bestPlayer"><h3>{{juan}}</h3></li>
+
+
+    </ul>
+
+  </div>
+
+
+
+</div>
