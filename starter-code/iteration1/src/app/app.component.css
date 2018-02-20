@@ -1,0 +1,20 @@
+img {
+    width: 80%;
+    height: auto
+
+}
+
+.image-container {
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+div {
+    width: 100%
+}
+
+p {
+    text-align: justify;
+    width: 80%;
+}
