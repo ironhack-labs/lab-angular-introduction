@@ -1,0 +1,18 @@
+img {
+    width: 150px;
+    height: 150px;
+}
+
+ul {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+p {
+    text-align: center;
+
+}
+
+li {
+    text-align: center;
+}
