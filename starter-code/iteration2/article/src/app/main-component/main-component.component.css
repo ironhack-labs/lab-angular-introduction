@@ -1,0 +1,9 @@
+.imagen {
+    width: 400px;
+    height: 200px;
+}
+
+.article {
+ display: table;
+ margin: auto;
+}
