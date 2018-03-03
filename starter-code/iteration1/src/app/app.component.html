@@ -1,3 +1,13 @@
 <h1>
   {{title}}
 </h1>
+<div class="container">
+<div class='div-image' *ngFor='let picture of pictures'>
+  <img class='image' src={{picture.imgSrc}}>
+  <p class='footer'>{{picture.footer}}</p>
+</div>
+</div>
+
+
+
+
