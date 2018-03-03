@@ -1,0 +1,15 @@
+img {
+    height: 200px;
+    display: inline;
+    
+}
+
+
+.container {
+display: inline-block;
+margin:  0 20px;
+}
+
+p {
+    text-align: center;
+}
