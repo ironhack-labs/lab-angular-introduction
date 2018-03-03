@@ -1,0 +1,19 @@
+
+<div class="comments-container">
+  <h2>Comments</h2>
+  <div class='comment' *ngFor='let comment of comments'>
+      <p><strong>{{comment.username}}</strong></p>
+      <p>Created at: {{comment.createdAt | date:"dd/MM/yyyy HH:MM"}}</p>
+      <p>{{comment.comment}}</p>
+  </div>
+  <div class="form">
+    <h2>Add your comment</h2>
+      <form action="">
+          Name: <input type="text">
+          <p>Description:</p><textarea></textarea>
+
+        </form>
+
+  </div>
+  
+</div>
