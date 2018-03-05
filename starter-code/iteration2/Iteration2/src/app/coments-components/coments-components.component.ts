@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./coments-components.component.css']
 })
 export class ComentsComponentsComponent implements OnInit {
-
-  constructor() { }
+comment:string;
+constructor() { }
 
   ngOnInit() {
   }
 
 }
+
+
