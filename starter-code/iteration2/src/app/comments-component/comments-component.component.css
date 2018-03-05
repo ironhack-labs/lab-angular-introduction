@@ -1,0 +1,22 @@
+.title {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.comments {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.form {
+  width: 30%;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+}
