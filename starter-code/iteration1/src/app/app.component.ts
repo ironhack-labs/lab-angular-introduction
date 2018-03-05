@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  image1: any='../assets/images/image1.jpg'
+  image2: any='../assets/images/image2.jpg'
+  image3: any='../assets/images/image3.jpg'
 }
