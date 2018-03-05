@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  tfImage = '../assets/images/tf2-pyro.jpg';
+  pubgImage = '../assets/images/rust.jpg';
+  rustImage = '../assets/images/pubg.jpg';
+  tf: string = "TF2";
+  pubg: string = "PUBG";
+  rust: string = "Rust";
+
 }
