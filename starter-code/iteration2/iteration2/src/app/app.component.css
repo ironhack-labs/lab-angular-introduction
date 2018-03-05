@@ -1,0 +1,64 @@
+.main-container{
+  text-align: center;
+  font-family: system-ui, Arial, Helvetica, sans-serif;
+}
+
+img{
+  width: 40vw;
+}
+
+.top p{
+  width: 50%;
+  margin: 5vh auto;
+  text-align: left;
+  font-size: .8em;
+}
+
+.comments{
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.comments-header{
+  background-color:rgb(226, 218, 218);
+  text-align: left;
+  border-radius: 10px;
+  width: 50vw;
+}
+
+.comments-header h3{
+  padding: 5px;
+}
+
+.comment{
+  text-align: left;
+  margin: 0 2vw;
+}
+
+.comment p{
+  font-size: .8em
+}
+
+.form-container{
+  background-color:rgb(226, 218, 218);
+  width: 50vw;
+  margin: 0 auto;
+  border: 1px solid rgb(190, 182, 182);
+  text-align: left;
+  padding: 0 2vw 10px;
+}
+
+.form-container input, textarea{
+  width: 100%;
+}
+
+.form-container button{
+  color: white;
+  background-color: black;
+  padding: 10px;
+  font-size: 1.2em;
+}
+
+.form-container .form-input{
+  margin: 3vh 0;
+}
