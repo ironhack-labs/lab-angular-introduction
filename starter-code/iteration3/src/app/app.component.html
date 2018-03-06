@@ -1,0 +1,20 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+
+  <div class="container d-flex">
+      <div class="container d-flex flex-column champion" *ngFor="let champion of champions">
+          <h3>{{ champion.year }}</h3>
+          <h4> {{ champion.name }}</h4>
+          <img src=" {{ champion.image }}">
+          <h5>Best Players</h5>
+          <ul>
+            <li *ngFor="let player of champion.bestPlayers">
+              {{ player }}
+            </li>
+          </ul>
+        </div>
+  </div>
+
