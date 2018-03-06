@@ -1,0 +1,15 @@
+img{
+  width: 300px;
+  height: 200px;
+}
+
+.photo{
+  display: block;
+}
+
+.album-container{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: row;
+}
