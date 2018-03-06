@@ -1,0 +1,16 @@
+.comments {
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-items:center;    
+    justify-content: center
+}
+h2, div {
+    width: 60vw;
+}
+h2 {
+    border: #F0F0F0 solid 2px;
+    background-color: #F0F0F0;
+    padding-left: 15px;
+    border-radius: 25px;
+}

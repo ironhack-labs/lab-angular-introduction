@@ -1,0 +1,15 @@
+.container-ironhack{
+    display: flex;display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: center
+}
+
+.ironhack, .ironhak-pic {
+    width: 250px;
+}
+.ironhack{
+    margin: 20px;
+    text-align: center;
+}
