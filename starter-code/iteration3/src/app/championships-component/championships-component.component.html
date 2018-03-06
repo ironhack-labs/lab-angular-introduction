@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="card-group">
+    <div class="card" *ngFor="let champion of championships">
+      <img class="card-img-top" src="{{ champion.championUrl }}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{ champion.year }}</h5>
+        <h4 class="card-title">{{ champion.champion }}</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" *ngFor="let player of champion.players">{{ player }}</li>
+        </ul>
+      </div>
+    </div>
+</div>
