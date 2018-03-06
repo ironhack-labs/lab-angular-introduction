@@ -1,0 +1,12 @@
+
+.comments-form{
+  display: flex;
+  justify-content: center;
+}
+
+.form-comments{
+  background-color: grey;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
