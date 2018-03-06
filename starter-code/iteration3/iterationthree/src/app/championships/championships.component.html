@@ -1,0 +1,18 @@
+<p>
+  championships works!
+</p>
+
+
+<div class="champContainer">
+<div class="champCard" *ngFor="let champ of champion">
+    <h1> {{champ.year}}</h1>
+    <h2>{{champ.name}}</h2>
+    <img src="{{champ.image}}"  style="width:200px; height:auto" alt="">
+    <h3>Best Players :</h3>
+    <li *ngFor="let player of champ.bestPlayers">
+     {{player}}
+    </li>
+
+  
+  </div>
+   </div>

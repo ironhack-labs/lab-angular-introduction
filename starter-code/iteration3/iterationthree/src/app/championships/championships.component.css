@@ -1,21 +1,17 @@
-img{
-    width: 200px;
-    height: auto;
-
-}
-  .images{
-display: flex;
+.champContainer{
+    display: flex;
 flex-direction: row;
 justify-content: space-around;
 align-content: center;
-margin: 50px 150px;
+margin: 70px 180px;
+}
 
-  }
-  
-
-  .card{
-      width: 30%;
+.champCard{
       text-align: center;
       align-items: center;
       align-content: center;
-  }
+}
+
+.champCard li{
+    text-align: left;
+}
