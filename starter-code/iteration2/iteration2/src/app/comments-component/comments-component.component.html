@@ -1,0 +1,13 @@
+<ul>
+  <li *ngFor="let comment of comments">
+    <b>{{comment.author}}</b> - <span>{{ comment.date }}</span>
+    <p>{{ comment.comment}}</p>
+  </li>
+</ul>
+<form>
+  Nombre:<input type="text" >
+  <br><br>
+  Comentario:<textarea></textarea>
+  <br><br>
+  <input type="submit">
+</form>
