@@ -1,0 +1,16 @@
+.clearfix{
+  clear: both;
+}
+
+.champion__item{
+  float: left;
+  width: calc(100%/3);
+  text-align: center;
+}
+
+.champion__item-ul{
+  list-style: decimal;
+  width: 35%;
+  margin: 0 auto;
+  text-align: left;
+}
