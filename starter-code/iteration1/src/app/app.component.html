@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+<section class="container-ironhack">
+  <div class="ironhack" *ngFor='let ironhack of ironhacks'>
+    <img class="ironhak-pic" src={{ironhack.pic}} alt={{ironhack.name}}>
+    <p>{{ironhack.name}}</p>
+  </div>
+</section>

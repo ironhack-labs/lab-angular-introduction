@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content: center
+}
+
+h1, img, p {
+    width: 60vw;
+}
+
+h1{
+    text-align: center;
+}
