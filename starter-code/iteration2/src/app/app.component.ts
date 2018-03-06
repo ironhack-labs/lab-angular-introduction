@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'Learn How to Eat with Ironhack';
 
@@ -17,5 +18,4 @@ export class AppComponent {
   strip steak boudin beef turducken kielbasa landjaeger. Porchetta boudin short ribs tongue ball tip pork.
   `;
 
-  
 }

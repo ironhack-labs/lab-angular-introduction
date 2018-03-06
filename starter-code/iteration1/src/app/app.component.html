@@ -1,5 +1,6 @@
 <h1>{{title}}</h1>
 
+<!-- Loop through the photos array to output the photos + description -->
 <span class="pics" *ngFor="let photo of photos">
   <img src="{{ photo.url }}" alt="{{ photo.description }}">
   <h3>{{ photo.description }} </h3>
