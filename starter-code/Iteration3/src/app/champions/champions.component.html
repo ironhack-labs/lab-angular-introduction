@@ -1,0 +1,15 @@
+<h1>
+  champions works!
+</h1>
+<div>
+  <div class="champion__item" *ngFor="let champion of Championships">
+    <h2> {{ champion.year }} </h2>
+    <h3>{{champion.name}}</h3>
+    <img src="{{ champion.teamBadge }}" />
+    <h4>Best Players</h4>
+    <ul class="champion__item-ul">
+      <li *ngFor="let player of champion.bestPlayers">{{player}}</li>
+    </ul>
+  </div>
+  <div class="clearfix"></div>
+</div>
