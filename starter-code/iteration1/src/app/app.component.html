@@ -1,3 +1,16 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container" style="margin-top:20px">
+  <h1 class="text-center">Ironhack bootcamps</h1>
+
+  <div class="row" style="margin-top: 20px">
+    <div class="col-4" *ngFor="let place of places">
+      <div class="card">
+        <img class="card-img-top" src="{{ place.imgUrl }}" alt="Ironhack">
+        <div class="card-body">
+          <h5 class="card-title">{{ place.name }}</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="https://www.ironhack.com/en" class="btn btn-primary">Visit website</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
