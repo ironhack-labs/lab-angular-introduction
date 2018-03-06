@@ -5,6 +5,23 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
-  title = 'app works!';
-}
+  title = 'Angular Lab Ironhack';
+  images: Array<Object> = [
+    {
+    source: './assets/img1.jpeg',
+     desc: 'Ipanema Beach'
+    },
+    {
+    source: './assets/img2.jpeg',
+    desc: 'Maya Beach'
+    },
+    {
+      source: './assets/img3.jpeg',
+     desc: 'Bora Bora Beach'
+    },
+     ];
+    }	
+     
+
