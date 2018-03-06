@@ -1,3 +1,7 @@
 <h1>
   {{title}}
 </h1>
+  <div *ngFor="let item of content">
+      <img src="{{item.imageUrl}}" alt="{{item.imageDesc}}" height="200px" width="200px"/>
+      <h3>{{item.imageDesc}}</h3>
+  </div>
