@@ -1,0 +1,18 @@
+<h1>
+ What people think about our page!!!
+</h1>
+<div class="comment-container" *ngFor="let comment of comments">
+   <h3>{{comment.createBy}}</h3>
+   <p>{{comment.comment}}</p>
+  </div>
+
+ 
+<br />
+<h4>We would love to hear from you.</h4>
+<form action="" method="POST">
+  <fieldset>
+  <input name="name" type="text" placeholder="Name">
+  <textarea placeholder="Insert your comment here"></textarea>
+  <input type="submit" id="send">
+  </fieldset>
+</form> 
