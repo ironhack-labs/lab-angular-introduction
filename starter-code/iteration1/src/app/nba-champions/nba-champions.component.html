@@ -1,0 +1,26 @@
+<div class="container"></div>
+<h1> {{title}} </h1>
+
+<div class="">
+  <h2>{{article.title}}</h2>
+  <p>
+    <img class="pic" src="{{article.url}}" alt="" width="200px" height="200px">
+  </p>
+  <p>{{article.desc}}</p>
+  </div>
+
+  <h2> Comments </h2>
+
+<div *ngFor= "let championship of championships">
+  <p>
+    <span><b>{{championship.year}}</b></span>
+  </p>
+  <p>
+    <span>{{championship.team}}</span>
+  </p>
+  <p>
+    <span>{{championship.comment}}</span>
+  </p>
+</div>
+
+<app-nba-champions></app-nba-champions>
