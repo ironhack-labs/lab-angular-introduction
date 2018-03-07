@@ -1,0 +1,19 @@
+<div >Commentarios</div>
+<div >
+  <div  *ngFor="let comment of comments">
+    <strong>  {{comment.author}}</strong><span>   {{comment.updatedAt | date:"dd/MM/yyyy"}}</span>
+    <p>{{comment.content}}</p>
+  </div>
+</div>
+<form>
+  <h4>Comment New</h4>
+  <label>Name:</label>
+  <br>
+  <input name="name" type="text">
+  <br><br>
+  <label>Description</label>
+  <br>
+  <textarea></textarea>
+  <br><br>
+  <input type="submit" id="submit" value="Comment">
+</form>
