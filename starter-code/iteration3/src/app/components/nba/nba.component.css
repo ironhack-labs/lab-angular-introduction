@@ -1,0 +1,17 @@
+.champions {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 300px;
+}
+
+.champions li {
+  list-style-type: none;
+}
+
+.best-players {
+  text-align: left;
+}
+
+img {
+  max-width: 150px;
+}
