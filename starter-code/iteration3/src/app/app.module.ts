@@ -1,20 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+
 
 import { AppComponent } from './app.component';
-import { PhotoComponent } from './components/photo/photo.component';
+import { CounterComponent } from './components/counter/counter.component';
+import { ChampionsComponent } from './components/champions/champions.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    PhotoComponent
+    CounterComponent,
+    ChampionsComponent
   ],
   imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]
