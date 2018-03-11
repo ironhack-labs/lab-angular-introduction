@@ -1,4 +1,4 @@
-.album {
+.champions {
   height: 100%;
   margin-top: 10%;
   display: flex;
@@ -6,7 +6,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
-.album-item {
+.champion {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
