@@ -1,0 +1,17 @@
+img {
+  width: 200px;
+}
+.parent {
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #0A416B;
+    clear:both;
+}
+
+.left, .center, .right{
+    float:left;
+    width:32%;
+    padding:5px;
+
+}
