@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-contador',
@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contador.component.css']
 })
 export class ContadorComponent implements OnInit {
+  @Input('hola') hola: any;
   counter: number = 0;
 
   onClickIncrease = (): void => {
