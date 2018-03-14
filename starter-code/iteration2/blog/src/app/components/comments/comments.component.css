@@ -1,0 +1,16 @@
+.comments-title {
+  padding: 5px 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  font-weight: 800;
+}
+.comments-items-container {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+.comment-new-container {
+  width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
