@@ -1,0 +1,16 @@
+<p>
+  championships works!
+</p>
+<ul>
+  <li *ngFor="let data of datas">
+    <h3>{{data.year}}</h3>
+    <h4>{{data.name}}</h4>
+    <img src="{{data.img}}" alt="">
+    <p>Best players</p>
+    <ul>
+      <li *ngFor="let player of data.bestPlayer">
+        <p>{{player}}</p>
+      </li>
+    </ul>
+  </li>
+</ul>
