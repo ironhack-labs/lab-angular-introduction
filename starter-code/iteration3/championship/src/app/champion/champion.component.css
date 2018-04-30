@@ -1,0 +1,9 @@
+img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.champion {
+  display: inline-block;
+  margin: 10px 35px;
+}
