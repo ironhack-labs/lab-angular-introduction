@@ -1,0 +1,18 @@
+<div class="d-flex flex-column align-items-center">
+  <ul>
+    <li *ngFor="let comm of content">
+      {{ comm }}
+    </li>
+  </ul>
+
+  <form action="/" class="d-flex flex-column w-50">
+    <label for="name">Name</label>
+    <input type="text" name="name">
+    <label for="description">Description</label>
+    <textarea name="description" id="description" cols="10" rows="5"></textarea>
+    <button class="btn btn-dark w-25 mt-2">
+      Comment
+    </button>
+  </form>
+
+</div>
