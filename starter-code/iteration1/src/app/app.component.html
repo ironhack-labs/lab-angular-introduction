@@ -1,3 +1,7 @@
-<h1>
-  {{title}}
-</h1>
+<h1>Interation 1</h1>
+<div class="row">
+  <div *ngFor="let photo of photos" class="block">
+    <img src="{{photo.path}}" width="150px">
+    <p>{{photo.title}}</p>
+  </div>
+</div>
