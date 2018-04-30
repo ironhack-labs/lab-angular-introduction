@@ -1,0 +1,57 @@
+.container{
+  display:flex;
+  flex-direction: column;
+}
+.comment-container{
+  background-color:white;
+  padding: 10px 20px;
+  margin: 10px;
+  display:flex;
+  flex-direction: column;
+  border: 1px solid rgb(202, 165, 130)
+}
+.comment-data{
+  display:flex;
+  flex-direction:row;
+}
+.comment-data > *{
+  margin: 5px; 
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+.comment-body{
+  margin: 5px;
+}
+h3{
+  color: rgb(119, 90, 63)
+}
+.form-container{
+  margin-top: 20px;
+  justify-content: center;
+  display:flex;
+
+}
+form{
+  width: 50%;
+  padding: 20px;
+  display:flex;
+  flex-direction: column;
+  background-color:  rgb(221, 189, 159)
+}
+button{
+  justify-self: flex-start;
+  border:none;
+  background-color: rgb(119, 90, 63);
+  color:white;
+  margin: 10px 0;
+  width: 100px;
+  padding: 5px 10px;
+}
+button:hover{
+  background-color: rgb(49, 33, 17);
+  transition: all 0.3s ease-in;
+}
+input,textarea{
+  padding: 5px 10px;
+}
