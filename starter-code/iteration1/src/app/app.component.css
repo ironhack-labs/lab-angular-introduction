@@ -1,0 +1,9 @@
+.img img {
+    width: 400px;
+    height: 300px;
+}
+
+.picture{
+    float: left;
+    margin: 10px;
+}
