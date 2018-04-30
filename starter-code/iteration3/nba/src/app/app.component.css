@@ -1,8 +1,8 @@
-.photo {
+.nba-teams {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap
 }
-#album-title {
+#title {
   text-align: center;
-  color: rgb(50, 50, 50);
 }
