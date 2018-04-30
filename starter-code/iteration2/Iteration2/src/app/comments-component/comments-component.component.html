@@ -1,0 +1,23 @@
+
+<p>
+  comments-component works!
+</p>
+<ul *ngFor = "let comment of data">
+  <li>
+    {{comment.name}}
+    
+  </li>
+  <li>
+      {{comment.description}}
+  </li>
+
+  <form>
+      name:<br>
+      <input type="text" name="firstname">
+      <br>
+      Description:<br>
+      <input type="text" name="lastname">
+      <button>Submmit</button>
+  </form>
+ 
+</ul>
