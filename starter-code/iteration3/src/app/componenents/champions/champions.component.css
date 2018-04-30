@@ -1,0 +1,21 @@
+body {
+  width: 80vw;
+}
+
+.champions {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+  flex: 0 1 auto;
+}
+
+.champions img{
+  height: 30vh;
+  display: inline-block;
+}
+
+.flex-parent {
+  display: flex;
+  align-content: space-around;
+  width: 60vw;
+}
