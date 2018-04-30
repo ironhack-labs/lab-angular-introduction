@@ -1,14 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 img {
-  width: 200px;
-}
-
-.photos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  width: 500px;
 }
 
 .container {
   text-align: center;
+}
+
+.articles {
+  text-align: justify;
 }

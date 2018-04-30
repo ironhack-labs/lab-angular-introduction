@@ -3,7 +3,7 @@ img {
   width: 200px;
 }
 
-.photos {
+.teams {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -11,4 +11,12 @@ img {
 
 .container {
   text-align: center;
+}
+
+.players-list {
+  text-align: justify;
+}
+
+li{
+  margin-bottom: 5px;
 }
