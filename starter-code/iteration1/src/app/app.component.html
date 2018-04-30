@@ -1,3 +1,10 @@
 <h1>
   {{title}}
 </h1>
+
+<ul>
+  <li *ngFor="let picture of pictures">
+    <img src="../assets/{{picture.url}}">
+    <p>{{picture.comment}}</p>
+  </li>
+</ul>
