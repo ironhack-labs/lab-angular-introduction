@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+<div class="component-container">
+  <div class="component" *ngFor="let logo of logos">
+    <img src="{{logo.imgSrc}}" alt="" class="logo"> 
+    <h2>{{logo.name}}</h2>
+  </div>
+</div>
