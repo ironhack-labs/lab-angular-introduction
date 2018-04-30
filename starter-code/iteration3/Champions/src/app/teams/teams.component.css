@@ -1,0 +1,14 @@
+.team {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 7%;
+}
+
+.team img {
+  max-width: 100%;
+  height: 200px;
+}
+
+.team ul {
+  list-style: none;
+}
