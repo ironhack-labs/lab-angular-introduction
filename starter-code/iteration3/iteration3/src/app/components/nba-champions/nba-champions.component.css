@@ -1,0 +1,15 @@
+img{
+  height: 150px;
+}
+.teams{
+  display:flex;
+  flex-wrap: wrap;
+}
+.col{
+  flex: 1 0 auto;
+}
+
+li{
+  margin:0;
+  padding:0
+}
