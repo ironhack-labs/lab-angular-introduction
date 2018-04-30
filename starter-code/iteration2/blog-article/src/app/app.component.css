@@ -1,0 +1,9 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-center;
+}
+#image {
+  margin: 0;
+  padding: 0;
+}

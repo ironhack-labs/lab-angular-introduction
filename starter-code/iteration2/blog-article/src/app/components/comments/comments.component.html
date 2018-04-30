@@ -1,0 +1,21 @@
+<h2>Comments</h2>
+<hr>
+<div *ngFor="let comment of comments" class="comments">
+  <h3>{{comment.name}}, <small>{{comment.date}}</small></h3>
+  <p>{{comment.comment}}</p>
+</div>
+<form>
+  <fieldset>
+    <legend>Insert a comment</legend>
+    Name:
+    <br>
+    <input type="text">
+    <br> comment:
+    <br>
+    <textarea cols="30" rows="10"></textarea>
+    <button type="submit">Submit</button>
+  </fieldset>
+</form>
+
+
+<!-- iterar comments con un ngFor y mostrarlos -->

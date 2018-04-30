@@ -1,0 +1,16 @@
+
+form {
+  width: 25%;
+}
+fieldset {
+  background-color: lightgray;
+}
+.comments {
+  margin-bottom: 20px;
+  background-color: lightgrey;
+  padding: 5px;
+}
+.comments >h3, p {
+  margin: 0;
+  padding: 0;
+}

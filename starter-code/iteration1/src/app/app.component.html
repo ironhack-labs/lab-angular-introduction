@@ -1,3 +1,7 @@
-<h1>
-  {{title}}
-</h1>
+<h1 id="album-title">PHOTO ALBUM</h1>
+<div class="photo">
+  <div *ngFor="let image of images">
+    <h2>{{image.title}}</h2>
+    <img src="{{image.src}}" alt="whaaaat" height="200px">
+  </div>
+</div>
