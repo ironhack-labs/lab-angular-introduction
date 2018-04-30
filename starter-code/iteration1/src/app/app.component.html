@@ -1,3 +1,14 @@
 <h1>
   {{title}}
 </h1>
+
+<div class="imagenes">
+  <ul>
+    <li *ngFor="let person of data">
+        
+      <img src="{{person.img}}" alt="">
+      <p>{{person.name}}</p>
+    </li>
+  </ul>
+</div>
+
