@@ -1,0 +1,11 @@
+.photos {
+  display: flex;
+}
+
+.photo {
+  text-align: center;
+}
+
+.photo img {
+  max-width: 90%;
+}
