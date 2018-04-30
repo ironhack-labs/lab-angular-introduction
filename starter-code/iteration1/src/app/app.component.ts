@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Ironhack Photo Album';
 
-  album: Object = [
+  album: Array<Object> = [
     {
       id: 1,
       category: 'photo',
