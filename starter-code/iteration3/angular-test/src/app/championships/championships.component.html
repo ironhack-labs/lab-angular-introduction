@@ -1,0 +1,8 @@
+<ul>
+  <li *ngFor="let champ of champion">
+    {{champ.year}} {{champ.teamName}}
+    <a href="{{champ.championUrl}}">Champion Page</a>
+    <h3>Best Players</h3>
+    {{ champ.bestPlayers }}
+  </li>
+</ul>
