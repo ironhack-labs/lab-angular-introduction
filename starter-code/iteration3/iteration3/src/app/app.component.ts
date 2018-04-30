@@ -6,8 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Iteracion 1!';
-  ironhackMAD = 'Ironhack Madrid';
-  ironhackBCN = 'Ironhack Barcelona';
-  ironhackMIAMI = 'Ironhack Miami';
+  title = 'app';
 }
