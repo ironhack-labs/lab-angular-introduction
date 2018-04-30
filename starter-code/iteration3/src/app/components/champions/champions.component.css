@@ -1,0 +1,13 @@
+.container-champions{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+    margin: 0 20px;
+
+}
