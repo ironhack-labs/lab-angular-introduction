@@ -1,3 +1,10 @@
 <h1>
   {{title}}
 </h1>
+
+
+<div *ngFor="let photo of album"> 
+  
+  <img src="../img/IMG_0142.JPG" class="pic" />  
+  <h1>{{ photo.description }}</h1>
+</div>
