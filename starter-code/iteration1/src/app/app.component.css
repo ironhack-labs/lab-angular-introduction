@@ -1,0 +1,14 @@
+.cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto-size img {
+    max-width: 100%;
+}
+.foto-size{
+    width: 30%;
+    height: 250px;
+    margin: 2% 7%;
+    
+}
