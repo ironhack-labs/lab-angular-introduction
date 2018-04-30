@@ -1,0 +1,9 @@
+
+.imagenes img {
+    width: 400px;
+    height: 300px;
+}
+.foto{
+    float: left;
+    margin: 10px;
+}
