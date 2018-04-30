@@ -1,0 +1,16 @@
+.escudos{
+    width: 200px;
+    height: 200px;
+}
+.equipos{
+    float: left;
+    margin-left: 40px;
+
+}
+ul{
+    list-style: none;
+}
+.finalistas{
+    text-align: center; 
+    margin: 0 auto;
+}
