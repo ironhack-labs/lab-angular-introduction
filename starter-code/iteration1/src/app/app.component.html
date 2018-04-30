@@ -1,3 +1,8 @@
 <h1>
   {{title}}
 </h1>
+
+  <div class="img__container flex">
+    <div class="image__div flex" *ngFor="let myImages of myImages" ><img src="{{myImages.url}}" alt="">{{myImages.name}}</div>
+  </div>
+ 

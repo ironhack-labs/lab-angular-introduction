@@ -1,0 +1,26 @@
+
+<div class="comments__container">
+  <div class="outer__comments" *ngFor="let comments of comments">
+    <div class="inner comments__top flex">
+      <h4>{{comments.user}}</h4>
+      <h6>{{comments.date}}</h6>
+    </div>
+    <div class="inner comments__bottom">
+      <p>{{comments.comment}}</p>
+    </div>
+  </div>
+</div>
+<div class="input__container">
+  <form action="#">
+    <h5>Add your comment:</h5>
+    <div class="label">
+        <p>Name:</p>
+        <input type="text">
+    </div>
+    <div class="label">
+        <p>Description</p>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+    </div>
+    <button>Comment</button>
+  </form>
+</div>
