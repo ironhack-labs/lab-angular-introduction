@@ -1,0 +1,15 @@
+.equipo {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 7%;
+}
+
+.equipo img {
+  max-width: 100%;
+  object-position: center;
+
+  height: 200px;
+}
+.equipo ul {
+  list-style: none;
+}
