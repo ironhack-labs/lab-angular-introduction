@@ -1,0 +1,13 @@
+<section class="teams" >
+ <div *ngFor = "let champions of nbaChampions" class="col"> 
+    <h1>{{champions.year}}</h1>
+    <h3>{{champions.name}}</h3>
+    <img src="{{champions.championUrl}}">
+    <h3>Best Players</h3>
+    <ul *ngFor="let bestPlayers of champions.bestPlayers">
+      <li>{{bestPlayers}}</li>
+    </ul>
+  </div>
+ </section> 
+
+

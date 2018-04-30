@@ -1,0 +1,6 @@
+<h3>{{title}}</h3>
+
+<div *ngFor = "let comment of comments"> 
+  <h4>{{comment.username}}<p>{{comment.date.toLocaleString()}}</p></h4>
+  <p>{{comment.description}}</p>
+</div>
