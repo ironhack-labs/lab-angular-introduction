@@ -1,0 +1,11 @@
+.section {
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.section > img {
+  width: 100%
+}
