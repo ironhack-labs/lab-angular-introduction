@@ -1,0 +1,14 @@
+
+<div class="full-list">
+<div *ngFor="let c of championships">
+  <div class="champion">
+    <h2>{{c.year}}</h2>
+    <img src={{c.img}}>
+    <h2>{{c.champion}}</h2>
+    <h3>Best Players</h3>
+    <ul>
+      <li *ngFor="let p of c.players">{{p}}</li>
+    </ul>
+  </div>
+</div>
+</div>

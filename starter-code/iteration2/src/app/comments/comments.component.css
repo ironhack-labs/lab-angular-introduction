@@ -1,0 +1,36 @@
+.comments-container {
+  background-color: grey;
+  padding: 15px;
+  text-align: left;
+}
+
+.comment {
+  width: 90%;
+  background-color: lightgrey;
+  margin: 5px;
+}
+
+.comment > h4 {
+  padding: 10px 0 0 15px;
+  border: 2px solid white;
+}
+
+.comment > p {
+  padding: 0 0 10px 15px;
+}
+
+#comment-form {
+  text-align: center;
+}
+
+.field {
+  padding: 5px;
+}
+
+.button {
+  background-color: greenyellow;
+  border-radius: 4px;
+  width: 72px;
+  height: 72px;
+
+}

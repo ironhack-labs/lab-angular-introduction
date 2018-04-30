@@ -1,3 +1,10 @@
 <h1>
   {{title}}
 </h1>
+
+<div *ngFor="let i of img">
+  <div class="hero">
+    <img src={{i.src}}>
+    <h2>{{i.name}}</h2>
+  </div>
+</div>
