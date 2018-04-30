@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    text-align: center;
+}
+
+.main{
+    margin: 50px 250px;
+}
+
+.picture{
+    height: auto;
+    width: 100%;
+}
+
+h3,
+.form{
+    background-color: grey;
+}
+
+h3{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.form{
+    margin: 0px 200px;
+}
