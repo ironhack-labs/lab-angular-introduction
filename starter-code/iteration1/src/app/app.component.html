@@ -1,3 +1,14 @@
 <h1>
-  {{title}}
+  Album
 </h1>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-4" *ngFor="let onePic of picList">
+      <div>
+        <img src="{{onePic.picUrl}}" class="picture">
+      </div>
+      <p>{{onePic.description}}</p>
+    </div>
+  </div>
+</div>

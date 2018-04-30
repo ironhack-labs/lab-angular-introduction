@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    text-align: center;
+    padding: 50px 0;
+}
+.pic{
+    width: auto;
+    height: 200px;
+    margin: 25px;
+}
+
+.teams{
+    margin: 0 100px;
+}
+
+ul{
+    text-align: left;
+}
+
+li{
+    line-height: 5px;
+}
