@@ -1,0 +1,20 @@
+.full-list {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between
+}
+
+.champion {
+  text-align: center
+}
+
+.champion > img {
+  height: 200px;
+  max-width: 200px;
+  padding: 30px;
+}
+
+.champion > ul {
+  list-style-type: none;
+}
