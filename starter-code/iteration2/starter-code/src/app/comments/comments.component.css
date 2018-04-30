@@ -1,0 +1,13 @@
+.comments-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-container {
+    background: gray;
+    padding: 20px;
+    width: 60%;
+    margin: 40px auto;
+    border-radius: 10px;
+    border: none;
+}
