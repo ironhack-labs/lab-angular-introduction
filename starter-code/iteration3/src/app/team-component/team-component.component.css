@@ -1,0 +1,7 @@
+.teams {
+  display: flex;
+}
+
+.teams img {
+  max-width: 100%;
+}
