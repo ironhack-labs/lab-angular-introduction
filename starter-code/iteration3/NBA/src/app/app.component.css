@@ -1,0 +1,23 @@
+h1{
+  font-family: 'Titan One', cursive;
+}
+ul {
+  display:flex;
+  list-style-type: none;
+  justify-content:center;
+  margin-top: 5em;
+}
+
+li{
+  display:flex;
+  flex-direction: column;
+}
+
+li>*{
+  display:flex;
+  justify-content: center;
+}
+
+h4{
+line-height: 0%;
+}

@@ -1,0 +1,11 @@
+ul {
+  list-style-type: none;
+  display:flex;
+  justify-content:space-around;
+}
+
+h3{
+  margin-left:9em;
+  text-align: center;
+}
+

@@ -1,0 +1,9 @@
+<h1>
+  {{title}}
+</h1>
+<ul>
+    <li *ngFor="let e of about">
+      <img width="1000" height="600" src="{{e.src}}">
+       <h3>{{ e.description }}</h3>
+    </li>
+  </ul>

@@ -1,0 +1,26 @@
+<link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<h1>
+    {{title}}
+  </h1>
+  <div class="container-fluid">
+      <div class="row justify-content-between">
+        <div class="col-sm">
+            <ul>
+                <li *ngFor="let e of champion">
+                   <h2>{{ e.year }}</h2>
+                   <h3>{{ e.champion }}</h3>
+                   <img width="350" height="300" src="{{e.championUrl}}">
+                   <h3> Best Players </h3>
+                     <h4>{{e.bestPlayer[0]}}</h4>
+                     <h4>{{e.bestPlayer[1]}}</h4>
+                     <h4>{{e.bestPlayer[2]}}</h4>
+                     <h4>{{e.bestPlayer[3]}}</h4>
+                     <h4>{{e.bestPlayer[4]}}</h4>
+                </li>
+              </ul>
+        </div>
+      </div>
+    </div>
+    <ul>
