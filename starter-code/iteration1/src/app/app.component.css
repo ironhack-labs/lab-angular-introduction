@@ -1,0 +1,11 @@
+.col-sm-4{
+  width: 33%;
+  float: left;
+}
+img{
+  height: 200px;
+}
+.row {
+  margin: 0 auto;
+  text-align: center;
+}
