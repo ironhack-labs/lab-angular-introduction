@@ -1,0 +1,15 @@
+<ul>
+    <div  *ngFor="let champion of nbaData" class="card">
+        
+        <img height="90px" src="{{champion.championURL}}">
+        <div><b>{{ champion.champion }}</b></div>
+      
+        <div>
+          <ul>
+          <li *ngFor="let player of champion.bestPlayers">
+            {{player}}
+          </li>
+        </ul>
+      </div>
+    </div>
+</ul>
