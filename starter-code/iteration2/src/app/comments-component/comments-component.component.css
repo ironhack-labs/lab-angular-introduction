@@ -1,0 +1,24 @@
+h2 {
+    margin: 50px 43vh;
+    background: grey;
+    width: 90vh;
+}
+
+.textos {
+    margin: 0px 43vh;
+}
+.input {
+    margin: 100px 68vh;
+    background: grey;
+    width: 30vh;
+    height: 15vh;
+}
+.name {
+margin: 20px;
+}
+.des {
+margin: 20px;
+}
+.enviar {
+    margin: 0px 10px;
+}
