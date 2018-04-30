@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<h1 class="title">The MEAN STACK</h1>
+
+<div class="container">
+  <div *ngFor="let photo of photos" class="card">
+    <img src="{{photo.path}}" alt="" width="150px"> 
+    <h4>{{photo.title}}</h4>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<h1 class="title">Lastest NBA Champions</h1>
+<div class="container">
+  <div *ngFor="let champion of champions" class="card">
+    <h2>{{champion.name}}</h2>
+    <img src="{{champion.photo}}" alt="" width="200px">
+    <h3>Best Players</h3>
+    <ul>
+      <li *ngFor="let player of champion.listPlayers">{{player}}</li>
+    </ul>
+  </div>
+</div>

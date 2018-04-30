@@ -3,6 +3,7 @@
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .title {
@@ -12,8 +13,28 @@
 
 .card {
   text-align: center;
+  width: 300px;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0px 0px 10px black;
+  margin-bottom: 40px;
 }
 
+.card h2 {
+  margin-bottom: 40px;
+}
+
+.card img {
+  margin-bottom: 40px;
+
+}
+
+.card ul {
+  text-align: center;
+  padding: 0;
+}
+
+.card li {
+  list-style: none;
+  margin: 0;
+}
