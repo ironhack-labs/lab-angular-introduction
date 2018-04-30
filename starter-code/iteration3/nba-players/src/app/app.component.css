@@ -1,0 +1,30 @@
+.teams {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+img {
+ 
+  width: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+}
+a{
+  display: block;
+
+}
+
+li {
+text-align: left;
+}
+h3 {
+  text-align: left;
+}

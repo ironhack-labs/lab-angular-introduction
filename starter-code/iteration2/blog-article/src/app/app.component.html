@@ -1,0 +1,12 @@
+<div class="main">
+<h1 id="title">{{title}}</h1>
+<img class="beach" src="{{image}}">
+<p>{{text}}</p>
+</div>
+
+
+<div class="commentBox" *ngFor="let comments of comment">
+  <p> Commentator: {{comments.commentatorName}}</p>
+  <p> Posted: {{comments.commentTime}}</p>
+  <p> Message:<br> {{comments.comment}}</p>
+</div>

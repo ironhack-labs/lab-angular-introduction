@@ -1,0 +1,24 @@
+
+
+#title {
+  text-align: center;
+}
+
+.beach {
+  width: 1000px;
+}
+p {
+  font-size: 1.5em;
+  max-width: 500px;
+}
+
+.main {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.commentBox {
+  border:1px solid black;
+}

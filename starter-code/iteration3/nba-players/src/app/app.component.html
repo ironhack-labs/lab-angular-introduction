@@ -1,0 +1,17 @@
+<div class="container">
+<h1>nba players</h1>
+<div class="teams">
+<div *ngFor="let nbas of nba">
+  
+  <p>{{nbas.champion}}</p>
+  <p>{{nbas.year}}</p>
+  <a href="{{nbas.championUrl}}"> Our {{nbas.champion}}</a>
+  <img src="{{nbas.championBadge}}" alt="">
+
+  <ul>
+    <h3>Best players</h3>
+    <li *ngFor="let player of nbas.bestPlayer"> {{player}}</li>
+ </ul>
+</div>
+</div>
+</div>

@@ -1,0 +1,18 @@
+
+
+
+#album {
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background: brown;
+}
+
+.pics {
+  width: 200px;
+  height: 200px;
+}
