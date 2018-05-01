@@ -1,0 +1,15 @@
+<h1>Dashboard</h1>
+
+<div class = "float">
+    <ul *ngFor="let oneChampion of champions">
+
+        <li>
+          <h2>{{oneChampion.year}}</h2>
+          <h3>{{oneChampion.name}}</h3>
+          <img src="{{oneChampion.image}}" alt="">
+          <ul *ngFor="let player of oneChampion.players">
+            <li>{{player}}</li>
+          </ul>
+        </li>
+      </ul>
+</div>

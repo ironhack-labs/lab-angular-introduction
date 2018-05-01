@@ -1,0 +1,30 @@
+<div class="comments">
+  <h2>Maggie's Comments Section</h2>
+  <ul *ngFor="let oneComment of comments">
+    <li>
+      <h5>{{oneComment.title}}</h5>
+      <p>{{oneComment.comment}}</p>
+    </li>
+  </ul>
+
+  <div class="form">
+    <form action="">
+      <h3>Add your comment</h3>
+      <br>
+
+      <label for="name">Name:</label>
+      <br>
+      <input id="name" type="text">
+      <br>
+      <br>
+
+      <label for="comment">Comment:</label>
+      <br>
+      <textarea id="comment" type="text"></textarea>
+      <br>
+      <br>
+      <button type="submit">Comment</button>
+    </form>
+  </div>
+
+</div>
