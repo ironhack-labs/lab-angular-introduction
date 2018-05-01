@@ -1,3 +1,12 @@
 <h1>
   {{title}}
+
 </h1>
+
+<div class="together" *ngFor="let photo of arrayPhotos">
+  <img src="{{photo.src}}" class="photo">
+  <p> {{photo.description}} </p>
+
+
+
+</div>
