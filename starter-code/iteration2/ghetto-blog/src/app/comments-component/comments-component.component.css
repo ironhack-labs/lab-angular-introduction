@@ -1,0 +1,27 @@
+.comment-div {
+  background-color: lightgray;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.print {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h3 {
+  text-align: center;
+  background-color: lightcoral
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+

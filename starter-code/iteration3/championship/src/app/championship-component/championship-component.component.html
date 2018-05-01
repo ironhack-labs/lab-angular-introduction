@@ -1,0 +1,10 @@
+
+  <ul class="row">
+    <li *ngFor="let oneChampionship of championships" class="col-md-4">
+      <h3>{{oneChampionship.year}}</h3>
+      <h4>Champion: {{oneChampionship.championTeam}}</h4>
+      <img src="{{oneChampionship.url}}">
+      <p>2nd place: {{oneChampionship.otherWinners[0]}}</p>
+      <p>3rd place: {{oneChampionship.otherWinners[1]}}</p>
+    </li>
+  </ul>
