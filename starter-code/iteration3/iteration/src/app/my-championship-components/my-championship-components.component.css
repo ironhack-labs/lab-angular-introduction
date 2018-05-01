@@ -1,0 +1,14 @@
+.crest{
+    width: 300px;
+}
+
+.team-container{
+    width: 33%;
+    float: left;
+    list-style-type: none;
+}
+
+.team-container *{
+    margin: 0 auto;
+    text-align: center;
+}

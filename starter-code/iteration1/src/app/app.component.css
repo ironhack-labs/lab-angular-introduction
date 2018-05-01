@@ -1,0 +1,15 @@
+.picture-frame{
+    width: 33%;
+    float: left;
+    list-style-type: none;
+}
+.picture-frame img{
+    height: 250px;
+    margin: 0 auto;
+    display:block;
+}
+
+.picture-frame * {
+    text-align: center;
+}
+
