@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+.flex {
+  display: flex;
+  padding: 20px 50px;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}

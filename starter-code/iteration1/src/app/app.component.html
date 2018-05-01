@@ -1,3 +1,6 @@
-<h1>
-  {{title}}
-</h1>
+<ul class="flex">
+  <li *ngFor="let onePhoto of photos ">
+    <h2>{{onePhoto.name}}</h2>
+    <img src={{onePhoto.img}}>
+  </li>
+</ul>
