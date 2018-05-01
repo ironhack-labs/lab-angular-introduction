@@ -1,0 +1,79 @@
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+
+.comment-wrapper {
+  width: 60%;
+}
+.comment-block {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 16px;
+}
+
+.red {
+  background-color: orangered;
+}
+
+
+/* .comment-block:nth-child(even) {
+  background-color: lightgray;
+}
+.comment-block:nth-child(odd) {
+  background-color: lightblue;
+}
+
+.comment-block:first-child {
+  background-color: lightcoral;
+}
+
+.comment-block:last-child {
+  background-color: lightgreen;
+} */
+
+
+
+
+
+.comment-title{
+  font-size: 12pt;
+  font-weight: bold;
+  line-height: 20pt;
+}
+
+.comment-date{
+  padding: 0 6px;
+  font-size: 8pt;
+  color: grey;
+}
+
+.comment.body{
+  font-size: 10pt;
+}
+
+.form-wrapper {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: grey;
+  width: 300px;
+  margin: 20px;
+  padding: 24px;
+}
+
+form {
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 240px;
+  padding: 16px;
+  font-size: 14px;
+  margin-bottom: 12px;
+}

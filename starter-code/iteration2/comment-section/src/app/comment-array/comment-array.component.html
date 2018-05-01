@@ -1,0 +1,10 @@
+<div class="comment-block"
+    *ngFor="let comentarioUnico of commentData, let i = first"
+    [ngClass] = "{red:i}">
+
+    
+    {{comentarioUnico.autor}} / {{comentarioUnico.fecha}} <br>
+    {{comentarioUnico.comentario}}
+    {{i}}
+  </div>
+
