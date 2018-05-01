@@ -1,0 +1,11 @@
+<div class="contenedor">
+<div *ngFor="let e of data" class="hijo" >
+  <h3>{{e.year}}</h3>
+  <h4>{{e.name}}</h4>
+
+  <ul *ngFor="let player of e.bestPlayers">
+    <li>{{player}}</li>
+  </ul>
+  <img src="{{e.imgLogo}}" alt="">
+</div>
+</div>

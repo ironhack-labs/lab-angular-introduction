@@ -1,0 +1,52 @@
+
+<!-- <div class="comentarios">
+  <div *ngFor="let e of data, let i = index, let first = first, let even = even, let odd = odd, let last = last">
+    <div *ngIf= "first" [ngClass]="'primero'">
+      <h5>{{e.name}}</h5>
+      <p>{{e.description}}</p>
+    </div>
+    <div *ngIf= "even" [ngClass]="'par'">
+        <h5>{{e.name}}</h5>
+        <p>{{e.description}}</p>
+    </div>
+    <div *ngIf= "odd" [ngClass]="'impar'">
+        <h5>{{e.name}}</h5>
+        <p>{{e.description}}</p>
+    </div>
+    <div *ngIf= "last" [ngClass]="'ultimo'">
+        <h5>{{e.name}}</h5>
+        <p>{{e.description}}</p>
+    </div>
+  </div>
+</div> -->
+
+
+<div class="comentarios">
+    <div *ngFor="let e of data, let i = index, let first = first, let even = even, let odd = odd, let last = last">
+      <div [ngClass]="{primero: first, ultimo:last, par: even, impar: odd}">
+        <h5>{{e.name | myPipe}}</h5>
+        <p>{{e.description | myPipe}}</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<form action="post">
+    <div class="form-group">
+    <label class="col-md-4 control-label" for="article_title">Name</label>  
+    <div class="cuadrado col-md-4">
+    <input #article name="article_title" type="text" placeholder="article title" class="form-control input-md">
+      
+    </div>
+  </div>
+  
+  <div class="form-group">
+    <label class="col-md-4 control-label" for="source_description">Description</label>
+    <div class="cuadrado col-md-4">                     
+      <textarea #text class="form-control" name="source_description"></textarea>
+    </div>
+  </div>
+  <button type="button" class="btn btn-info" (click)="consoleLog(article.value, text.value)">Submit</button>
+</form>
