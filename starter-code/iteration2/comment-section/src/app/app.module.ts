@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MainComponentComponent } from './main-component/main-component.component';
 import { CommentsComponentComponent } from './comments-component/comments-component.component';
 import { CommentArrayComponent } from './comment-array/comment-array.component';
+import { CommentFormComponent } from './comment-form/comment-form.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { CommentArrayComponent } from './comment-array/comment-array.component';
     AppComponent,
     MainComponentComponent,
     CommentsComponentComponent,
-    CommentArrayComponent
+    CommentArrayComponent,
+    CommentFormComponent
   ],
   imports: [
     BrowserModule
