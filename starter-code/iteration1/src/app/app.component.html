@@ -1,3 +1,7 @@
 <h1>
   {{title}}
 </h1>
+<div *ngFor='let pics of images'>
+  <p>{{pics.description}}</p>
+  <img src="{{pics.images}}">
+</div>
