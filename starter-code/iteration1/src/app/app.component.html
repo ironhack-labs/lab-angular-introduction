@@ -1,3 +1,12 @@
-<h1>
+<h1 class="col-sm-12">
   {{title}}
 </h1>
+<ul class="row">
+  <li *ngFor="let image of images" class="col-sm-4">
+    <img src = "{{image.imgUrl}}"  alt="{{image.imgTitle}}">
+    <h3> {{image.imgTitle}} </h3>
+  </li>
+</ul>
+
+
+
