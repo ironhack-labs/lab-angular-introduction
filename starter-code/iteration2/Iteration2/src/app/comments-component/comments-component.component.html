@@ -1,0 +1,22 @@
+<p>
+  comments-component works!
+</p>
+<div *ngFor="let comment of data, let i = first, let j = last, let k = even, let l = odd" [ngClass] = "{class1: i, class5: j, classOdd: k, classEven: l}">
+  <p>
+    {{comment.name}}
+
+  </p>
+  <p>
+    {{comment.description}}
+  </p>
+
+</div>
+<form>
+  name:
+  <br>
+  <input [(ngModel)] = "name" type="text" name="firstname">
+  Description:
+  <br>
+  <input [(ngModel)] = "description" type="text" name="lastname">
+  <button (click)="buttonClickMethod($event,name, description)">Submmit</button>
+</form>
