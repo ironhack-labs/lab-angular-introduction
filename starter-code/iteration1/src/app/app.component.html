@@ -1,3 +1,12 @@
-<h1>
-  {{title}}
-</h1>
+<div style="text-align:center">
+  <h1>
+    {{title}}
+  </h1>
+  <li *ngFor="let e of content">
+    <img width="300" src="{{ e.img }}">
+    <p>{{e.description}}</p>
+</li>
+  <img width="300" alt="Developer 1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMd3bxrYDmayZ9trfV-9XjVejM3E8kWZrvW4vkenDAGPyeRknE">
+  <p>Developer 1</p>
+</div>
+  
