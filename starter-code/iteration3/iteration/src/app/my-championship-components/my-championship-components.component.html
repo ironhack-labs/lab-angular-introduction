@@ -1,0 +1,12 @@
+<h1>Miami Heat Championships</h1>
+<ul>
+  <li class="team-container" *ngFor="let team of championshipTeams">
+    <h2>{{team.name}}</h2>
+    <img class="crest" src={{team.crest}} alt="Team Crest">
+    <h2>{{team.year}}</h2>
+    <h3>Starters:</h3>
+    <div *ngFor="let players of team.starters">
+      <div>{{players}}</div>
+    </div>
+  </li>
+</ul>

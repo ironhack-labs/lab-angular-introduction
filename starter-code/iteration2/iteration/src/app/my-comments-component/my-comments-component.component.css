@@ -1,0 +1,13 @@
+.comment-container *{
+    display: block;
+    margin: 10px 5px;
+}
+.comment-container{
+    background-color: gainsboro;
+    width: 33%;
+    margin: 0 auto;
+}
+
+.comments-list{
+    list-style-type: none;
+}

@@ -1,3 +1,6 @@
-<h1>
-  {{title}}
-</h1>
+<ul>
+  <li *ngFor="let onePhoto of photos"  class="picture-frame">
+    <img src={{onePhoto.imgUrl}}>
+    <h1>{{onePhoto.caption}}</h1>
+  </li>
+</ul>
