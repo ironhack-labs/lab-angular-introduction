@@ -9,6 +9,8 @@ import { CommentsComponentComponent } from './comments-component/comments-compon
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 
+import { FormsModule } from '@angular/forms';
+
 
 
 
@@ -20,6 +22,7 @@ import { MatInputModule } from '@angular/material/input';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     BrowserAnimationsModule,
     MatInputModule
   ],

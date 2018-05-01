@@ -8,9 +8,51 @@ import { Component, OnInit } from '@angular/core';
 export class CommentsComponentComponent implements OnInit {
   constructor() {}
 
-  user: String = 'Alex';
-  date: Date = new Date();
-  comment: String = 'Qué bonito';
+  comments: Array<Object> = [
+    {
+      user: 'Alex',
+      date: new Date(),
+      comment: 'Qué bonito'
+    },
+    {
+      user: 'Alex',
+      date: new Date(),
+      comment: 'Qué bonito'
+    },
+    {
+      user: 'Alex',
+      date: new Date(),
+      comment: 'Qué bonito'
+    },
+    {
+      user: 'Alex',
+      date: new Date(),
+      comment: 'Qué bonito'
+    },
+    {
+      user: 'Alex',
+      date: new Date(),
+      comment: 'Qué bonito'
+    }
+  ];
+
+  name = {}
+
+  recordAllInputKeyStrokes(event) {
+        console.log(`Key inserted: ${event.key}`);
+        //console.log(`Input value: ${event.currentTarget.value}`);
+    }
+
+  recordTextArea(event) {
+        console.log(`Text area value:
+        ${event}`);
+    }
+   recordInput2() {
+     console.log("entra")
+     console.log(this.name);
+     this.name = {}
+   }
 
   ngOnInit() {}
 }
+
