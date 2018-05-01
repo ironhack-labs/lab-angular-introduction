@@ -1,3 +1,10 @@
 <h1>
   {{title}}
 </h1>
+
+<ul>
+  <li *ngFor="let i of info">
+    <img src="{{ i.img }} " alt="" width="200">
+    <small> ({{ i.title }}) </small>
+  </li>
+</ul>
