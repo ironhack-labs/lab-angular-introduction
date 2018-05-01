@@ -1,0 +1,25 @@
+h2 {
+  text-align: center;
+  color: blue;
+}
+
+img {
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vw;
+  width: 70%;
+}
+
+p {
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 2vw;
+  color: whitesmoke;
+  background-color: blue;
+  padding: 3vw;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}

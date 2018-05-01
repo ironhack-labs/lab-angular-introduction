@@ -1,0 +1,30 @@
+<div class="print">
+  <h3>Comments</h3>
+  <ul>
+    <li *ngFor="let oneComment of comments">
+      <h4>{{oneComment.name}}</h4>
+      <p>- {{oneComment.message}}</p>
+    </li>
+  </ul>
+</div>
+
+
+
+<div class="comment-div">
+  <h3>Leave a comment</h3>
+  <form>
+    <label>
+      Your name:
+    </label>
+    <br />     
+    <input type="text" placeholder="i.e. Jamie">
+    <br />
+    <br />
+    <label>
+      Your comment:
+    </label>      
+    <br />
+    <textarea placeholder="i.e. Ditto"></textarea>
+
+  </form>
+</div>
