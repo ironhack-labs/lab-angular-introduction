@@ -1,0 +1,31 @@
+.container {
+    width:80%;
+    margin:0 auto;
+    padding-top:130px;
+}
+
+ul {
+    list-style: none;
+    display: block;
+    width:970px;
+    height:300px;
+    margin:0 auto;
+}
+
+li {
+    float: left;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+img {
+    height:200px;
+    width:300px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.459);
+}
+
+p {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 15px;
+}
