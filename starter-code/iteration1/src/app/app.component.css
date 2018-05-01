@@ -1,0 +1,14 @@
+body {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.mygroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    margin: 30px;
+}
