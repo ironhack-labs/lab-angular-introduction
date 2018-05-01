@@ -1,0 +1,13 @@
+<ul class="flex">
+  <li *ngFor="let oneChampionship of championship">
+    <h2>{{oneChampionship.year}}</h2>
+    <h3>{{oneChampionship.name}}</h3>
+    <img src={{oneChampionship.championUrl}}>
+    <h4>Best Players</h4>
+    <ul>
+      <li *ngFor="let oneList of list">
+        <p>{{oneList.list}}</p>
+      </li>
+    </ul>
+  </li>
+</ul>
