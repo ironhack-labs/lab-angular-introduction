@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-size:15px;
+}
+
+h1 {
+    text-align: center;
+    /* border-bottom: 1px solid rgb(129, 129, 129); */
+    padding-bottom: 20px;
+    margin-bottom:30px;
+    padding-top:20px;
+    color: #fff;
+    background-color: #000;
+    position: fixed;
+    width:100%;
+}

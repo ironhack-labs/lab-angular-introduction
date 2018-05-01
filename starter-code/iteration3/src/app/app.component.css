@@ -1,0 +1,98 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    text-align: center;
+    padding-top:30px;
+}
+
+.container {
+    width:900px;
+    margin:0 auto;
+    padding-top:50px;
+}
+
+.bottom {
+    height:100px;
+    width:900px;
+    clear: both;
+}
+
+.champion-item {
+    list-style: none;
+    width:300px;
+    /* background: #eee; */
+    float: left;
+    margin-top:20px;
+}
+
+.champion-item h3 {
+    text-align: center;
+    font-size: 2em;
+    color:rgb(131, 0, 0);
+}
+
+.champion-item h4 {
+    text-align: center;
+    font-size: 1.4em;
+    padding-top:15px;
+    padding-bottom:30px;
+}
+
+.champion-item .image-wrapper {
+    width:300px;
+    height:200px;
+    /* margin: 0 auto;
+    margin-top:30px;
+    margin-bottom:30px; */
+    /* background: #eee; */
+    display: table-cell; /* comportement visuel de cellule */
+    vertical-align: middle;
+}
+
+.champion-item img {
+    /* width:240px; */
+    max-width: 240px;
+    max-height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.champion-item .players-section {
+    width:240px;
+    /* height:200px; */
+    margin: 10px auto;
+    margin-top:30px;
+    /* background: #eee; */
+    box-sizing: border-box;
+    /* padding-left:30px; */
+    border-bottom:1px solid rgb(151, 151, 151);
+    padding-bottom:20px;
+}
+
+.champion-item .players-section h5 {
+    text-align: center;
+    font-size:1.3em;
+    padding-bottom:20px;
+}
+
+.champion-item .players-section ul {
+    list-style: none;
+    padding-left:60px;
+}
+
+.champion-item .players-section .player-name {
+    background-image: url('https://vignette.wikia.nocookie.net/fairytailfanon/images/d/dd/Star-xxl.png');
+    background-size: 15px;
+    background-repeat: no-repeat;
+    height:30px;
+}
+
+.champion-item .players-section .player-name p {
+    padding-left:22px;
+    /* padding-top:4px; */
+}
+
+
