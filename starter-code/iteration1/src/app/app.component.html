@@ -1,3 +1,11 @@
-<h1>
-  {{title}}
-</h1>
+<div class="global-container">
+  <h1>
+    {{title}}
+  </h1>
+  <div class="gallery-container">
+    <div *ngFor="let photo of photos" class="photo-container">
+      <img src="{{photo.url}}" alt="{{photo.title}}" class="photo">
+      <h2 class="title">{{photo.title}}</h2>
+    </div>
+  </div>
+</div>

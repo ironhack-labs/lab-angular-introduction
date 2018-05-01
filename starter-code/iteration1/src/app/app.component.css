@@ -1,0 +1,28 @@
+*{
+  font-family: 'Lucida Sans', sans-serif;
+}
+.global-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+.title {
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: between;
+}
+
+.photo-container {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    height: 400px;
+}

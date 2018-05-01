@@ -1,0 +1,28 @@
+
+.container{
+  display:flex;
+  justify-content: between;
+}
+.team-container{
+  width:33%;
+  display:flex;
+  flex-direction: column;
+}
+.team-container > * {
+  display:flex;
+  justify-content: center;
+}
+h2,h3,h4{
+  text-align:center;
+}
+img{
+  object-fit: contain;
+  height: 200px;
+}
+.player-list{
+  display:flex;
+  flex-direction: column;
+}
+.player{
+  margin: 10px 20%;
+}

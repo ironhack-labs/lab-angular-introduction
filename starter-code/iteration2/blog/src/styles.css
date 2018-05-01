@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+
+body{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+}
+h1,h2,h3{
+  font-weight: 400;
+}
