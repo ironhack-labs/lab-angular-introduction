@@ -1,0 +1,51 @@
+<h3 class="comments-title">Comments</h3>
+<div *ngFor="let comment of comments, let first = first, let last = last, let even = even, let odd = odd" [ngClass]="{red:first, green:last}" class="comments">
+  <div [ngStyle]="{ 'background-color': first ? 'red' : last ? 'green' : even ? 'grey' : 'blue' }">
+    <p><strong>{{comment.user}}</strong> {{comment.date}}</p>
+    <p>{{comment.comment}}</p>
+  </div>
+</div>
+<div class="new-comment">
+  <form class="example-form">
+    <h5><strong>Add your comment</strong></h5>
+    <mat-form-field class="example-full-width">
+      <input #box matInput placeholder="Name" value=""
+      (keyup)="recordAllInputKeyStrokes($event)">
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+      <input matInput [(ngModel)]="name.name" placeholder="Name" name="aahh">
+    </mat-form-field>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <mat-form-field class="example-full-width">
+      <textarea #textArea matInput placeholder="Leave a comment" 
+      (keyup.enter)="recordTextArea(textArea.value)"
+      (blur)="recordTextArea(textArea.value)">
+      </textarea>
+    </mat-form-field>
+    <input type="submit" 
+mat-button (click)="recordInput2()" value="Submit" />
+  </form>
+</div>
+<div class="clear"></div>

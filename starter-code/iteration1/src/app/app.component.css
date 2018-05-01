@@ -1,0 +1,16 @@
+.container
+ {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 50px;
+ }
+
+ img {
+   width: 300px;
+ }
+
+ small {
+   display: block;
+   text-align: center;
+   font-weight: bold;
+ }
