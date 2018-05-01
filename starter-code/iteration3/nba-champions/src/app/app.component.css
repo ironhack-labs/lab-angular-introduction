@@ -1,0 +1,16 @@
+.card {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 240px;
+  height: 330px;
+  box-shadow: 0px 3px 4px lightgray;
+  margin: 16px;
+  float: left;
+}
+
+ul {
+  text-align: left;
+}
+img {
+  margin-bottom: 20px;
+}

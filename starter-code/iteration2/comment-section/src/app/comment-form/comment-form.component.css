@@ -1,0 +1,17 @@
+input{
+  display: block;
+  padding: 16px;
+  border: 1px lightsteelblue solid;
+  box-shadow: 0 0 2px grey;
+  margin-bottom: 24px; 
+  font-size: 14pt;
+}
+
+button{
+  padding: 16px;
+  background-color: rgb(35, 226, 121);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  width: 120px;
+}

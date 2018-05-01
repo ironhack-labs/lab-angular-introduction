@@ -1,0 +1,26 @@
+.card {
+  display: inline-block;
+  margin: 20px 20px;
+  box-sizing: border-box;
+  padding: 10px;
+  height: 200px;
+  width: 210px;
+  box-shadow: 0 2px 5px grey;
+}
+
+.picture{
+  width: 100%;
+  height: 160px;
+  background-color: salmon;
+  background-size: cover;
+}
+
+.caption{
+  box-sizing: border-box;
+  padding: 5px 5px;
+  width:100%;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+}
+

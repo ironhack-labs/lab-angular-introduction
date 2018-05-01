@@ -1,0 +1,16 @@
+.hero {
+  width:100%;
+  height: 260px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('https://statictripoki.s3-eu-west-1.amazonaws.com/Files/madrid_banner_hotel.jpg')
+}
+
+.hero-title{
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  width:30%;
+  font-size: 50px;
+  margin: 0 auto;
+}
