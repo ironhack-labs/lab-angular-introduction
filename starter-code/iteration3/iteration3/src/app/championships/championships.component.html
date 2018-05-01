@@ -1,0 +1,11 @@
+<div class="shempions__container">
+  <div class="each__shempion" *ngFor="let myChampions of myChampions">
+    <h2>{{myChampions.Year}}</h2>
+    <h3>{{myChampions.Team}}</h3>
+    <img src="{{myChampions.Img}}" alt="">
+    <h4>{{myChampions.Title}}</h4>
+    <ul *ngFor = "let myBest of myChampions.myBest">
+      <li>{{myBest}}</li>
+    </ul>
+  </div>
+</div>

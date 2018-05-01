@@ -1,0 +1,18 @@
+.shempions__container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+.each__shempion {
+    width: 33%;
+    padding: 10px 20px;
+    height: 400px;
+}
+.each__shempion img {
+    width: 80%;
+}
+ul {
+    list-style: none;
+    float: left;
+}
