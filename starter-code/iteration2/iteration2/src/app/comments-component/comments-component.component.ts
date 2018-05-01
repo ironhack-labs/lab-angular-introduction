@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./comments-component.component.scss']
 })
 export class CommentsComponentComponent implements OnInit {
+
   data = [
     {
       name: 'Paco',
@@ -18,10 +19,21 @@ export class CommentsComponentComponent implements OnInit {
     {
       name: 'Juan',
       description: 'dpsnoiavsnfovñfndo´nbownvosç´nvboi´bo'
+    },
+    {
+      name: 'Paca',
+      description: 'dpsnoiavsnfovñfndo´nbownvosç´nvboi´bo'
+    },
+    {
+      name: 'Pepin',
+      description: 'dpsnoiavsnfovñfndo´nbownvosç´nvboi´bo'
     }
   ];
   constructor() { }
 
+  consoleLog(name, description) {
+    this.data.push({name, description});
+  }
   ngOnInit() {
   }
 
