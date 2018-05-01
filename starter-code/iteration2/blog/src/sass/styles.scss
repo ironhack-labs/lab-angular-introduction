@@ -1,0 +1,39 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import './variables';
+@import './mixins';
+body {
+    font-family: $font-stack;
+}
+
+.main-wrapper {
+  margin: 30px 0;
+}
+
+.comments-title {
+  background-color: lightgrey;
+  border-radius: 20px;
+  padding: 5px 0 5px 20px;
+}
+
+.new-comment {
+  background-color: lightgrey;
+  padding: 20px;
+  width: 70%;
+  margin: 0 auto;
+  height: 300px;
+}
+
+.clear {
+  height: 30px;
+}
+
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+}
