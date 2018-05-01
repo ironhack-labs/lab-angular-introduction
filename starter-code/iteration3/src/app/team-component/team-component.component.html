@@ -1,0 +1,12 @@
+<p>
+  team-component works!
+</p>
+
+  <div *ngFor="let team of teams">
+      {{ team.year }}
+      {{team.name}}
+    <img src="{{team.championUrl}}"   alt="">
+    <ul>
+    <li *ngFor="let player of team.bestPlayers"> {{player}} </li>
+  </ul>
+  </div>
