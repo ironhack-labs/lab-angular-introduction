@@ -1,0 +1,36 @@
+.comments__container {
+    width: 75%;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+}
+.inner h6 {
+    color: darkgray;
+    margin-left: 15px;
+}
+.outer__comments:last-child {
+    margin-bottom: 50px;
+}
+.comments__bottom {
+    margin-top: -20px;
+}
+.input__container {
+    width: 40%;
+    background: rgb(216, 215, 215);
+    margin: 0 auto;
+    padding: 2px 10px 2px 10px;
+    border: 1px solid darkgray;
+    margin-bottom: 2rem;
+}
+
+input, textarea {
+    width: 100%;
+}
+button {
+    margin: 10px 0;
+    font-size: 1rem;
+    background: rgb(80, 79, 79);
+    padding: 10px;
+    color: rgb(231, 231, 231)
+}
