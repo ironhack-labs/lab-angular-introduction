@@ -1,0 +1,18 @@
+h1{
+  text-align : center
+}
+.image {
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+p {
+  text-align : center
+
+}
+.general{
+  margin-left : 450px;
+  margin-right : 450px;
+  background-color : yellow
+}
