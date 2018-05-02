@@ -1,16 +1,21 @@
 <div class="d-flex flex-column align-items-center">
   <ul>
-    <li *ngFor="let comm of content">
-      {{ comm }}
+    <li *ngFor="let comm of content ; let i = index">
+      <p *ngIf=" i == 0" class="red p-2 text-center">{{name[i]}}
+        <br>{{ comm }}</p>
+      <p *ngIf="i == content.length-1" class="green p-2 text-center">{{name[i]}}
+        <br>{{ comm }}</p>
+      <p *ngIf="i > 0 && i<content.length-1" class="grey p-2 text-center">{{name[i]}}
+        <br>{{ comm }}</p>
     </li>
   </ul>
 
-  <form action="/" class="d-flex flex-column w-50">
+  <form action="/" class="d-flex flex-column w-100">
     <label for="name">Name</label>
     <input type="text" name="name">
     <label for="description">Description</label>
     <textarea name="description" id="description" cols="10" rows="5"></textarea>
-    <button class="btn btn-dark w-25 mt-2">
+    <button class="btn btn-dark w-50 mt-2">
       Comment
     </button>
   </form>

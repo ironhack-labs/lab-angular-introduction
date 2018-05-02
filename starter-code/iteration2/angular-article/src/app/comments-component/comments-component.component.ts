@@ -11,7 +11,7 @@ export class CommentsComponentComponent {
   content: Array<string>;
 
   constructor() {
-    this.name = ['Bobby Bagles'];
-    this.content = ['Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum eu purus convallis semper. Maecenas sit amet dui scelerisque, interdum erat at, rutrum orci.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum eu purus convallis semper. Maecenas sit amet dui scelerisque, interdum erat at, rutrum orci.', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum eu purus convallis semper. Maecenas sit amet dui scelerisque, interdum erat at, rutrum orci.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum eu purus convallis semper. Maecenas sit amet dui scelerisque, interdum erat at, rutrum orci.']];
+    this.name = ['Name 1', 'Name 2', 'Name 3', 'Name 4', 'Name 5', 'Name 6'];
+    this.content = ['Comment 1', 'Comment 2', 'Comment 3', 'Comment 4', 'Comment 5', 'Comment 6'];
   }
 }

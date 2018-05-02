@@ -1,0 +1,20 @@
+li{
+    list-style-type: none;
+}
+
+.red{
+    background-color: rgb(247, 2, 2);
+}
+
+.green{
+    background-color: rgb(51, 214, 1);
+}
+
+.grey{
+    color: #ffffff;
+    background-color: grey;
+}
+
+.red, .green, .grey{
+    border-radius: 5px;
+}
