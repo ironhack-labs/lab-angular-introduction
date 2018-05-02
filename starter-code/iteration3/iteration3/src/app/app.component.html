@@ -1,0 +1,21 @@
+<h1>Curling Championship</h1>
+<ul>
+
+  <div class="container">
+
+    <li class="first-li" *ngFor="let oneCurling of curlingChampionship">
+      <h2>{{oneCurling.year}}</h2>
+      <h2>{{oneCurling.name}}</h2>
+      <img src="{{oneCurling.url}}">
+      <h3>Best Players</h3>
+      <!-- <p>{{oneCurling.champions}}</p> -->
+      <ul>
+        <li *ngFor="let oneChamp of curlingChampionship.champions">
+          <p>{{oneChamp}}</p>
+        </li>
+      </ul>
+    </li>
+
+  </div>
+
+</ul>

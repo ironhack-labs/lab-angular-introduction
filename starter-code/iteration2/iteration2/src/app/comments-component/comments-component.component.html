@@ -1,0 +1,31 @@
+<h2>
+  Comments
+</h2>
+
+<ul>
+  <li *ngFor="let oneComment of comments">
+    <h3>{{oneComment.name}}
+      <span class="date">{{oneComment.date}}</span>
+    </h3>
+    <p>{{oneComment.zeComment}}</p>
+  </li>
+</ul>
+
+<div class="container">
+  <form action="" method="post">
+    <h3>Add your comment</h3>
+    <label for="">
+      <h4>Name:</h4>
+
+      <input type="text">
+    </label>
+    <br>
+    <label for="">
+      <h4>Description:</h4>
+
+      <textarea name="description" id="" cols="30" rows="10"></textarea>
+    </label>
+
+    <button>Comment</button>
+  </form>
+</div>

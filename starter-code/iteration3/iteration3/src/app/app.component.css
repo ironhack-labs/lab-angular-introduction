@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+
+
+img {
+  height: 150px;
+}
+
+li {
+  float: left;
+  list-style: none;
+  margin: 30px;
+  width: 300px;
+  text-align: center;
+}
