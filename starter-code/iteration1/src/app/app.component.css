@@ -1,0 +1,13 @@
+ul {
+  text-align: center;
+}
+.karl-li {
+  text-align: center;
+  float: left;
+  margin: 2vw;
+  list-style-type: none;
+}
+
+.karl-li img {
+  height: 40vh;
+}

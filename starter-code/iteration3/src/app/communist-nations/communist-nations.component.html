@@ -1,0 +1,16 @@
+<h1>Great Communist Nations</h1>
+
+<ul>
+  <li class="each-nation" *ngFor="let oneNation of nations">
+    <h2>{{oneNation.era}}</h2>
+    <h3>{{oneNation.name}}</h3>
+    <img src="{{oneNation.imageUrl}}" alt="Emblem">
+    <br>
+    <br>
+    <strong>Great Leaders</strong>
+    <span class="great-leaders" *ngFor="let oneLeader of leaders">
+      <p *ngIf="oneLeader.nation === oneNation.name">{{oneLeader.firstName}} {{oneLeader.lastName}}</p>
+    </span>
+  </li>
+
+</ul>

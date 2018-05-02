@@ -1,0 +1,23 @@
+<h1>Comments</h1>
+
+<ul>
+  <li *ngFor="let oneComment of comments">
+    <h2>{{oneComment.title}}</h2>
+    <h3>{{oneComment.timeStamp}}</h3>
+    <p>{{oneComment.body}}</p>
+  </li>
+</ul>
+
+<form>
+  <strong>Add your comment</strong>
+  <br>
+  <br> Name:
+  <br>
+  <input type="text" placeholder="Artamonov Olegovich">
+  <br> Description:
+  <br>
+  <textarea type="text" placeholder="Please write your comment here and try to respect others as well as yourself"></textarea>
+  <br>
+  <br>
+  <input type="submit" value="Submit">
+</form>
