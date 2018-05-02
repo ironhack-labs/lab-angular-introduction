@@ -1,3 +1,10 @@
 <h1>
   {{title}}
 </h1>
+
+<ul>
+  <li class="karl-li" *ngFor="let onePhoto of photoAlbum">
+    <img src="{{onePhoto.imageUrl}}" alt="Question Marx">
+    <p>{{onePhoto.title}}</p>
+  </li>
+</ul>
