@@ -24,13 +24,13 @@ Upon completion, run the following commands:
 
 ```bash
 $ git add .
-$ git commit -m"done"
+$ git commit -m "done"
 $ git push origin master
 ```
 
-Navigate to your repo and create a Pull Request from your master branch to the original repository's master branch.
+Navigate to your repo and create a pull request from your master branch to the original repository's master branch.
 
-In the Pull Request name, add your campus, name, and last name separated by a dash "-".
+In the pull request name, add your campus, name, and last name separated by a dash "-".
 
 ## Deliverables
 
@@ -38,21 +38,19 @@ All the files in the three folders provided in the starter code, with the necess
 
 ## Introduction
 
-In this lesson we are going to work with Angular 2 for the first time. The goal here is to work on three small projects where you are going to get some practice with all of the important concepts that we've touched on thus far.
+In this lesson we are going to work with Angular for the first time. The goal here is to work on three small projects where you can practice the concepts we've learned thus far.
 
 ### Starter Code
 
-The starter code is composed of three different folders, called `iteration1`, `iteration2`, `iteration3`. The only folder that has something inside is the `iteration1` folder, which contains a project created with the Angular CLI.
-
-As you may have noticed, this lesson is composed of three iterations. In each iteration, we will complete a small, independent project. In the first iteration, we provide you the basic skeleton of the app, while in the other two iterations, you will have to create it.
+This lesson is composed of three iterations. In each iteration, we will complete a small, independent project. In the first iteration, we provide you the basic skeleton of the app, while in the other two iterations, you will have to create it.
 
 ## Iteration #1: Photo Album
 
 In the first iteration we are going to build a photo album. Imagine you have an album at home. On it, you can find a photo and its description. This is what we are going to build.
 
-We will build this album in the `AppComponent` component. The album will have three photos and their descriptions, and **it's not necessary to have an Array to store these values**.
+We will build this album in the `AppComponent` component. The album will have three photos and their descriptions, and **it's not necessary to have an array to store these values**.
 
-Easy, right? Add some styles to the page to give your photo album a little flair :)
+Easy, right? Add some styles to the page to give your photo album a little flair!
 
 ![](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_846567994930e52ae46f8468b3800719.png)
 
