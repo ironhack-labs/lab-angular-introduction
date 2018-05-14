@@ -1,0 +1,12 @@
+<h1>{{ title }}!</h1>
+
+<div *ngFor="let article of article">
+  <div style="width: 400px; border: 1px solid black; margin: 10px;">
+    <h3>{{article.title}}</h3>
+    <img src="{{article.image}}" alt="{{article.title}}" style="width: 400px">
+    <p>{{article.description}}</p>
+  </div>
+  <app-comments></app-comments>
+</div>
+
+
