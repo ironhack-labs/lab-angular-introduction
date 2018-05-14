@@ -1,0 +1,14 @@
+h1, h3 { 
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: 130px;
+}
+
+.pics {
+  float: left;
+  margin-left: 8%;
+  margin-right: 8%;
+}

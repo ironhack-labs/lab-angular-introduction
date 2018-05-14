@@ -1,0 +1,14 @@
+<h1>Welcome to {{ title }}</h1>
+
+<!-- Iterate through the team Array -->
+<div *ngFor="let team of teams">
+  <h3>{{ team.year }}</h3>
+  <h4>{{ team.name }}</h4>
+  <img src="{{ team.logo }}" alt="{{ team.name }}">
+  <ul>
+    <!-- Note on how to reference the players array inside of the team array -->
+    <li *ngFor="let player of team.players">
+      <span>{{player}}</span>
+    </li>
+  </ul>
+</div>  
