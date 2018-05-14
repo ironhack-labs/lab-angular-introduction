@@ -1,0 +1,17 @@
+<h2>Comments!</h2>
+
+<div *ngFor="let entry of commentArray">
+  <h4><strong>{{entry.name}}</strong> commented on: {{date}}</h4>
+  <p>{{entry.comment}}</p>
+</div>
+
+<form>
+  <h3>Leave us your comments!</h3>
+  Name:<br>
+  <input type="text" name="firstname" placeholder="Your Name">
+  <br>
+  Comment<br>
+  <textarea rows="4" cols="50" placeholder="Your Comment"></textarea>
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
