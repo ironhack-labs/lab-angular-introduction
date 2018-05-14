@@ -1,3 +1,12 @@
 <h1>
   {{title}}
 </h1>
+<!-- 
+<img src={{image1}} alt="" height="300px" width="300px">
+<img src={{image2}} alt="" height="300px" width="300px">
+<img src={{image3}} alt="" height="300px" width="300px"> -->
+
+<div *ngFor="let pic of photos">
+    <img src={{pic.photo}} alt="" height="300px" width="300px">
+    <p>{{pic.desc}}</p>
+</div>
