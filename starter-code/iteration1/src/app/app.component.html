@@ -1,3 +1,17 @@
 <h1>
   {{title}}
 </h1>
+
+
+
+
+
+<div *ngFor="let animal of arrayView" >
+    <div class="gallery">
+  <a target="_blank" href="{{photo1}}"></a>
+    <img src="{{animal.photo}}" alt="" width="400" height="400">
+  
+  <div class="desc">{{animal.desc}}</div>
+
+</div>
+</div>
