@@ -1,0 +1,23 @@
+h3 {
+    background-color: lightgrey; 
+    padding-left: 10%; 
+    padding-bottom:1px; 
+    padding-top: 1px; 
+    border-radius: 25px;
+}
+
+form { 
+    margin: 0 auto; 
+    width:250px;
+    }
+h4 {
+    text-align: center;
+}
+
+.comments {
+    margin-left: 15%;
+}
+
+.comments p{
+    margin-left: 5%;
+}
