@@ -1,0 +1,13 @@
+<h1 style="display: block; background-color: #AAA;">Comments</h1>
+
+<div *ngFor="let comment of comments">
+  <div>
+    <h4>{{comment.username}}</h4>
+    <p>{{comment.createdAt}}</p>
+    <p>{{comment.comment}}</p>
+    <h3>Comment something</h3>
+    <form action="">
+      <input type="text">
+    </form>
+  </div>
+</div>

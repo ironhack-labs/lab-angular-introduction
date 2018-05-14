@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+<div *ngFor="let image of image">
+  <div style="margin: 10px; width: 300px; float: left;">
+    <p>{{image.name}}</p>
+    <img src="{{image.src}}" alt="{{image.name}}" style="width: 300px; border: 1px solid black">
+  </div>
+</div>
