@@ -1,0 +1,12 @@
+.divContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.divContent {
+  border: 2px solid black;  
+  width: 30%;
+  margin-left: 10px;
+}
