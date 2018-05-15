@@ -1,3 +1,7 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+     
+  <div *ngFor="let photo of photoalbum" class="photo-container">
+    <img [src] = "photo.imageSRC" alt="photo.caption">
+    <p>{{photo.caption}}</p>
+  </div>
+</div>
