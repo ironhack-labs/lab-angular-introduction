@@ -13,6 +13,18 @@ export class CommentsComponent implements OnInit {
     {title: 'you suck', content: 'lol jk'}
   ]
 
+    newComment = { title: '', content: '' }
+  ;
+
+  addNew(): void {
+    this.comments.push(this.newComment);
+  }
+
+  // createNewComment(titleArg: String, contentArg: String): void {
+  //   const newComment = { title: titleArg, content: contentArg }
+  //   this.comments.push(newComment);
+  // }
+
   constructor() { }
 
   ngOnInit() {

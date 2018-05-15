@@ -3,13 +3,16 @@
   <h1>
     {{ title }}!
   </h1>
-  <img src="{{imagePath}}">
+  <img [src]="imagePath">
 </div>
 <br>
+<button type="button" (click)="sayHi()">hello</button>
 <br>
 <br>
 <h2 style="text-align:center">{{content}}</h2>
 
+<!-- <input [(ngModel)]="secretPhrase">
 
+<h2>{{secretPhrase}}</h2> -->
 
 <app-comments></app-comments>
