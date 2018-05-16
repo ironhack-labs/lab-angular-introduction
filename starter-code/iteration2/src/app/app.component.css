@@ -1,0 +1,52 @@
+.flex-container {
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    width: 60%;
+    align-content: center;
+    margin: 0 auto;
+
+  }
+
+.row{
+    max-width:100%;
+}
+
+.row img {
+    max-width:100%;   
+}
+
+.comments-box {
+    align-self: flex-start;
+    border: 1px solid #DCDCDC;
+    background-color: #DCDCDC;
+    border-radius: 50px;
+    width: 98%;
+    padding-left: 20px;
+}
+
+.comments {
+    margin-left: 4em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #DCDCDC;
+    padding: 1em;
+    margin-bottom: 50px;
+}
+
+.form input{
+    margin-bottom: 1em;
+}
+
+.form textarea{
+    margin-bottom: 1em;
+}
+
+.form button{
+    background-color: black;
+    color: white;
+}

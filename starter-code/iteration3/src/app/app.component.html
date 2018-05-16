@@ -1,0 +1,30 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="flex-container">  
+  
+  <div class="item" *ngFor="let championship of championships">
+    
+        <div class="year">
+             <h2>{{championship.year}}</h2>
+        </div>
+
+        <div class="name">
+              <h1>{{championship.name}}</h1>
+        </div>
+
+        <div class="image">
+              <img src={{championship.championUrl}} alt="">
+        </div>
+
+        <div class="best-players">
+              <p><b>Best Players</b></p>
+        
+              <ul *ngFor="let bestplayer of championship['bestplayers'];">
+                <li>{{bestplayer}}</li>
+              </ul>
+
+        </div>
+  </div>
+  
+</div>
+  
+  

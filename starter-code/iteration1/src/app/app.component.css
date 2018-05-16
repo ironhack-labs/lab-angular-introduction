@@ -1,0 +1,11 @@
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .container img {
+      width: 20%;
+      height: 20%;
+  }
