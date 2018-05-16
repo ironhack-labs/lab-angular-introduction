@@ -1,0 +1,27 @@
+<div class="container">
+
+
+  <h2> NBA Champions</h2>
+  <div class="col-md-4" *ngFor="let championship of championships">
+    <p>
+      <span>
+        <h4>
+          <b>{{championship.year}}</b>
+        </h4>
+      </span>
+    </p>
+    <p>
+      <span> {{championship.team}}</span>
+    </p>
+    <p>
+      <img src="{{championship.url}}" width="200px" height="200px">
+    </p>
+
+    <ul *ngFor="let players of championship.players">
+      <li> {{players}}</li>
+
+    </ul>
+  </div>
+
+
+</div>

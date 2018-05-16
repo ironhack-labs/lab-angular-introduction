@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+
+  photos: Array<Object> = [
+    {
+      source: 'Airbnb.jpg',
+      desc: ' A logo of Airbnb'
+    },
+    {
+      source: 'sea.png',
+      desc: 'A little sea'
+    },
+    {
+      source: 'sheep.jpg',
+      desc: 'this is a sheep'
+    }
+  ];
 }
