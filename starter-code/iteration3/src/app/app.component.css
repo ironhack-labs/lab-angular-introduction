@@ -1,0 +1,14 @@
+img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.team {
+  width: 30%;
+  text-align: center;
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+}
