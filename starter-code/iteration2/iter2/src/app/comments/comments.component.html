@@ -1,0 +1,20 @@
+<form>
+  <h3>Add a Comment</h3>
+  <p>Title</p>
+  <input #theTitle/>
+  <p>Content</p>
+  <input #theContent/>
+
+  <button type="button"(click)="createNewComment(theTitle.value, theContent.value)">Submit</button>
+</form>
+
+
+
+
+<div *ngFor="let oneComment of comments">
+
+<h5>{{oneComment.title}}</h5>
+
+<p>{{oneComment.content}}</p>
+
+</div>

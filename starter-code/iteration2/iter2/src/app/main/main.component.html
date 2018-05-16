@@ -1,0 +1,33 @@
+<h1>Todays Article</h1>
+
+<div>
+  <h2>{{title}}</h2>
+
+
+  <!-- <img src="{{imagePath}}">
+  old way^ -->
+  <img [src]="imagePath">
+  <!-- For changing a property. Made behind the scenes for a better refresh  -->
+
+
+  <input #blah />
+  <!-- Angular template variable: connect varible to another page using function sayHi -->
+
+<!-- Adding a button for functional action. Need to create method in main.compo.ts -->
+<button type="button" (click)="sayHi(blah.value)"></button>
+
+  <p>{{content}}</p>
+
+</div>
+
+<!-- <div>
+<input [{ngModel}] ="secretPhrase">
+
+<h2>{{secretPhrase}}</h2>
+
+</div> -->
+
+<app-comments></app-comments>
+
+<!-- Pg that showcases title of article along with the image(imagePath) along with content from 
+main.component.ts, all displayed on app.component.html -->
