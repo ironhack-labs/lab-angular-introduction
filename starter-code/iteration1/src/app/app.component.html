@@ -1,3 +1,12 @@
-<h1>
-  {{title}}
-</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-4" *ngFor="let photo of photos">
+    <p><img src="../assets/images/{{photo.source}}"></p>
+    <p><strong>Description: </strong><span>{{photo.desc}}</span></p>
+
+    </div>
+  </div>
+</div>
+<app-comments></app-comments>
+<app-championships></app-championships>
