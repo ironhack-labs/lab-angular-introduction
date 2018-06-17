@@ -1,3 +1,7 @@
 <h1>
   {{title}}
 </h1>
+<div *ngFor="let city of cities">
+  <img src="{{ city.imageUrl }}">
+  <p>{{ city.cityName }}</p>
+</div>
