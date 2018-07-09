@@ -1,0 +1,13 @@
+.album-global-box{
+    display: flex;
+    flex-direction: row;
+}
+
+/* .album-each-picture{
+    display: flex;
+    flex-direction: column;
+} */
+/*
+img{
+    size: 200px 100px;
+} */
