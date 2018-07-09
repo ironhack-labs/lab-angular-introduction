@@ -1,3 +1,15 @@
-<h1>
-  {{title}}
-</h1>
+<div class="album-page">
+  <div class="album-title">
+      <h1>
+          {{title}}
+      </h1>
+  </div>
+  <div class="album-global-box">
+    <ul>
+        <li *ngFor="let onePhoto of photos" class="album-each-picture">
+          <img src="{{onePhoto.photoUrl}}" alt="{{onePhoto.title}}">
+          <h2>{{onePhoto.title}}</h2>
+        </li>
+    </ul>
+  </div>
+</div>
