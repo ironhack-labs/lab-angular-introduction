@@ -1,3 +1,16 @@
 <h1>
   {{title}}
 </h1>
+
+<ul>
+  <li *ngFor="let oneIronhack of ironhacks">
+    <p><strong>{{oneIronhack.location}}</strong></p>
+
+    <img src="{{oneIronhack.picUrl}}" width="150"/>
+  </li>
+</ul>
+
+<!-- PA 2 -->
+<h1>Ite 2</h1>
+<app-main-component></app-main-component>
+<app-comments-component></app-comments-component>
