@@ -1,3 +1,8 @@
 <h1>
   {{title}}
 </h1>
+
+<div *ngFor="let onePicture of pictures">
+  <img src="{{onePicture.url}}">
+  <h2>{{onePicture.name}}</h2>
+</div>
