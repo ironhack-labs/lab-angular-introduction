@@ -1,3 +1,10 @@
 <h1>
   {{title}}
 </h1>
+
+<ul class="flexy">
+  <li *ngFor="let onePhoto of album">
+    <img src="{{onePhoto.photoUrl}}">
+    <h2>{{onePhoto.description}}</h2>
+  </li>
+</ul>

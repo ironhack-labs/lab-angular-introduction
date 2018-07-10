@@ -1,0 +1,11 @@
+.flexy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  list-style: none;
+}
+
+.flexy img {
+  height: 150px;
+}
