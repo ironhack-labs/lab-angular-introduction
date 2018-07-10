@@ -1,0 +1,9 @@
+<ul>
+  <li *ngFor="let oneArticle of articles">
+    <h2>{{oneArticle.title}}</h2>
+    <img src="{{oneArticle.imageUrl}}" alt="Ironhack Logo">
+    <p>ID: {{oneArticle.description}}</p>
+  </li>
+</ul>
+
+<app-comments-component></app-comments-component>

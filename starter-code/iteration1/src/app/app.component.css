@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+  margin: 80px auto;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+img {
+  height: 300px;
+}
