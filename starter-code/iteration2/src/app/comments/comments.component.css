@@ -1,0 +1,25 @@
+.graybox{
+  width: 670px;
+  border: 1px solid gray;
+  background: gray;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+
+.box{
+  width: 500px;
+  border: 1px solid gray;
+  padding: 15px;
+  margin-top: 10px;
+  background: lightgray;
+}
+
+.comentarios {
+  width: 670px;
+  margin-top: 40px;
+}
+
+.comentarios ul{
+  list-style: none;
+  text-align: left;
+}
