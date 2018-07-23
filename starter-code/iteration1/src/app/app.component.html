@@ -1,3 +1,23 @@
 <h1>
   {{title}}
 </h1>
+<div class="flex-row">
+  <div *ngFor="let photo of photos" class="photos">
+    <div class="player-img">
+      <img src={{photo.imgPath}}>
+    </div>
+    <h2>
+      {{photo.name}}
+    </h2>
+  </div>
+</div>
+<app-main>
+
+
+
+</app-main>
+<app-comments>
+
+
+
+</app-comments>

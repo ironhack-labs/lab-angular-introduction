@@ -1,0 +1,11 @@
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.flex-column img {
+  width: 100%;
+}
+
+

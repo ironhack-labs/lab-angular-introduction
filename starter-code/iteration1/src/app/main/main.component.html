@@ -1,0 +1,9 @@
+<div class="flex-column">
+  <div *ngFor="let article of articles" class="article">
+    <h3> {{article.title}}</h3>
+    <div>
+      <img src="{{article.image}}">
+    </div>
+    <p> {{article.description}}</p>
+  </div>
+</div>
