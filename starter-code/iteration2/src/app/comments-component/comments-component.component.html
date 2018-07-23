@@ -1,0 +1,30 @@
+<div class="container">
+  <h2>{{title}}</h2>
+  <p>{{comments}}</p>
+  <form action="form">
+    {{add}}
+    <br> {{name}}
+    <input type="text"> {{description}}
+    <input type="textarea">
+  </form>
+</div>
+<div id="form-main">
+  <div id="form-div">
+    <form class="form" id="form1">
+
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="{{name}}"
+          id="name" />
+      </p>
+
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment">{{description}}</textarea>
+      </p>
+
+
+      <div class="submit">
+        <input type="submit" value="{{comment}}" id="button-blue" />
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
