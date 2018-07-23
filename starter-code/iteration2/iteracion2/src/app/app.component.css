@@ -1,0 +1,14 @@
+img{
+    width: 50vw;
+    height: 50vh;
+}
+
+.global{
+    text-align: center;
+}
+
+.texto{
+    margin: 20px auto 0 ;
+    width: 50vw;
+    text-align: justify;
+}

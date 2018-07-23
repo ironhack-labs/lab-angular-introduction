@@ -1,0 +1,16 @@
+img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.flex-fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.each-photo{
+    width: 33%;
+}
