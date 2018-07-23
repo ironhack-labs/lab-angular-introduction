@@ -1,0 +1,12 @@
+.photo-container{
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.wrap-cont {
+  width: 33%;
+  height: 15%;
+  background-size: contain;
+  text-align: center;
+}
