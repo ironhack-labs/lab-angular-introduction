@@ -1,0 +1,7 @@
+h1{text-align: center}
+
+.articleContainer{
+    width: 95%;
+    max-width: 700px;
+    margin: 1em auto;
+}

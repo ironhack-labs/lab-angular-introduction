@@ -1,0 +1,15 @@
+<h2>{{article.title}}</h2>
+<img src="{{article.image}}" alt="">
+<p>{{article.content}}</p>
+
+<h3>Comments</h3>
+<app-comments *ngFor="let comment of article.comments" [comment]="comment"></app-comments>
+
+<h3>New Comment</h3>
+<div>
+    Name: <input type="text" id="name"> <br><br>
+    Content: <br>
+    <textarea name="" id="content" cols="30" rows="10"></textarea> <br>
+    <button (click)="createComment()">Add Comment</button>
+</div>
+
