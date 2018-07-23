@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+.wrapper{
+    width:600px;
+    margin: 0 auto;
+    text-align: center
+}
+
+#thisForm{
+    background-color: pink;
+    width: 400px;
+}
+
+.commentWrapper{
+    display: flex;
+    justify-content: center;
+}

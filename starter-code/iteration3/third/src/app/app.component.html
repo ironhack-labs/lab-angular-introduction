@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class='thirdWrap'>
+<div *ngFor="let championship of Championships">
+    <h1>{{ championship.year }}</h1>
+    <h1>{{ championship.teamName}}</h1>
+    <img src={{championship.teamImg}}>
+    <ul *ngFor="let player of championship.players">
+    <p> {{player}}</p>
+    </ul>
+</div>
+</div>

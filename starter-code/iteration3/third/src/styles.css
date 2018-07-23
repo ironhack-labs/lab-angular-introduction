@@ -1,12 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 img{
-    max-width: 100%;
-    height: 100px;
+    height: 200px;
 }
 
-.container{
+.thirdWrap{
     display: flex;
-    flex-direction: wrap;
     justify-content: space-around;
     text-align: center
 }
