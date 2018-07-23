@@ -1,0 +1,17 @@
+.global{
+    width: 50vw;
+    text-align: center;
+    margin: 0 auto;
+}
+h4{
+    text-align: left;
+}
+
+.userName{
+    text-align: left;
+    display: block;
+}
+
+p{
+    text-align: justify;
+}

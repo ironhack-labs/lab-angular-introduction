@@ -1,0 +1,14 @@
+<div   class="flex-card">
+<div *ngFor="let ganador of equipos" class="card">
+  <h4>{{ganador.year}}</h4>
+
+  <div class="photo"><img src={{ganador.url}} alt=""></div>
+
+  <h4>Best players</h4>
+  <ul class="lista">
+    <li *ngFor="let jugador of ganador.players">{{jugador}}</li>
+  </ul>
+</div>
+
+
+</div>
