@@ -1,0 +1,43 @@
+h2{
+  background: #c3d6d6;
+  color: #FFF;
+  border-radius: 0 25px 25px 0;
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.comentario{
+  padding: 5px 0 2px 0;
+  border-bottom: 1px dotted #c3d6d6;
+}
+
+form{
+  margin-top: 40px;
+  background: #e3e4e4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+fieldset{
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+label{
+  margin: 20px 0 5px 0;
+}
+input{
+  height: 30px;
+}
+textarea{
+  height: 60px;
+}
+button{
+  margin-top: 30px;
+  padding: 6px;
+  border-radius: 5px;
+  background: #444;
+  color: #FFF;
+  cursor: pointer;
+}

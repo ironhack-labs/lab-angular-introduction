@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #424242;
+  line-height: 1.3em;
+}
+h1{
+  text-align: center;
+  margin: 60px 0 50px 0;
+}
+.container{
+  width: 60%;
+  margin: 0 auto;
+}
+img{
+  width: 100%;
+}
