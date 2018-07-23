@@ -1,0 +1,15 @@
+
+.center{
+    text-align: center
+}
+.article{
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+}
+img,p{
+    width: 70%;
+}
+p{
+    display: inline-block;
+}
