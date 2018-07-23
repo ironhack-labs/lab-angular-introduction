@@ -1,0 +1,21 @@
+<div class = "container">
+  <div class="graybox">{{title}}</div>
+  <ul>
+    <li *ngFor= "let comment of comments">
+      <p><span class ="comment-head">{{comment.name}} - {{comment.date}}</span></p>
+      <p>Comment: {{comment.comment}}</p>
+    </li>
+  </ul>
+  <br>
+  <br>
+  <p>Please leave a comment below!</p>
+  <br>
+  <br>
+  <form action="" method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+    <label for="comment">Comment:</label>
+    <input type="text" name="comment" id="comment">
+    <button type="submit">Send!</button>
+  </form>
+</div>
