@@ -1,12 +1,13 @@
-<div>
-  <h1>Comments</h1>
-  <div *ngFor="let comment of comment">
-    <div>
-      <h4>{{comment.name}}</h4>
-      <p>{{comment.description}}</p>
+<div class="main-box">
+  <div class="comment-box">
+    <h1>Comments</h1>
+    <div *ngFor="let comment of comment">
+      <div>
+        <h4>{{comment.name}}</h4>
+        <p>{{comment.description}}</p>
+      </div>
     </div>
   </div>
-
   <div class="formContainer">
     <form action="POST">
       <h3>Add your comment</h3>
