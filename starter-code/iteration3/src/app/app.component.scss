@@ -1,0 +1,19 @@
+.champions{
+  display: flex;
+  justify-content: space-around;
+  .champion{
+    padding: 30px;
+    h2, h3{
+      text-align: center;
+    }
+    .img-wrap{
+      width: 200px;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      img{
+        max-width: 100%;
+      }
+    }
+  }
+}

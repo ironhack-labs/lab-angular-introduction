@@ -1,0 +1,21 @@
+.comments{
+  width: 300px;
+  background-color: brown;
+}
+
+.comment{
+  text-align: right;
+}
+
+.comment:nth-child(even){
+  background-color:burlywood;
+}
+
+.comment:nth-child(odd){
+  background-color: blanchedalmond;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
