@@ -1,0 +1,21 @@
+li {
+  list-style-type: none;
+}
+
+.formy {
+  background-color: gray;
+  width: 40vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.centerMe {
+  text-align: center;
+}
+
+.barrier {
+  margin: 100px;
+}

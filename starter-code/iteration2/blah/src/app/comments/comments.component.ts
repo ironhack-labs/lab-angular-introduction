@@ -5,11 +5,24 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './comments.component.html',
   styleUrls: ['./comments.component.css']
 })
-export class CommentsComponent implements OnInit {
+export class CommentsComponent {
+title:string = 'Comments'
+arrayOfComments: Array<any> = [
+  
+{
+  reviewer: 'The Hopeful',
+  review: 'I am full of hope.'
+}, {
+  reviewer: 'The Dreaded',
+  review: 'Needs more dread.'
+}, {
+  reviewer: 'The Virtuoso',
+  review: 'I rehearsed this!'
+}
 
-  constructor() { }
 
-  ngOnInit() {
-  }
+
+]
+
 
 }

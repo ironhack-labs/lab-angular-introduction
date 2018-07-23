@@ -1,3 +1,36 @@
-<p>
-  comments works!
-</p>
+<!DOCTYPE html>
+
+<div class="centerMe">
+<h1>{{title}}</h1>
+
+
+<hr>
+<li *ngFor="let oneComment of arrayOfComments">
+  
+ 
+  <p><b>{{oneComment.reviewer}}</b></p>
+  <p><i>"{{oneComment.review}}"</i></p>
+  <hr>
+</li>
+
+</div>
+
+
+<div class = "formy">
+<form action ="YouAreABeautifulPersonThankYouSoMuchForLookingAtThis" method="get">
+  <h3>Add Your Comment</h3>
+
+<label for="text">Name</label><br>
+  <input size ="80" id="text" type = "text">
+<br>
+<br>
+<label for="description">Description</label><br>
+<textarea cols="80"  rows="10"></textarea>
+<br>
+
+  <button> Add your review</button>
+
+</form>
+</div>
+
+<div class="barrier">
