@@ -1,4 +1,3 @@
-
 img{
   width: 200px;
   height: 200px;
@@ -7,9 +6,6 @@ img{
 
 div{
   display: inline-block;
-  margin-left: 20px; 
+  margin-left: 20px;
 }
 
-p{
-  text-align: center;
-}
