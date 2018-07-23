@@ -1,0 +1,17 @@
+ul{
+  display: flex;
+  font-family: sans-serif;
+}
+h1{
+  font-family: sans-serif;
+}
+li{
+  list-style: none;
+  width: 33%;
+  box-sizing: border-box;
+  padding: 15px;
+  text-align: center;
+}
+img{
+  max-width: 100%;
+}

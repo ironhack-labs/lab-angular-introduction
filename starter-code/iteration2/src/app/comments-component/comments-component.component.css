@@ -1,0 +1,24 @@
+.container{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+li{
+  list-style: none;
+}
+.date{
+  font-weight: 400;
+  margin-left: 20px;
+}
+
+form label{
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+}
+input{
+  display: block;
+  width: 150px;
+  margin-bottom: 10px;
+}
