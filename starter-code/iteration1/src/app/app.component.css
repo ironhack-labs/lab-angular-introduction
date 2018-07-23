@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+}
+
+.image-wrap{
+  padding: 50px;
+}
+
+p{
+  text-align: center;
+}
+
+.image-container img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
