@@ -1,0 +1,25 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<h1>
+  {{title}}
+  <ul>
+    <li *ngFor="let team of teams">
+      <h5>{{team.epoca}}</h5>
+      <img src="{{team.src}}" alt="image">
+      <br>
+      <h3>{{team.name}}</h3>
+      <br>
+      <ul>
+        <li *ngFor="let jugador of team.five">
+            <h3>{{jugador}}</h3>
+        </li>
+      </ul>
+      <br>
+    </li>
+  </ul>
+</h1>

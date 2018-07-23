@@ -1,3 +1,10 @@
 <h1>
   {{title}}
-</h1>
+  <ul>
+    <li *ngFor = "let element of elements">
+      <img src="{{element.src}}" alt="image">
+      <br>
+      <p>{{element.name}}</p>
+    </li>
+  </ul>
+ </h1>
