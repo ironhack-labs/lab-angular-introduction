@@ -1,0 +1,19 @@
+.container{
+  margin: 0 auto;
+  width: 75%
+}
+
+.container *{
+  margin: 10px 0;
+}
+
+h1, h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  max-width: 100%;
+  object-fit: contain;
+}
