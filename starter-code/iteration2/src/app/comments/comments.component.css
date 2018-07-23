@@ -1,0 +1,12 @@
+span {
+  color: grey;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.newCommentContainer {
+  text-align: center;
+  width: 350px;
+  background-color: grey;
+  border: 1px solid black;
+}
