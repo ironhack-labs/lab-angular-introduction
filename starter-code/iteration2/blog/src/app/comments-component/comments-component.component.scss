@@ -1,0 +1,47 @@
+h2 {
+  background: lightgrey;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+#comments {
+  padding: 0 30px;
+  .item {
+    margin-bottom: 25px;
+    h4 {
+      margin-bottom: 0;
+    }
+    p {
+      margin-top: 5px;
+    }
+  }
+}
+
+#comment-form {
+  width: 100%;
+  max-width: 420px;
+  background: lightgray;
+  border: 1px solid gray;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  legend {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  label {
+    display: block;
+  }
+  input, textarea {
+    width: 100%;
+    border: 1px solid gray;
+  }
+  textarea {
+    resize: none;
+  }
+  button {
+    background: gray;
+    color: #fff;
+    padding: 5px 10px;
+  }
+}

@@ -1,0 +1,19 @@
+<h2>Comments</h2>
+<div id="comments">
+  <div class="item" *ngFor="let c of comments">
+    <h4>{{c.author}}</h4>
+    <p>{{c.comment}}</p>
+  </div>
+</div>
+<form id="comment-form" action="">
+  <legend>Add your comment</legend>
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+  </div>
+  <div>
+    <label for="description">Description:</label>
+    <textarea name="description" id="description" cols="30" rows="10"></textarea>
+  </div>
+  <button type="submit">Comment</button>
+</form>
