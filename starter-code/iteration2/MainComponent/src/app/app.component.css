@@ -1,0 +1,12 @@
+.title {
+    text-align: center;
+}
+
+.picture-info img {
+    width: 100vw;
+    height: 600px;
+}
+
+.picture-par {
+    margin-top: 4rem;
+}
