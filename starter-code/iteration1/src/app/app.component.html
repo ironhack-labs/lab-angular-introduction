@@ -1,3 +1,11 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <h1>
+    {{title}}
+  </h1>
+  <div id="album">
+    <div class="item" *ngFor="let photo of photos">
+      <img src="{{photo.img}}" alt="{{photo.description}}">
+      <h4>{{photo.description}}</h4>
+    </div>
+  </div>
+</div>
