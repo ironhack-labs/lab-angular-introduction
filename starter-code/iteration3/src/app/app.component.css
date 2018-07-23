@@ -1,0 +1,19 @@
+.container{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: sans-serif;
+  text-align: center;
+}
+.container ul{
+  display: flex;
+}
+li{
+  list-style: none;
+  width: 33%;
+  box-sizing: border-box;
+  padding: 0 20px;
+}
+img{
+  max-width: 100%;
+}
