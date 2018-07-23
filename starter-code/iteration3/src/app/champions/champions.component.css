@@ -1,8 +1,8 @@
-ul{
+.htal{
      list-style: none;
 }
 
-li{
+.htal{
      display:inline-block;
      margin:100px
 }
