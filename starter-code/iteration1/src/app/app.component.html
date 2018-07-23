@@ -1,3 +1,11 @@
-<h1>
-  {{title}}
-</h1>
+<div class = "container">
+  <h1>
+    {{title}}
+  </h1>
+<ul>
+  <li *ngFor ="let image of album">
+      <img src = "{{image.src}}">
+      <p>{{image.name}}</p>
+  </li>
+</ul>
+</div>

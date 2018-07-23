@@ -1,0 +1,27 @@
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+    box-align: center;
+
+}
+div > h1 {
+    margin: 20px auto;
+    text-align: center;
+}
+
+img {
+    width: 650px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.text {
+    width: 650px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    display: block;
+    margin: 0 auto;
+
+}
