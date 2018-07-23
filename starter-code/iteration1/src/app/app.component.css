@@ -1,0 +1,29 @@
+
+h1{
+  text-align:center;
+}
+
+h2{
+  text-align:center;
+}
+
+.album-container{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items: center;
+  margin:0;
+}
+
+.photo{
+  padding:0;
+  margin:0 auto;
+  width:30%;
+  text-align:center;
+}
+.photo img{
+  width:90%;
+  margin:0;
+  margin:0 auto;
+
+}
