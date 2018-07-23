@@ -1,0 +1,7 @@
+<div *ngFor="let nbaChampionship of array">
+  <ul>
+    <li>{{ nbaChampionship.year }}</li>
+    <li>{{ nbaChampionship.name }}</li>
+    <li *ngFor="let player of nbaChampionship.bestPlayers">{{player}}</li>
+  </ul>
+</div>

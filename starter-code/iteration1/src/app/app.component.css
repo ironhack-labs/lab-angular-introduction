@@ -1,0 +1,14 @@
+.photo-album {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo {
+  width:30%;
+  padding-right: 10px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
