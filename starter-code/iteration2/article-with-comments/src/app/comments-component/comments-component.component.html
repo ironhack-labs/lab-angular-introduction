@@ -1,0 +1,13 @@
+<h3>Comments</h3>
+<div class="comments-section-container">
+  <div class="comment-container" *ngFor="let c of comments">
+    {{c.title}}{{c.date}}
+    <br> {{c.body}}
+  </div>
+</div>
+<div class="new-comment-form">{{commentForm.formTitle}}</div>
+Name:<br>
+<input type="text" name="comment-name"><br>
+Description<br>
+<textarea name="comment-body" rows="4" cols="50"></textarea><br>
+<button>{{commentForm.buttonName}}</button>
