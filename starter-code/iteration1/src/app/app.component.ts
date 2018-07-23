@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Album } from './album/album';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'IronHack Albums!';
+  albums = [
+    new Album('IronHack Madrid', 'https://www.ironhack.com/assets/campus-image-slider/madrid-1.jpg'),
+    new Album('IronHack Barcelona', 'https://www.ironhack.com/assets/campus-image-slider/barcelona-1.jpg'),
+    new Album('IronHack Miami', 'https://www.ironhack.com/assets/campus-image-slider/miami-4.jpg')
+  ]
 }

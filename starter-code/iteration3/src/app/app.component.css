@@ -1,0 +1,10 @@
+h1{text-align: center}
+
+app-nba-champions{
+    width: 300px;
+    display: inline-block;
+    float: left;
+    background-color: #eee;
+    padding: 1em;
+    margin: 1em;
+}

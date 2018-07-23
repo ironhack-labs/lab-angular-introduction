@@ -1,0 +1,15 @@
+div{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    margin: 1em;
+    float: left;
+}
+
+img{
+    width: 100%;
+}
+
+p{
+    text-align: center;
+}

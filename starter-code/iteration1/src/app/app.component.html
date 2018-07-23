@@ -1,3 +1,5 @@
 <h1>
   {{title}}
 </h1>
+
+<app-album *ngFor="let album of albums" [album]="album"></app-album>
