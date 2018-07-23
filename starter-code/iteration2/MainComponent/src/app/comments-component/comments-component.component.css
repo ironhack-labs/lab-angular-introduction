@@ -1,0 +1,27 @@
+.comments-title {
+    background-color: rgb(221, 220, 220);
+    border-radius: 20px;
+    width: 95vw;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: rgb(68, 67, 67);
+}
+
+.comment-box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color:  rgb(221, 220, 220);
+    padding: 10px 10px;
+    margin-bottom: 2rem;
+    margin-left: 32rem;
+}
+
+#submit-comment {
+    width: 100px;
+    padding: 10px 10px;
+    margin-top: 1rem;
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+

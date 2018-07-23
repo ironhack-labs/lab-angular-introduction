@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NBA Champs</title>
+</head>
+<body>
+  <div class= "all-teams">
+<div *ngFor= "let oneTeam of arrayOfChamps" class = "champion-teams">
+
+
+  <p class= "year">{{oneTeam.year}}</p>
+  <p class= "team-name">{{oneTeam.championTeam}}</p>
+  <img src="{{oneTeam.championImage}}" alt="">
+  
+  <h4 class= "player-names">Best Players</h4>
+  <ul>
+    <li *ngFor = "let eachName of oneTeam.bestPlayers">
+      {{eachName}}
+    </li>
+  </ul>
+
+</div>
+</div>
+
+
+</body>
+</html>
+
