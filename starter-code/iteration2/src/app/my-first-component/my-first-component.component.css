@@ -1,0 +1,15 @@
+.names p, .names h5 {
+  display: inline;
+}
+
+.comments {
+  width: 70%;
+  margin: 0 300px;
+}
+.form {
+  margin: 30px 200px;
+  background-color: rgb(199, 199, 199);
+  width: 40%;
+  padding: 20px;
+  border: 0.5px solid rgb(95, 95, 95);
+}
