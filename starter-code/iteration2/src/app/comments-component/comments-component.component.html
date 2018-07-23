@@ -1,0 +1,14 @@
+<h2>{{title}}</h2>
+
+<div class="comentario" *ngFor="let comment of comments">
+  <p><b>{{comment.name}}</b></p>
+  <p>{{comment.words}}</p>
+</div>
+<form action="">
+  <fieldset>Add your comment</fieldset>
+  <label for="name">Name</label>
+  <input type="text" name="name">
+  <label for="comment">Description</label>
+  <textarea type="text" name="comment"></textarea>
+  <button>Comment</button>
+</form>

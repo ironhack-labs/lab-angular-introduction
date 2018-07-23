@@ -1,0 +1,28 @@
+h1{
+  margin: 50px 0 40px 0;
+  color: #0c405a;
+}
+h2{
+  color: #9a9090;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 225px;
+}
+
+.logo img{
+  max-width: 200px;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  padding: 4px;
+  margin: 0 20px;
+  border-bottom: 1px dotted #dadada;
+}
