@@ -1,3 +1,10 @@
 <h1>
   {{title}}
 </h1>
+
+<div class="wrapper">
+  <div *ngFor="let image of image" class="card">
+    <img src="{{image.image}}" alt="">
+    <p>{{image.text}}</p>
+  </div>
+</div>

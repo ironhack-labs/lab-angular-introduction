@@ -1,0 +1,13 @@
+img{
+    width: 100%;
+}
+
+.card{
+    width: 250px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.wrapper{
+    display: flex;
+}

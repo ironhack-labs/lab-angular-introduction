@@ -1,0 +1,15 @@
+.container{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
