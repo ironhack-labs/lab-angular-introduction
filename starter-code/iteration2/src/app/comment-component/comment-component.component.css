@@ -1,0 +1,55 @@
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formWrapper{
+    border: 1px solid black;
+    background-color: grey;
+    width: 50%;
+    margin: 50px;
+    padding: 20px;
+}
+
+input{
+    width: 75%;
+    margin: 10px;
+}
+
+textarea{
+    width: 75%;
+    margin: 10px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    border: 0px;
+    height: 30px;
+    width: 90px;
+}
+
+h2{
+    border-radius: 20px;
+    width: 75%;
+    background-color: grey;
+    padding: 8px 0 8px 20px;
+}
+
+h3{
+    display: inline;
+    margin-left: 20px;
+}
+
+p{
+    margin: 15px 0 25px 30px;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
