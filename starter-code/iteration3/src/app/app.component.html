@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>NBA Champions</h1>
+  <div class="row">
+    <div class="column" *ngFor="let team of champions">
+      <h2>{{team.year}}</h2>
+      <h3>{{team.team}}</h3>
+      <img src="{{team.img}}" alt="{{team.team}} LOGO">
+      <h4>Best Players</h4>
+      <ul>
+        <li *ngFor="let player of team.roster">{{player}}</li>
+      </ul>
+    </div>
+  </div>
+</div>
+

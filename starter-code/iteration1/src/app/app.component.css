@@ -1,0 +1,26 @@
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img{
+  border: 3px solid black;
+  max-width: 200px;
+  margin: 4px 10px;
+  object-fit: contain;
+  padding: 5px;
+}
+
+p{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}

@@ -1,0 +1,35 @@
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: lightgray;
+  padding: 5px 20px;
+}
+
+button{
+  border-style: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+form>*{
+  margin: 5px 0;
+}
+
+.comment-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start
+}
+.form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+h2{
+  background-color: lightgray;
+  border-radius: 10px;
+}
