@@ -1,0 +1,22 @@
+<div class="mainContainer">
+
+<form action="">
+
+<label for="user">User:</label>
+<input type="text" name="user">
+
+<label for="comment">Comment:</label>
+<input type="text" name="comment">
+
+</form>
+
+
+<hr>
+
+  <div *ngFor="let comment of comments">
+    <p>{{comment.user}}</p>
+    <p>{{comment.comment}}</p>
+    <hr>
+  </div>
+  
+</div>
