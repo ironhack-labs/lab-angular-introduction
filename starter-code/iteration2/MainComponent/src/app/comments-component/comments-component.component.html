@@ -1,0 +1,25 @@
+<div class="commentsArea">
+<h3 class="commentHeading">{{title}}</h3>
+<div class="commentsList">
+  <ul>
+<li class="wholeComment" *ngFor="let comment of arrayOfComments">
+  <div class="nameDate">
+<h4 class="username">{{comment.username}}</h4>
+<h5 class="date">{{comment.date}}</h5>
+</div>
+<p class="comment-text">{{comment.text}}</p>
+</li>
+  </ul>
+<h4 class="usernames"></h4>
+</div>
+</div>
+<div class="formDiv">
+<form class="formComment" action="#">
+<strong>Add your comment</strong>
+  <label for="">Name:</label>
+<input type="text">
+<label for="">Comment:</label>
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<button>Submit</button>
+</form>
+</div>
