@@ -1,0 +1,15 @@
+img{
+    height: 200px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+}
