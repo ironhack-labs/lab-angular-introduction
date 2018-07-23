@@ -1,0 +1,12 @@
+<ul class="htal">
+    <li *ngFor="let champion of champions"  class="htal">
+      <h1>{{champion.year}}</h1>
+      <h2>{{champion.champion}}</h2>
+      <img src="{{champion.img}}" width="150px" height="150px">
+      <br>
+      <h3>Best Players</h3>
+      <ul>
+        <li *ngFor="let players of champion.bestPlayers"> {{players}}</li>
+      </ul>
+    </li>
+  </ul>
