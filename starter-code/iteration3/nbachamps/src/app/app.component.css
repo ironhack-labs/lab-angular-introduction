@@ -1,0 +1,35 @@
+.champion-teams {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.champion-teams img {
+   width: 250px;
+    height: 200px;
+}
+
+.all-teams {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.year {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.player-names {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
