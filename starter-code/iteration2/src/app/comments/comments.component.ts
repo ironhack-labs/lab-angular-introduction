@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-const moment = require('moment');
 
 @Component({
   selector: 'app-comments',
