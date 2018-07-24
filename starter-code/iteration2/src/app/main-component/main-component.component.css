@@ -1,0 +1,15 @@
+#imgcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img{
+  width: 700px;
+  height: 500px;
+  vertical-align: text-bottom;
+}
+p{
+  width: 70%;
+  text-align: center;
+}
