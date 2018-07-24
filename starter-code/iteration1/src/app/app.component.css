@@ -1,0 +1,14 @@
+.image-cards div img{
+    height: 200px;
+    margin-top: 20px;
+}
+
+.image-cards div h2{
+    text-align: center;
+}
+
+.image-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
