@@ -1,10 +1,35 @@
+
 .blogTitle{
     text-align: center;
+    font-family: arial;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .blogImage{
     text-align: center;
     width: 100%;
 }
 .blogImage img{
-width: 100%
+width: 100%;
+}
+p{
+    font-family:arial;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.blogPageAll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.background{
+    background-color: lightskyblue;
+    display: flex;
 }

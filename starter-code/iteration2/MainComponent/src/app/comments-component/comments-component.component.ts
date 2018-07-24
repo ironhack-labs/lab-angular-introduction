@@ -18,7 +18,7 @@ export class CommentsComponentComponent implements OnInit {
         date: "Mon Jul 23 2018 17:31:16 GMT-0400 (Eastern Daylight Time)",
         text: 'What a nice floof floofs heckin good boys and girls snoot very hand that feed shibe shooberino, puggo porgo heck.'
       }, {
-        username: 'SnoodleBoodle',
+        username: 'Snoodle',
         date: "Mon Jul 23 2018 17:31:16 GMT-0400 (Eastern Daylight Time)",
         text: 'Pupperino long woofer much ruin diet very hand that feed shibe adorable doggo shoob, very taste wow wrinkler very taste wow.'
       },
