@@ -1,0 +1,71 @@
+.commentsArea{
+    font-family:arial;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.commentHeading{
+    background-color:lightskyblue;
+    border: lightskyblue;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.wholeComment{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom:10px;
+    align-items: flex-start;
+    margin:0;
+    background-color: white;
+    margin: 10px;
+
+}
+
+.nameDate{
+    display: flex;
+    flex-direction: row;
+    padding-bottom:5px;
+    margin:0;
+}
+.username{
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top:0;
+    padding-bottom: 0;
+    margin:0;
+}
+.date{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top:0;
+    padding-bottom: 0;
+    margin:0;
+}
+ul {
+    list-style: none;
+}
+.comment-text{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+.formDiv{
+    display:flex;
+    flex-direction:row;
+justify-content: center;
+}
+.formComment{
+    display: flex;
+    flex-direction: column;
+    background-color: lightskyblue;
+    align-items: flex-start;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.formComment button{
+    border-radius: 10px;
+    padding: 10px;
+}
