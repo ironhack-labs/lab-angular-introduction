@@ -1,0 +1,53 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  padding-left: 22vw;
+}
+
+h3{
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+.commentTitle{
+  font-weight: bold;
+}
+
+form div p{
+  margin: 0;
+}
+
+form{
+  margin-left: 10vw;
+  background-color: lightgray;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input{
+  margin-left: 10px;
+  width:90%;
+  margin-bottom: 2vh;
+}
+
+textarea{
+  margin-left: 10px;
+  width:90%;
+  margin-bottom: 2vh;
+}
+
+form div{
+  margin-left: 1vw;
+}
+
+button{
+  height: 3vh;
+  width: 30%;
+  background-color: black;
+  color: white;
+  margin-bottom: 2vh;
+  margin-left: 20px;
+}
