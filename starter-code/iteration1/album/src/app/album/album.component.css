@@ -1,0 +1,11 @@
+.album {
+display: flex;
+position: relative;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.album img{
+    width: 300px;
+    height: 300px; 
+}
