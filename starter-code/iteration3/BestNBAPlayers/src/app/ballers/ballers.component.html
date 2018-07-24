@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<div class = "megadiv">
+  <div class = "nba" *ngFor="let oneTeam of arrayOfChampions">
+    <h2><b>{{oneTeam.year}}</b></h2>
+    <h3><b>{{oneTeam.teamName}}</b></h3>
+    <img src = "{{oneTeam.teamLogo}}">
+    <h4><b>{{oneTeam.bpltitle}}</b></h4>
+    <!-- <h4>{{oneTeam.bplayers}}</h4> -->
+    <ul>    
+    <li *ngFor="let onePlayer of oneTeam.bplayers">
+          {{onePlayer}}
+        <!-- Failed to get player info before time limit -->
+        </li>
+      </ul>
+
+  <hr>
+  </div>
+</div>

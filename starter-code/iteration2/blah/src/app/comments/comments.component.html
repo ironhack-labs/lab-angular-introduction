@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<div class="centerMe">
+<h1>{{title}}</h1>
+
+
+<hr>
+<li *ngFor="let oneComment of arrayOfComments">
+  
+ 
+  <p><b>{{oneComment.reviewer}}</b></p>
+  <p><i>"{{oneComment.review}}"</i></p>
+  <hr>
+</li>
+
+</div>
+
+
+<div>
+  <hr>
+  <h3>Add Your Comment</h3>
+<label for="text">Name</label><br>
+  <input #authorInput size ="70" id="text" type = "text">
+<br>
+<br>
+<label for="description">Description</label><br>
+<textarea #commentInput cols="70"  rows="10"></textarea>
+<br>
+
+  <button (click)="addComment(authorInput, commentInput)"> Do Something</button>
+<hr>
+</div>
+<!-- [] property binding
+() event binding
+[()] property binding that rebinds on every event that happens to it. It sets the value and gets
+that value.
+-->
+
+<h3>Two way binding</h3>
+<input [(ngModel)]="username" type="text">
+<h1>{{username}}</h1>
+
+<div class="barrier">

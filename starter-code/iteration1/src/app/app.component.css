@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+}
+
+.gallery img {
+  height: 200px;
+  width: 200px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
