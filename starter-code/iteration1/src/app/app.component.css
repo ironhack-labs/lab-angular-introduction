@@ -1,0 +1,11 @@
+.pictures {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+img  {
+    padding-left: 2em;
+    width: 70%;
+}
