@@ -1,3 +1,10 @@
 <h1>
-  {{title}}
+  I love my {{title}}
 </h1>
+<h2>{{tagline}}</h2>
+<div class="album-container">
+  <div class="photo" *ngFor="let photo of photos">
+    <img src="{{photo.img}}" alt="{{photo.title}}">
+    <h4>{{photo.title}}</h4>
+  </div>
+</div>

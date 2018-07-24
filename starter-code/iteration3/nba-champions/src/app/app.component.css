@@ -1,0 +1,32 @@
+.main-container{
+  display:flex;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+.team-card{
+  width:30%;
+  border:1px solid gray;
+  margin:15px;
+  max-width:260px;
+}
+
+img{
+  height:100%;
+  max-width:100%;
+  object-fit:contain;
+}
+
+.img-wrapper{
+  height: 150px;
+  width: 150px;
+  margin:0 auto;
+}
+
+ul{
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  text-align: left;
+}
