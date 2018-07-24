@@ -1,0 +1,13 @@
+.imagen1{
+  display: flex;
+  text-align: center;
+}
+
+.imagen1 div{
+  margin: 10px;
+}
+
+img{
+  width: 350px;
+  height: 350px;
+}

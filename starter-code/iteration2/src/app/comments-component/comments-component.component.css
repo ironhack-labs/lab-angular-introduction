@@ -1,0 +1,23 @@
+section{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  box-sizing: border-box;
+  width: 40%;
+  height: 40px;
+  border: 1px solid beige;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.315);
+  color: black;
+}
+
+.acomodo{
+  display: flex;
+  flex-direction: column;
+}
+
+.acomodo :first-child{
+  margin-bottom: 5px;   
+}
