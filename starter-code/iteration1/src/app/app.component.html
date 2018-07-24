@@ -1,3 +1,9 @@
 <h1>
   {{title}}
 </h1>
+<div class="cards">
+  <div *ngFor="let seed of seeds">
+    <img src="{{seed.image}}" class="card">
+    <h3>{{seed.citie}}</h3>
+  </div>
+</div>
