@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class CommentsComponentComponent implements OnInit {
 
     title = 'Comments';
+
+    author1:string='whatever';
+
     arrayOfComments:  Array<any> = [
       {
         username: 'ChrisTHEBeck',
@@ -24,6 +27,12 @@ export class CommentsComponentComponent implements OnInit {
       },
     ];
   
+    addComment(author, comment, date){
+  console.log(author.value, comment.value)
+    };
+    sayHello(){
+      console.log("hello");
+    }
   constructor() { }
 
   ngOnInit() {

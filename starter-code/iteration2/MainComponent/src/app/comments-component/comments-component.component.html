@@ -11,15 +11,19 @@
 </li>
   </ul>
 <h4 class="usernames"></h4>
+
 </div>
 </div>
 <div class="formDiv">
 <form class="formComment" action="#">
 <strong>Add your comment</strong>
   <label for="">Name:</label>
-<input type="text">
+<input #authorInput type="text">
 <label for="">Comment:</label>
-<textarea name="" id="" cols="30" rows="10"></textarea>
-<button>Submit</button>
+<textarea  #commentInput cols="30" rows="10"></textarea>
+<button (click)="addComment(authorInput, commentInput)">Submit</button>
 </form>
 </div>
+
+<input [(ngModel)]="author1" type="text">
+<h3>{{author1}}</h3>
