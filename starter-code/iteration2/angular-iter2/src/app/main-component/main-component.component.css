@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  padding: 30px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 40px;
+  margin: 40px;
+}
+
