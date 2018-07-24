@@ -1,0 +1,18 @@
+.arriba{
+  display: flex;
+  justify-content: center;
+}
+.arriba div{
+  width: 500px; 
+}
+
+h1{
+  text-align: center;
+}
+.arriba img{
+  width: 500px;
+}
+
+p{
+  text-justify: distribute-all-lines;
+}
