@@ -1,0 +1,15 @@
+.teams-div {
+    margin-top: 50px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+/* .one-team {
+    margin-left: 100px;
+} */
+
+.one-team li {
+    line-height: 2;
+}

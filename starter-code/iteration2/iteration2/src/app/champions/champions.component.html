@@ -1,0 +1,29 @@
+<!-- <div class="championship-teams">
+
+  <div class="team-card" *ngFor="let oneTeam of ">
+
+    <!-- <h2>{{</h2> -->
+
+  <!-- </div> -->
+
+<!-- </div> -->
+
+<div class="teams-div">
+  <div class="one-team" *ngFor="let oneTeam of champions">
+    <li><b>{{oneTeam.team}}</b></li>
+    <ul>  
+      <li *ngFor="let oneMVP of oneTeam.mvps">{{oneMVP}}</li>
+    </ul>
+  </div>
+</div>
+
+<!-- <div *ngFor="let team of arrayOfChampions" style="text-align:center">
+    <h1>{{team.year}}</h1>
+    <h2>{{team.name}}</h2>
+    <img src="{{team.logo}}">
+    <ul>    
+      <li *ngFor="let player of team.bestPlayers">
+        {{player}}
+      </li>
+    </ul>
+  </div> -->

@@ -1,0 +1,33 @@
+<div class="comments-component">
+
+  <div class="header">Comments</div>
+
+  <div class="comments-container">
+
+    <!-- <p *ngFor="let "></p> -->
+
+    <div *ngFor="let oneComment of comments">
+
+      <p>{{oneComment.author}}</p>
+      <br>{{oneComment.content}}
+      <hr>
+
+    </div>
+
+    <div>
+      <label for="author-name">Author:</label>
+      <input #authorInput id="author-name" type="text">
+
+      <label for="comment-content">Comment:</label>
+      <input #commentInput id="comment-content" type="text">
+    
+      <button (click)="addComment(authorInput, commentInput)">SUBMIT COMMENT</button>
+    </div>
+
+  </div>
+
+</div>
+
+<h1>Two Way Binding</h1>
+<input [(ngModel)] = "username" type="text">
+<h3>{{username}}</h3>

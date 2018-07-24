@@ -1,0 +1,23 @@
+.photo-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.photo-gallery img {
+    min-height: auto;
+    max-height: auto;
+    min-width: 300px;
+    max-width: 300px;
+    display: flex;
+    align-content: center;
+}
+
+.gallery-card {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
