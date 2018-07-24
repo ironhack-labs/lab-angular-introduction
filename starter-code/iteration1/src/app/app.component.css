@@ -1,0 +1,9 @@
+ul {
+display: flex;
+list-style-type: none;
+justify-content: space-between;
+}
+
+.container {
+    align-items: center;
+}
