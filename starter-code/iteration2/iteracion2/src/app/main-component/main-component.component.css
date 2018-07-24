@@ -1,0 +1,16 @@
+div{
+    text-align: center;
+}
+
+.article {
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+ text-align: justify;
+}
