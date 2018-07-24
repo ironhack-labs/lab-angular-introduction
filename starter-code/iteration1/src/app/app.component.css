@@ -1,0 +1,17 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img{
+  width: 120px;
+  height: 120px;
+}
+
+.imgBlock{
+  display: flex;
+  flex-direction: column; 
+  margin-top: 10vh;
+  align-items: center;
+}
