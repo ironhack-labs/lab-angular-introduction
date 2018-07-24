@@ -1,0 +1,7 @@
+div.images{
+  display: flex;
+}
+.images div{
+  padding: 50px;
+  text-align: center;
+}
