@@ -1,0 +1,20 @@
+.album {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo {
+  width: 30%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.photo p {
+  text-align: center;
+}

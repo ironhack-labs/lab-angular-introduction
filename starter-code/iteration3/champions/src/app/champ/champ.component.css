@@ -1,0 +1,20 @@
+.teams {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.team {
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+}
+
+.team img {
+  width: 100%;
+}
+
+.team ul {
+  text-align: left;
+}
