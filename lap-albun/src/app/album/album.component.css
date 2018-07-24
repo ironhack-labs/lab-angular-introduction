@@ -1,0 +1,11 @@
+.album{
+    display: flex;
+    justify-content: space-around;
+}
+.al2{
+    
+
+}
+.al2 img{
+    width: 500px;
+}
