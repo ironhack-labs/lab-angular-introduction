@@ -1,0 +1,23 @@
+
+#container{
+      width: 80%;
+      margin: 0 auto;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      margin-top: 50px;
+  }
+  
+  .chip {
+      margin: 10px;
+      border: 1px solid gray;
+      padding: 20px;
+      width: 160px;
+  }
+  
+  img{
+      margin: 20px 0;
+      width: 120px;
+      display: block;
+      margin: 0 auto;
+  }
