@@ -1,0 +1,12 @@
+div{
+  margin: 30px;
+  padding: 30px;
+  width: 900px;
+  box-sizing: border-box;
+}
+div img{
+  width: 900px;
+}
+div p {
+  width: 900px
+}
