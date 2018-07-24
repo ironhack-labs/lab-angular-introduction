@@ -25,9 +25,13 @@ export class CommentsComponent implements OnInit {
     content: "Lugger matey transom brig ho me Jolly Roger ye shrouds blow the man down cable bilged on her anchor lugsail."
   }
   ];
+
+  sayHello(){
+   console.log("hello!!");
+  }
+
   constructor() { }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }
