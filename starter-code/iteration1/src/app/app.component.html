@@ -1,3 +1,14 @@
-<h1>
-  {{title}}
-</h1>
+
+<div class="container">
+    <div class="row">
+      <div class="column">
+        <h1>
+        {{title}}
+        </h1>
+    </div>
+    <div *ngFor="let element of arr">
+      <img src="{{element.src}}" alt="" width="100px">
+      <p>{{element.name}}</p> - {{element.color}}
+    </div>
+  </div>
+</div>
