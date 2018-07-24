@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<h1>NBA Championships</h1>
+
+<div *ngFor= "let winner of championships" >
+  <h1>{{winner.year}}</h1>
+  <h2>{{winner.champion}}</h2>
+  <img src="{{winner.championUrl}}" alt="">
+  <h3>Best players</h3>
+  <ul>
+    <li *ngFor= "let index of [0,1,2]">
+      <span>{{winner.bestPlayers[index]}}</span>
+    </li>
+  </ul>
+</div>
+
+
+<!-- *ngfor= "let player of bestPlayers" -->
