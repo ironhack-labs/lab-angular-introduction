@@ -1,0 +1,15 @@
+.global{
+
+    height: 200px;
+}
+.equip{
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+}
+.players{
+    list-style: none;
+}
+img{
+    width: 450px;
+}
