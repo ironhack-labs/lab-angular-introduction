@@ -1,0 +1,36 @@
+.img{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    margin-left: 100px;
+    margin-top:150px;
+}
+.img2{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    margin-left: 500px;
+    margin-top:150px;
+}
+.img3{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    margin-left: 900px;
+    margin-top:150px;
+}
+.p1{
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 190px;
+}
+.p2{
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 590px;
+}
+.p3{
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 990px;
+}
