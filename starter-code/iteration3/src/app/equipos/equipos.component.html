@@ -1,0 +1,14 @@
+<div class="global">
+<div class="equip" *ngFor="let equipo of equipos">
+  <h3>{{equipo.year}}</h3>
+  <div><img src="{{equipo.url}}" alt=""></div>
+  <h3>Best Players</h3>
+  <ul *ngFor="let jugadores of equipo.players" class="players">
+    <li>{{jugadores}}</li>
+  </ul>
+</div>
+
+
+
+</div>  
+

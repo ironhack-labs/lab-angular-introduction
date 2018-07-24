@@ -1,0 +1,12 @@
+h1{
+    text-align: center
+}
+img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto
+}
+
+p{
+    text-align: center
+}
