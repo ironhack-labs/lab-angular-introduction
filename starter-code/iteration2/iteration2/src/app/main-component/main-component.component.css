@@ -1,0 +1,19 @@
+.main-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    margin: 0 auto;
+    /* background-color: red; */
+    /* height: 500px; */
+}
+
+.main-component img {
+
+    /* min-height: 300px;
+    max-height: 300px; */
+    min-width: 300px;
+    max-width: 300px;
+
+}
