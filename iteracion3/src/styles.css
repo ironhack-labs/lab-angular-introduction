@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+section{
+  display: flex;
+  justify-content: space-around
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
