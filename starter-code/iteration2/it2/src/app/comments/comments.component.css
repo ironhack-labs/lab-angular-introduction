@@ -1,0 +1,19 @@
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8em;
+}
+
+.grey-bg {
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #a7b1b6;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+button {
+    background-color:  slategray;
+    padding: 10px;
+    border-radius: 8px;
+}

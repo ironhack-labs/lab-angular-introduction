@@ -1,3 +1,13 @@
 <h1>
   {{title}}
 </h1>
+
+<ul>
+  <li *ngFor= "let oneCat of picsOfCats"> 
+    <div>
+      <img src="{{oneCat.url}}">
+      <h3>Name: {{oneCat.name}}</h3>
+
+    </div>
+  </li>
+</ul>    
