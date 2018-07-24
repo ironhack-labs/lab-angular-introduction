@@ -1,12 +1,13 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div *ngFor="let team of arrayOfChampions" style="text-align:center">
-    <h1>{{team.year}}</h1>
-    <h2>{{team.name}}</h2>
-    <img src="{{team.logo}}">
-    <ul>    
-      <li *ngFor="let player of team.bestPlayers">
-        {{player}}
-      </li>
-    </ul>
-  </div>
+  <h1>{{team.year}}</h1>
+  <h2>{{team.name}}</h2>
+  <img src="{{team.logo}}">
+  <ul>    
+    <li *ngFor="let player of team.bestPlayers">
+      {{player}}
+    </li>
+  </ul>
+  <hr>
+</div>
   

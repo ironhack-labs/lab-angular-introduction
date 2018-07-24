@@ -7,7 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CommentsComponent {
 
-  comment:string = "Yo yo look at dem turts! Shits lit!"
+  theComments: Array<any> = [
+    {
+      username: 'coolboy55',
+      comment: 'I love wolf'
+    },
+    {
+      username: 'coolboy54',
+      comment: 'I love wolf first'
+    }
+  ] 
 
   constructor() { }
 
