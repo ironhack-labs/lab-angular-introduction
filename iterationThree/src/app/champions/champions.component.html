@@ -1,0 +1,11 @@
+<div id="container">
+      <div class="chip" *ngFor="let chip of championships">
+            <h3>{{chip.year}}</h3>
+            <h4>{{chip.name}}</h4>
+            <img src="{{chip.url}}">
+            <h4>Best Players</h4>
+          <ul>
+              <li *ngFor="let player of chip.bestplayers">{{player}}</li>
+          </ul>
+      </div>
+</div>
