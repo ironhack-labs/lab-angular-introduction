@@ -16,21 +16,28 @@
 </div>
 
 
-<div class = "formy">
-<form action ="YouAreABeautifulPersonThankYouSoMuchForLookingAtThis" method="get">
+<div>
+  <hr>
   <h3>Add Your Comment</h3>
-
 <label for="text">Name</label><br>
-  <input size ="80" id="text" type = "text">
+  <input #authorInput size ="70" id="text" type = "text">
 <br>
 <br>
 <label for="description">Description</label><br>
-<textarea cols="80"  rows="10"></textarea>
+<textarea #commentInput cols="70"  rows="10"></textarea>
 <br>
 
-  <button> Add your review</button>
-
-</form>
+  <button (click)="addComment(authorInput, commentInput)"> Do Something</button>
+<hr>
 </div>
+<!-- [] property binding
+() event binding
+[()] property binding that rebinds on every event that happens to it. It sets the value and gets
+that value.
+-->
+
+<h3>Two way binding</h3>
+<input [(ngModel)]="username" type="text">
+<h1>{{username}}</h1>
 
 <div class="barrier">
