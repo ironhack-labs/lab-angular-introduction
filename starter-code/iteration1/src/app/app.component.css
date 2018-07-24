@@ -1,0 +1,14 @@
+img{
+  width: 200px;
+  height: 200px;
+  vertical-align: text-bottom;
+}
+#container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-between
+}
+p{
+  text-align: center
+}
