@@ -1,0 +1,15 @@
+img {
+  width: 200px;
+  height: 200px;
+}
+.team {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+li {
+  font-weight: bold;
+}
+#team {
+  flex-direction: column;
+}
