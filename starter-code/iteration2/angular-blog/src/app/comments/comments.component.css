@@ -1,0 +1,19 @@
+h3 {
+  background-color: #bbb;
+  text-align: left;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.comment {
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+form {
+  background-color: #bbb;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+}
