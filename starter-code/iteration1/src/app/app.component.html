@@ -1,3 +1,8 @@
 <h1>
   {{title}}
 </h1>
+
+<div *ngFor="let album of photoAlbum">
+  <img src="../assets/{{album.img}}" alt="{{album.title}}">
+  <p>{{album.title}}</p>
+</div>

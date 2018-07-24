@@ -1,0 +1,32 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formContainer {
+  background-color: grey;
+  width: 50%;
+  margin: 50px;
+  padding: 20px;
+}
+
+.comment-box {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.main-box {
+  padding-left: 24vw;
+}
+
+input{
+  width: 35vw;;
+  margin: 10px;
+}
+
+textarea{
+  width: 35vw;;
+  margin: 10px;
+}
