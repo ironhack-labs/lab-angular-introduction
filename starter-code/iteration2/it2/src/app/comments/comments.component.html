@@ -6,19 +6,29 @@
   <p>{{oneComment.review}}</p>
 
 </li>
-<div class="formy">
-  <form>
+<div>
+ 
     <h2>Add comment below.</h2>
     <br>
     <br>
   Name: 
   <br>
-  <input type="text" size="30vh">
+  <input #authorInput type="text">
   <br>
   <br>
-  Description: <br>
-  
-  <textarea row="8">
-  </textarea>
-  </form>
+  <label for="">oneComment</label> <br>
+  <input #commentInput type="text">
+
+<button (click)="addComment(authorInput, commentInput)">submit</button>
+<!-- exmaple of even ^ property binding of angular  -->
+
 </div>
+
+
+<br>
+<br>
+
+<h3>Two way Binding
+  <input [(ngModel)]= "username" type="text">
+  <!-- its a | property binding sets the value and gets the value  -->
+  <h1>{{username}}</h1>

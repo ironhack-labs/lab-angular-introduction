@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CommentsComponent{
   title:string = 'Comments'
+
+  username:string = "stock username"
+
+  
   arrayOfComments: Array<any> = [
     {
       reviewer: ' Boom Boom',
@@ -17,7 +21,13 @@ export class CommentsComponent{
       review: 'tasteful'
     }
   ]
+  addComment(author, comment){
+    console.log(author.value,comment.value);
+    this.arrayOfComments.push({
+      reviewer:author.value,
+      review:comment.value
+    })
+  }
 
-
-
+  
 }
