@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container div {
+    text-align: center;
+}
+.container img {
+    margin: 0 10px;
+}
+h1 {
+    text-align: center;
+}

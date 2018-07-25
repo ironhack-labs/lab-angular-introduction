@@ -1,0 +1,13 @@
+.comments-container {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 2% 5%;
+}
+.comment {
+    margin: 2em 0;
+}
+.input-name {
+    margin: 2em 0;
+}
