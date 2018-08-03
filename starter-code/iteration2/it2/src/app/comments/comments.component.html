@@ -1,0 +1,26 @@
+
+<h3>Comments:</h3>
+
+<div *ngFor= "let oneComm of commentArray">
+  <h4>{{oneComm.author}}</h4>  
+  <p>{{oneComm.content}} </p>
+    <hr>
+    
+</div>
+
+<div class="grey-bg">
+<form action="submit">
+  <div>
+      <label>Name:</label>
+      <br>
+      <input type="text"> 
+  </div>
+  <div>
+      <label>Description:</label>
+      <br>
+      <textarea rows="5" cols="50"></textarea>
+  </div>
+  <button (click)="sayHello()" type="button">Comment</button>
+
+</form>
+</div>

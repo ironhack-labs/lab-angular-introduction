@@ -1,0 +1,21 @@
+<h1></h1>
+
+<div class="champView">
+
+
+<div *ngFor="let champ of recentChamp">
+<h2>{{champ.year}}</h2>
+
+<h3>{{champ.name}}</h3>
+
+<img src="{{champ.img}}" alt="">
+
+<h4>Best Palyers:</h4>
+
+<ul>
+  <li *ngFor="let player of champ.bestPlayers">
+    {{player}}
+  </li>
+</ul>
+</div>
+</div>
