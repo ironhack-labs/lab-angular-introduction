@@ -1,0 +1,9 @@
+<div>
+  <ul>
+    <li *ngFor="let comment of comments">
+      <h4>{{comment.user}}</h4>
+      <p>{{comment.content}}</p>
+    </li>
+  </ul>
+  <app-my-comment-form></app-my-comment-form>
+</div>

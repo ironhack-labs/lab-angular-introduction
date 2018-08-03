@@ -1,0 +1,11 @@
+img{
+    height: 175px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none
+}
+li{
+    align-content: flex-end
+}

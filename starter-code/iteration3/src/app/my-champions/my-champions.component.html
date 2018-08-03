@@ -1,0 +1,16 @@
+<div>
+  <h1>UnderWater Basket Weaving Champions</h1>
+  <ul>
+    <li *ngFor="let champion of champions">
+      <h1>{{champion.year}}</h1>
+      <h2>{{champion.champion}}</h2>
+      <img src="{{champion.url}}">
+      <h4>Best Players</h4>
+      <ul>
+        <li *ngFor="let player of champion.players">
+          {{player}}
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>

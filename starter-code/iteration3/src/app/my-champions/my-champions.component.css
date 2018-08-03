@@ -1,0 +1,14 @@
+div > ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+div{
+    text-align: center
+}
+img{
+    height: 200px;
+}
+li > ul{
+    text-align: left
+}
