@@ -1,0 +1,25 @@
+<h1>Comments</h1>
+
+<div *ngFor="let comment of comments">
+  <p>
+    <span>{{comment.name}} </span>
+    <span>{{comment.date}} </span>
+  </p>
+  <p>{{comment.text}}</p>
+</div>
+
+<div>
+  <form>
+    <div>
+      <label for="name">Name:</label><br>
+      <input type="text">
+    </div>
+    <div>
+      <label for="description">Description:</label><br>
+      <input type="text">
+    </div>
+    <div>
+      <button type="reset">Comment</button>
+    </div>
+  </form>
+</div>
