@@ -1,3 +1,6 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <div *ngFor="let image of images" class="box">
+    <img src="{{ image.imgSrc }}" alt="" srcset="">
+    <p>{{ image.caption }}</p>
+  </div>
+</div>
