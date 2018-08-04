@@ -1,0 +1,21 @@
+.center-item {
+  text-align:center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+img {
+  box-shadow: 5px 5px 15px #888888;
+  border-radius: 0.25em;
+  border: .1em solid black;
+}
+
+p {
+  width: 850px;
+  text-align: left;
+}

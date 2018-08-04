@@ -1,0 +1,59 @@
+<div class="container">
+  <div>
+    <h3 class="comment_header">
+      {{title}}
+    </h3>
+  </div>
+</div>
+
+<div class="container">
+<div class="container_comments" *ngFor="let comment of comments">
+    <div class="container_comment">
+      
+            <h4>
+              {{comment.name}}
+            </h4>
+         
+            <h5 class="left-spacing">
+              {{comment.date}}
+            </h5>
+            <h5 class="left-spacing">
+              {{comment.time}}
+            </h5>
+    </div>
+    <div class="container_description">
+      <p>
+        {{comment.description}}
+      </p>
+    </div>
+</div>
+</div>
+
+  <div class="container">
+    <div class="form_style">
+      <form action="/" method="post">
+        <h4>
+          Add your comment
+        </h4>
+
+        <div class="input_spacing">
+        <label for="name-input"> Name: </label>
+          <div>
+            <input type="name" name="name" id="name-input" placeholder="">
+          </div>
+        </div>
+
+        <div class="input_spacing">
+          <label for="name-input"> Description: </label>
+          <div>
+            <textarea rows="10" cols="60" name="answer" placeholder="Enter answer here...">
+            </textarea>
+          </div>
+        </div>
+
+        <button type="submit"> Comment </button>
+      </form>
+    </div>
+  </div>
+
+

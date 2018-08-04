@@ -1,0 +1,70 @@
+.comment_header {
+  background-color: lightgrey;
+  border-radius: .5em;
+  width: 850px;
+  padding: .25em .25em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_comments {
+  width: 850px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  
+}
+
+.container_comment {
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  text-align: left;
+  width: 850px;
+  /* align-content: center; */
+}
+
+.container_description {
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  text-align: left;
+  width: 850px;
+}
+
+.input_spacing {
+  margin-bottom: .5em;
+}
+
+.center-item {
+  text-align:center;
+}
+
+.left-spacing {
+  padding-left: 1em;
+}
+
+.form_style {
+  background-color: lightgrey;
+}
+
+form {
+  padding: 0em 1em 1em;
+}
+
+input {
+  width: 98%;
+}
+
+button {
+  background-color: black;
+  color: #fff;
+  font-size: .8em;
+  padding: .75em 1em;
+}
