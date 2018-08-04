@@ -1,0 +1,19 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.image {
+  text-align: center
+}
+
+.image img {
+  margin: 20px auto;
+  width: 80%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+}
