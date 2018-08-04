@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container_champions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_team {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container_player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  width:300px;
+}
