@@ -1,0 +1,43 @@
+<p>
+  my-comments works!
+</p>
+<div class="container">
+  <h2>
+    {{ title }}
+  </h2>
+</div>
+
+<div class="container">
+  <div class="container-comments" *ngFor="let comment of comments">
+    <h3> {{ comment.name }}</h3>
+    <h4> {{ comment.date }}</h4>
+    <h5> {{ comment.time }} </h5>
+    <div class="container-description">
+      <p>
+        {{ comment.description }}
+      </p>
+    </div>  
+  </div>
+</div>
+
+<div class="container">
+  <div class="form">
+    <form action="/" method="post">
+      <h3>Comment: </h3>
+
+      <div>
+        <label for="input-name">Name: </label>
+        <div>
+          <input type="name" name="name">
+        </div>
+      </div>
+
+      <div>
+        <label> Description: </label>
+        <textarea rows="15" cols="50" name="description" > </textarea>
+      </div>
+
+
+    </form>
+  </div>
+</div>
