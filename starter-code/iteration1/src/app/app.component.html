@@ -1,3 +1,16 @@
-<h1>
-  {{title}}
-</h1>
+<h1>{{title}}</h1>
+
+<section class="gallery">
+  <div class="col">
+    <img [src]="ironhackMad.img" alt="{{ironhackMad.title}}" />
+    <h3>{{ironhackMad.title}}</h3>
+  </div>
+  <div class="col">
+    <img [src]="ironhackBcn.img" alt="{{ironhackBcn.title}}" />
+    <h3>{{ironhackBcn.title}}</h3>
+  </div>
+  <div class="col">
+    <img [src]="ironhackMiami.img" alt="{{ironhackMiami.title}}" />
+    <h3>{{ironhackMiami.title}}</h3>
+  </div>
+</section>

@@ -1,0 +1,15 @@
+<section class="champions">
+
+  <div *ngFor="let team of teams" class="col">
+      <h2>{{team.year}}</h2>
+      <h3>{{team.name}}</h3>
+      <img [src]="team.logo" alt="{{team.title}}" />
+      <h4>Best Players</h4>
+      <ul>
+        <li *ngFor="let player of team.bestPlayers">
+          {{player}}
+        </li>
+      </ul>
+  </div>
+
+</section>
