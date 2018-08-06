@@ -1,0 +1,16 @@
+<h2>{{header}}</h2>
+<ul>
+    <li *ngFor="let item of comment">
+        <h4>{{item.name}}</h4>
+        <p>{{item.date}}</p>
+        <p>{{item.content}}</p>
+    </li>
+</ul>
+<form action="#">
+    <h4>Add your comment</h4>
+    <label for="">Name:</label>
+    <input type="text">
+    <label for="">Description</label>
+    <input type="text">
+    <button>Comment</button>
+</form>
