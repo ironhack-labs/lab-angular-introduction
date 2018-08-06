@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Photo Album';
+  
   ironhackMad = {
     img: 'http://e01-expansion.uecdn.es/assets/multimedia/imagenes/2017/06/20/14979611169142.jpg',
     title : 'Ironhack Madrid'
