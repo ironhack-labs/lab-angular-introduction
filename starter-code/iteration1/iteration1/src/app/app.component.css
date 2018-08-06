@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.iron-img {
+    height: 20vh;
+}
