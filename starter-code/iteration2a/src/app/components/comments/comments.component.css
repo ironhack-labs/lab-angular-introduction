@@ -1,0 +1,30 @@
+.comment_header {
+  background-color: lightgrey;
+  border-radius: .5em;
+  width: 850px;
+  padding: .25em .25em;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container_comments {
+  width: 850px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+ .container_comment {
+  display:flex;
+  flex-direction: row;
+  justify-content: left;
+  text-align: left;
+  
+}
+
+.center-item {
+  text-align:center;
+}
+
