@@ -1,0 +1,20 @@
+h2 {
+    background-color: #E0E0E0;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+form {
+    background-color: #E0E0E0;
+    padding: 30px;
+    width: 40%;
+    margin: 5% auto;
+}
+
+label {
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+}
