@@ -1,0 +1,7 @@
+<h1>Comments:</h1>
+<div *ngFor="let comment of comments">
+  <h5>{{comment.name}}</h5>
+  <h4>{{ comment.date | date:'dd/MM/yyyy' }}</h4><br>
+  <p>{{comment.text}}</p><br>
+</div>
+<app-comment-form></app-comment-form>

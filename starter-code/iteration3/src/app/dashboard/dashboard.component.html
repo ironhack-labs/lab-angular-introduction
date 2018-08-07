@@ -1,0 +1,10 @@
+<h1>Last three Championships:</h1>
+<div *ngFor="let team of teams">
+  <h4>{{team.year}}</h4>
+  <h5>{{team.teamName}}</h5>
+  <img [src]=team.PicUrl />
+  <h3>Best Players</h3>
+  <ul *ngFor="let player of team.topPlayers">
+    <li>{{player}}</li>
+  </ul>  
+</div>
