@@ -1,0 +1,17 @@
+div {
+  float: left;
+  width: 33%
+}
+
+img {
+  height: 200px;
+  width: 350px;
+}
+
+h3, h4, h5, ul {
+  text-align: center;
+}
+
+ul {
+  text-decoration-style: none;
+}
