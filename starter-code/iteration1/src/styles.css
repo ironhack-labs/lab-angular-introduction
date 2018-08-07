@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+.container{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+
+img {
+  height: 250px;
+  width: 400px;
+  margin-bottom: 2%; 
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+
+}

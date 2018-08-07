@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0 5%;
+}
+
+.main{
+  text-align: center;
+}
+.main-picture{
+  width: 100%;
+  object-fit: cover;
+  height: 400px;
+}
+.main-description{
+  margin: 5% 0;
+}
+
+.comments{
+  padding: 0 5%;
+}
+.comments-title{
+  background-color: grey;
+  height: 50px;
+}
+.info{
+  display: flex;
+  flex-direction: row;
+  align-self: baseline;
+}
+
+#comments-form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  background-color: #f1f1f1;
+  padding: 2%;
+  border: 1px solid grey;
+}
+
+#input-name{
+  height: 200px;
+}
+
+button{
+  height: 50px;
+  width: 100px;
+  margin-top: 5%;
+}
