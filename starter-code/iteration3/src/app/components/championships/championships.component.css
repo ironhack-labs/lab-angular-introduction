@@ -1,0 +1,12 @@
+img {
+  width: 100px;
+  height: auto;
+}
+
+.card {
+  display: flex;
+}
+
+.card-item {
+  margin-right: 60px;
+}
