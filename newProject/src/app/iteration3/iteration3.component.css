@@ -1,0 +1,9 @@
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.eachChampion {
+  display: flex;
+  justify-content: flex-start;
+}
