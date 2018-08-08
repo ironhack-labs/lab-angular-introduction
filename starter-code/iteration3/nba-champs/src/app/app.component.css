@@ -1,0 +1,13 @@
+
+
+.champ {
+ display: flex-wrap;
+ flex-direction: row;
+ text-align: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: auto
+}

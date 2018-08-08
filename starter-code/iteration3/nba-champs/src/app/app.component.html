@@ -1,0 +1,25 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+</div>
+
+<div *ngFor="let champ of champs" class="champ">
+  <div class="item">
+    <h3>{{champ.year}}</h3>
+  </div>
+  <div class="item">
+    <h4>{{champ.team}}</h4>
+  </div>
+  <div>
+    <img height="150" src="{{champ.img}}">
+  </div>
+
+  <h3>Best Players</h3>
+
+  <ul>
+    <li *ngFor="let player of champ.players">{{player}}</li>
+  </ul>
+
+</div>
