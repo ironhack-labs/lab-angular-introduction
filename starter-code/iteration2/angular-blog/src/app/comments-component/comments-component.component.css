@@ -1,0 +1,36 @@
+.container {
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 0 20%;
+}
+
+h3 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.comment {
+    padding: 20px;
+    justify-content: center;
+    text-align: left;
+}
+
+.name {
+    font-weight: bold;
+    padding: 0 10px 0 0;
+}
+
+.date {
+    color: grey;
+}
+
+#comments-form {
+    padding: 10px;
+    margin: 0 20%;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: lightgray;
+}
+
