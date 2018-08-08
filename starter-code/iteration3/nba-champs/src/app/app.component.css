@@ -1,16 +1,12 @@
-img {
-    height:100;
-    margin:1%
-}
 
-.container {
+
+.champ {
  display: flex-wrap;
  flex-direction: row;
  text-align: center;
- justify-content: center   
 }
 
-div {
+.item {
     display: flex;
     flex-direction: column;
     margin: auto
