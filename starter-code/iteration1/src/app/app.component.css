@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-evenly
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+.box{
+  text-align: center;
+}
