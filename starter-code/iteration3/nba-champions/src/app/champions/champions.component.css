@@ -1,0 +1,10 @@
+.col {
+  display: inline-block;
+  margin: 1%;
+  padding: 1%;
+}
+
+img {
+  width: 200px;
+  height: 120px;
+}
