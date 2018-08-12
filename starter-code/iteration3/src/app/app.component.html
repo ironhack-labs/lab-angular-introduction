@@ -1,0 +1,20 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="listNBA">
+  <h1>
+    {{title}}
+  </h1>
+<div class="winners">
+    
+        <span *ngFor="let i of championsNBA">
+          <h2>{{i.year}}</h2>
+          <h3>{{i.name}}</h3>
+          <img src="{{i.logo}}" alt="">
+          
+            <h4>Best Players</h4>
+            <p class="players" *ngFor="let j of i.bestPlayers">
+              {{j}}
+            </p>
+          
+        </span>
+    
+</div>

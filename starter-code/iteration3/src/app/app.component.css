@@ -1,0 +1,26 @@
+#listNBA{
+  text-align: center;
+}
+.winners{
+  display: inline-block;
+  float: left;
+  width: 700px;
+  height: auto;
+  margin: 2% 0 0 22%;
+  border: solid 1px #add;
+}
+.winners span{
+  position: relative;
+  float: left;
+  margin: 0 2% 0 2%;
+}
+img{
+  width: 200px;
+  height: auto;
+  /* border: solid 1px #add; */
+}
+.players{
+  text-align: left;
+  margin: 15px 0px 15px 40px;
+  /* border: solid 1px #add; */
+}
