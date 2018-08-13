@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1> {{title}} </h1>
+  <img width="300" alt="Angular Logo" src="https://cdn.shopify.com/s/files/1/1061/1924/products/Happy_cat_emoji_icon_87ab6b39-5f08-48a5-a89a-1f5d3312e159_large.png?v=1513251037">
+</div>
+<h2>Photo album: </h2>
+<div class="pictures">
+  <div *ngFor="let picture of pictures">
+    <img src="{{picture.pic}}" class="pic">
+    <h4>{{picture.caption}}</h4>
+   
+  </div>
+</div>
+

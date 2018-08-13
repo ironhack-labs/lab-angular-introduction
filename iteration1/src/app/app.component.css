@@ -1,0 +1,10 @@
+.pictures{
+  display: flex;
+  margin: 0 auto;
+  justify-content:space-evenly;
+}
+
+.pic{
+  height: 300px;
+  width: 400px;
+}
