@@ -5,11 +5,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './album.component.html',
   styleUrls: ['./album.component.css']
 })
-export class AlbumComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class AlbumComponent {
 
 }
