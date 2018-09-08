@@ -1,3 +1,14 @@
-<h1>
-  {{title}}
-</h1>
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+
+  <div class="row">
+    <div class="col-4" *ngFor="let photo of photos">
+      <img src="{{photo.img}}" alt="">
+      <p>{{photo.caption}}</p>
+    </div>
+  </div>
+</div>
+
