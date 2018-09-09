@@ -1,0 +1,10 @@
+div{
+    padding: 15px;
+}
+img{
+    width: 300px;
+}
+h4{
+    display: flex;
+    justify-content: center;
+}
