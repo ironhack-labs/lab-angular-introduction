@@ -1,7 +1,7 @@
 <ul>
   <li *ngFor = 'let article of blog'> 
    <h1>{{article.title}} </h1> 
-    <img src="{{article.image}} " alt="">
+    <img [src]="article.image" alt="">
    <p>{{article.description}}</p> 
   </li>
 </ul>

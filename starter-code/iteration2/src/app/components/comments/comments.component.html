@@ -1,24 +1,10 @@
-<!-- <div>
-  <input type="text" [(ngModel)]="comment.name" placeholder="Name">
-  <input type="text" [(ngModel)]="commnent.description" placeholder="Description">
+<div>
+  <input type="text" [(ngModel)]="newComment.name" placeholder="Name">
+  <input type="text" [(ngModel)]="newComment.description" placeholder="Description">
   <button type="button" (click)="addComment()">Add New Commnet</button>
-</div> -->
-
-<!-- <div>
-  <label for="contact-name"></label>
-  <input type="text" [(ngModel)]="newContact.name" placeholder="name">
-</div>
-<div>
-  <label for="contact-email"></label>
-  <input type="text" [(ngModel)]="newContact.email" placeholder="email">
-</div>
-<div>
-  <label for="contact-phone"></label>
-  <input type="text" [(ngModel)]="newContact.phoneNumber" placeholder="phone">
-</div>
-<div>
-  <label for="contact-image"></label>
-  <input type="text" [(ngModel)]="newContact.image" placeholder="image">
 </div>
 
-<button type="button" (click)="addContact()">Submit New Contact</button> -->
+<div *ngFor="let comment of comments">
+  <div>{{comment.name}}</div>
+  <div>{{comment.description}}</div>
+</div>

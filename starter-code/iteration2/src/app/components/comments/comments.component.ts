@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Comment } from './../../shared/models/comment.model';
-import comments from '../../shared/data/comments.data';
+// import comments from '../../shared/data/comments.data';
 
 @Component({
   selector: 'app-comments',
@@ -9,10 +9,10 @@ import comments from '../../shared/data/comments.data';
 })
 export class CommentsComponent {
 
-  comments: Array<Comment> = comments;
+  comments: Array<Comment> = [];
   newComment: Comment = new Comment();
 
-  addCommnet(): void {
+  addComment(): void {
     this.comments.push(this.newComment);
     this.newComment = new Comment();
   }
