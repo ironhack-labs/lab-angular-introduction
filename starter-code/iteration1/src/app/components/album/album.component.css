@@ -1,0 +1,20 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+li {
+   list-style-type: none;
+}
+
+p {
+
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}

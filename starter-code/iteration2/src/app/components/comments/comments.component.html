@@ -1,0 +1,10 @@
+<div>
+  <input type="text" [(ngModel)]="newComment.name" placeholder="Name">
+  <input type="text" [(ngModel)]="newComment.description" placeholder="Description">
+  <button type="button" (click)="addComment()">Add New Commnet</button>
+</div>
+
+<div *ngFor="let comment of comments">
+  <div>{{comment.name}}</div>
+  <div>{{comment.description}}</div>
+</div>
