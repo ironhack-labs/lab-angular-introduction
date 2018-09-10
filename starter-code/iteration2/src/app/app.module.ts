@@ -2,12 +2,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { AlbumComponent } from './components/album/album.component';
+import { BlogComponent } from './components/main/main.component';
+import { CommentsComponent } from './components/comments/comments.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AlbumComponent
+    BlogComponent,
+    CommentsComponent
   ],
   imports: [
     BrowserModule
