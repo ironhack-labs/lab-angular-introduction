@@ -1,25 +1,13 @@
-<div>
+<div class="championships">
 
-  <div>
-    <h1>2015-16</h1>
-    <h2>Cleveland Cavaliers</h2>
-    <img src="">
+  <div *ngFor="let team of teamChampionships">
+    <h1>{{team.year}}</h1>
+    <h2>{{team.name}}</h2>
+    <img src="{{team.championUrl}}" >
     <h4>Best players</h4>
     <ul>
-      <li>
-        aaa
-      </li>
-      <li>
-        aaa
-      </li>
-      <li>
-        aaa
-      </li>
-      <li>
-        aaa
-      </li>
+      <li *ngFor="let players of team.bestPlayers">{{players}}</li>
     </ul>
   </div>
-
 
 </div>
