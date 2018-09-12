@@ -1,0 +1,7 @@
+.photo-container{
+    height: 400px;
+    background-color: slategray;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
