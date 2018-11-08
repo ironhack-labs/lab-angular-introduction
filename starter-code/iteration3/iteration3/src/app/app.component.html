@@ -1,0 +1,12 @@
+<ul>
+  <li *ngFor="let team of championships">
+    <p>{{team.name}}</p>
+    <p>{{team.title}}</p>
+    <p>Año</p>
+    <ul>
+      <li *ngFor="let player of team.players">
+        {{player}}
+      </li>
+    </ul>
+  </li>
+</ul>
