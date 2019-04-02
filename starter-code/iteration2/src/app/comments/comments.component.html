@@ -1,10 +1,31 @@
 <div class="comments-container">
   <h1>{{ title }}</h1>
+
   <div *ngFor="let comment of comments">
     <app-comment-item
       [author]="comment.author"
       [dateTime]="comment.dateTime"
       [comment]="comment.comment">
     </app-comment-item>
+  </div>
+
+  <div class="row mt-3 form-comment-container">
+    <form>
+      <h3>Add your comment</h3>
+      <div class="col-12">
+        <label for="name">Name:</label>
+      </div>
+      <div class="col-12">
+        <input id="name" type="text">
+      </div>
+      <div class="col-12">
+        <label for="description">Description:</label>
+      </div>
+      <div class="col-12">
+        <textarea id="description" rows="5"></textarea>
+      </div>
+
+      <button>Comment</button>
+    </form>
   </div>
 </div>
