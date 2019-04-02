@@ -5,12 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainComponentComponent } from './main-component/main-component.component';
 import { CommentsComponent } from './comments/comments.component';
+import { CommentItemComponent } from './comments/comment-item/comment-item.component';
+import {DatePipe} from "@angular/common";
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponentComponent,
-    CommentsComponent
+    CommentsComponent,
+    CommentItemComponent
   ],
   imports: [
     BrowserModule,

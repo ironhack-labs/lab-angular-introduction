@@ -1,3 +1,10 @@
-<p>
-  comments works!
-</p>
+<div class="comments-container">
+  <h1>{{ title }}</h1>
+  <div *ngFor="let comment of comments">
+    <app-comment-item
+      [author]="comment.author"
+      [dateTime]="comment.dateTime"
+      [comment]="comment.comment">
+    </app-comment-item>
+  </div>
+</div>
