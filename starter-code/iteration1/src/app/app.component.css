@@ -1,0 +1,10 @@
+.album-container {
+  display: inline-flex;
+}
+
+.photo-container {
+  margin: 30px;
+  flex-direction: column;
+  display: inherit;
+  text-align: center;
+}
