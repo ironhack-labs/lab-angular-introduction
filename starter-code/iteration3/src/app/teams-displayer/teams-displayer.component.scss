@@ -1,0 +1,12 @@
+.teams-container {
+    display: flex;
+}
+
+.team-card {
+    width: calc(100% * (1/3))
+}
+
+img {
+    max-width: 50%;
+    object-fit: cover;
+}

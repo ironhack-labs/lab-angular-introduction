@@ -1,0 +1,11 @@
+<ul class="teams-container">
+  <li class="team-card" *ngFor="let teams of teamsNBA">
+    <h2>{{teams.year}}</h2>
+    <h3>{{teams.name}}</h3>
+    <img src={{teams.imgUrl}}>
+    <h4>Best Players</h4>
+    <ul>
+      <li *ngFor="let player of teams.bestPlayers">{{player}}</li>
+    </ul>
+  </li>
+</ul>
