@@ -1,0 +1,21 @@
+h1 {
+    color: black;
+}
+
+.photo-container {
+    display: flex;
+}
+
+.photo-card {
+    width: calc(100 * (1/3));
+    margin: 10px;
+}
+
+.description {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+}
