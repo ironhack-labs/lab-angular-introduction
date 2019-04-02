@@ -1,0 +1,18 @@
+.comment-container {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+
+  & p {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+}
+
+.header-comment {
+  & span:first-child {
+    font-weight: bold;
+    margin-right: 20px;
+  }
+}
+
