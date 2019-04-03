@@ -1,3 +1,11 @@
 <h1>
   {{title}}
 </h1>
+
+<ul>
+  <li *ngFor="let photo of album">
+     <img src="{{photo.photoSrc}}">
+    
+    {{photo.photoDescrption}}
+  </li>
+</ul>
