@@ -1,0 +1,25 @@
+li{
+    list-style-type: none;
+    text-align:center;
+}
+h1{
+    text-align: center;
+}
+.formy{
+    justify-content: center;
+    display:flex;
+    text-align: center;
+    width: 40vw;
+    background-color: gray;
+    width:300px;
+    height:300px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+textarea{
+    width: 20vh;
+    height: 10vh;
+}

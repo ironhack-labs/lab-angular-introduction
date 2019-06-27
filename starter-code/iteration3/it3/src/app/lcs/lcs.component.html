@@ -1,0 +1,35 @@
+<!-- <div class= "flex img2 pA2" >
+    <div>
+      <img src="https://d1u5p3l4wpay3k.cloudfront.net/lolesports_gamepedia_en/thumb/0/04/Samsung_Galaxylogo_square.png/1200px-Samsung_Galaxylogo_square.png?version=275a87635f2084bd631600ae53074bb9" alt="Samsung White">
+      <p>2017 World Series Champion</p>
+    </div>
+    <div>
+        <img src="https://d1u5p3l4wpay3k.cloudfront.net/lolesports_gamepedia_en/5/59/SK_Telecom_T1logo_square.png?version=2d5adc87ea2f4e0dd57c3010a1a0037d" alt="SKT telecom T1">
+        <p>2016 World Series Champion</p>
+    </div>
+    <div>
+        <img src="https://d1u5p3l4wpay3k.cloudfront.net/lolesports_gamepedia_en/5/59/SK_Telecom_T1logo_square.png?version=2d5adc87ea2f4e0dd57c3010a1a0037d" alt="SKT telecom T1">
+        <p>2015 World Series Champion</p>
+  
+    </div>
+    
+  </div> -->
+<div class= "flex img2 pA2">
+  <div *ngFor="let champ of recentChampions" >
+  <h2>{{champ.year}}</h2>
+
+
+  <h3>{{champ.team}}</h3>
+
+
+  <img src="{{champ.championurl}}" alt="team Logos">
+
+  <h4>Best players</h4>
+
+  <ul>
+    <li *ngFor="let playa of champ.bestPlayers">{{playa}}</li>
+  </ul>
+
+
+</div>
+</div>

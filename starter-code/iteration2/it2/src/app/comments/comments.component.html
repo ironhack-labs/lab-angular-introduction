@@ -1,0 +1,34 @@
+<h1>{{title}}</h1>
+<p>{{arrayOfComments.review}}
+
+<li *ngFor= "let oneComment of arrayOfComments">
+  <h3>{{oneComment.reviewer}}</h3>
+  <p>{{oneComment.review}}</p>
+
+</li>
+<div>
+ 
+    <h2>Add comment below.</h2>
+    <br>
+    <br>
+  Name: 
+  <br>
+  <input #authorInput type="text">
+  <br>
+  <br>
+  <label for="">oneComment</label> <br>
+  <input #commentInput type="text">
+
+<button (click)="addComment(authorInput, commentInput)">submit</button>
+<!-- exmaple of even ^ property binding of angular  -->
+
+</div>
+
+
+<br>
+<br>
+
+<h3>Two way Binding
+  <input [(ngModel)]= "username" type="text">
+  <!-- its a | property binding sets the value and gets the value  -->
+  <h1>{{username}}</h1>
